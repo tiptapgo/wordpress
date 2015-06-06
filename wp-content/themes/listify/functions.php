@@ -708,13 +708,13 @@ add_action( 'single_job_listing_end', 'display_custom_message_data' );
 function display_custom_message_data() {
   global $post;
   if ($post->ID!=''): ?>
-<div class="col-md-12" style="background-image:url(http://tiptapgo.co/wp-content/uploads/2015/05/WhatsAppCover.jpg); height:205px">
-	<div class="col-md-4">
+<div class="col-md-12 whatsapp">
+	<div class="col-md-4 col-xs-4 whatsapp-img">
 		<img class="img-responsive" src="http://tiptapgo.co/wp-content/uploads/2015/06/WhatsApp-Icon.png">
 	</div>
-	<div class="col-md-8">
-		<div class="jumbotron" style="margin-top:60px">
-			<h1 style="color:#fff;">To book a class<br>Whats App <?php echo $post->ID; ?> to 9901 079 974</h1>
+	<div class="col-md-8 col-xs-8 jumbo-div">
+		<div class="jumbotron">
+			<h1>To book a class<br>Whats App <?php echo $post->ID; ?> to 9901 079 974</h1>
 		</div>
 	</div>
 </div>
