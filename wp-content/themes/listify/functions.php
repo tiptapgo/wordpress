@@ -707,7 +707,19 @@ add_action( 'single_job_listing_end', 'display_custom_message_data' );
 
 function display_custom_message_data() {
   global $post;
-  echo '<img src="http://tiptapgo.co/wp-content/uploads/2015/05/WhatsApp-CTA.png" alt="WhatsApp CTA">';
+  if ($post->ID!=''): ?>
+<div class="col-md-12" style="background-image:url(http://tiptapgo.co/wp-content/uploads/2015/05/WhatsAppCover.jpg); height:205px">
+	<div class="col-md-4">
+		<img class="img-responsive" src="http://tiptapgo.co/wp-content/uploads/2015/06/WhatsApp-Icon.png">
+	</div>
+	<div class="col-md-8">
+		<div class="jumbotron" style="margin-top:60px">
+			<h1 style="color:#fff;">To book a class<br>Whats App <?php echo $post->ID; ?> to 9901 079 974</h1>
+		</div>
+	</div>
+</div>
+<?php endif;  
+  //echo '<img src="http://tiptapgo.co/wp-content/uploads/2015/05/WhatsApp-CTA.png" alt="WhatsApp CTA">';
 }
 
 
