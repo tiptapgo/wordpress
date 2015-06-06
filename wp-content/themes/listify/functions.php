@@ -705,16 +705,18 @@ function display_hourly_rate_data() {
 */
 add_action( 'single_job_listing_end', 'display_custom_message_data' );
 
+add_action( 'single_job_listing_start', 'display_custom_message_data' );
+
 function display_custom_message_data() {
   global $post;
   if ($post->ID!=''): ?>
 <div class="col-md-12 whatsapp">
 	<div class="col-md-4 col-xs-4 whatsapp-img">
-		<img class="img-responsive" src="http://tiptapgo.co/wp-content/uploads/2015/06/WhatsApp-Icon.png">
+		<img class="img-responsive" src="http://tiptapgo.co/wp-content/uploads/2015/06/WhatsApp-Icon-180x180.png">
 	</div>
 	<div class="col-md-8 col-xs-8 jumbo-div">
 		<div class="jumbotron">
-			<h1>To book a class<br>Whats App <?php echo $post->ID; ?> to 9901 079 974</h1>
+			<h1>To book this class, WhatsApp<br> <span class="highlight"><u><?php echo $post->ID; ?></u></span> to <span class="highlight">9901 079 974</span></h1>
 		</div>
 	</div>
 </div>
