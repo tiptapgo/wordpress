@@ -9,10 +9,12 @@ get_header(); ?>
 
 	<?php while ( have_posts() ) : the_post(); ?>
 
+		<?php if(is_page( 'My Account' ) || is_page( 'Become a Tutor' )) { }
+		else { ?>
 		<div <?php echo apply_filters( 'listify_cover', 'page-cover entry-cover', array( 'size' => 'full' ) ); ?>>
 			<h1 class="page-title cover-wrapper"><?php the_title(); ?></h1>
 		</div>
-
+		<?php } ?>
 		<?php do_action( 'listify_page_before' ); ?>
 
 		<div id="primary" class="container">
@@ -24,7 +26,7 @@ get_header(); ?>
 						<?php the_content(); ?>
 					</article>
 
-					<?php comments_template(); ?>
+					<?php //comments_template(); ?>
 
 				</main>
 

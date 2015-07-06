@@ -1,0 +1,30 @@
+<div class="headings">
+<h2>Can't find a Tutor? Tell us who you need.</h2>
+<h3>Leave us your requirements and we'll get back to you in 2 working days.</h3>
+</div>
+<div class="col-md-2 col-xs-12 col-sm-2 col-lg-2 centerfix"></div>
+<div class="col-md-4 col-xs-12 col-sm-4 col-lg-4 elgo">
+    <div class="elgo-img">
+        <img src="http://tiptapgo.co/wp-content/uploads/2015/06/Elgo-Happy-e1434234434177.png" class="img-responsive">
+    </div>
+    <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
+        <div class="elgo-cap">Elgo is an expert match-maker who connects students with right tutors.</div>
+    </div>         
+</div>
+<div class="col-md-8 col-xs-12 col-sm-8 col-lg-8 ng-content">
+    <div class="row">
+        <div id="form-container">
+        <!-- use ng-submit to catch the form submission and use our Angular function -->
+            <form id="signup-form" ng-submit="processForm()">
+                <!-- our nested state views will be injected here -->
+                <div id="form-views" ui-view></div>
+            </form>    
+        </div>
+    </div>  
+    
+    <!-- show our formData as it is being typed -->
+    <pre>
+      {{ formData }}
+    </pre>
+</div>
+<div class="col-md-2 col-xs-12 col-sm-2 col-lg-2 centerfix"></div>

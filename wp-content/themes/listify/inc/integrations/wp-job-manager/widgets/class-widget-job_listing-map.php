@@ -88,17 +88,23 @@ class Listify_Widget_Listing_Map extends Listify_Widget {
 					<?php
                         do_action( 'listify_widget_job_listing_map_before' );
 
-						if ( $address ) :
-							$listify_job_manager->template->the_location_formatted();
-						endif;
+						if ( $address ) {?>
+							<div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
+								<?php $listify_job_manager->template->the_location_formatted(); ?>
+							</div>
+						<?php } ?>
+							<div id="maplink" class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
+								<a style="padding:30px 20px; color: #3396d1 !important; display: block;" href="<?php echo $listify_job_manager->template->google_maps_url(); ?>" class="listing-contact-map-clickbox">Open in Google Maps<span style="padding:0 20px" class="fa fa-sign-out"></span></a>
+							</div>
+						<?php
 
-						if ( $phone ) :
+						/*if ( $phone ) :
 							$listify_job_manager->template->the_phone();
 						endif;
 
 						if ( $web ) :
 							$listify_job_manager->template->the_url();
-						endif;
+						endif;*/
 
                         do_action( 'listify_widget_job_listing_map_after' );
 					?>

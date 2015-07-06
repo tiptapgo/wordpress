@@ -66,7 +66,7 @@ class Listify_Widget_Listing_Author extends Listify_Widget {
 
 				<?php if ( 'preview' != $post->post_status ) : ?>
 				<div class="job_listing-author-info-more">
-					<a href="#job_listing-author-apply" data-mfp-src=".job_application" class="popup-trigger"><span class="ion-email"></span></a>
+					<!--<a href="#job_listing-author-apply" data-mfp-src=".job_application" class="popup-trigger"><span class="ion-email"></span></a>-->
 
 					<?php if ( ! is_position_filled() && $post->post_status !== 'preview' ) get_job_manager_template( 'job-application.php' ); ?>
 

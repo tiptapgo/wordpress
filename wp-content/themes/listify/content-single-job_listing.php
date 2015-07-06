@@ -94,6 +94,8 @@ global $job_manager;
 					}
 				?>
 
+				<aside class="widget"><?php echo do_shortcode('[mr_rating_form title="Rate this Class" submit_button_text="Submit Rating"]'); ?></aside>
+
 				<?php do_action( 'single_job_listing_end' ); ?>
 
 			</main>

@@ -1,0 +1,129 @@
+<style>
+.centerfix{
+    display: none;
+}
+.elgo{
+    display: block;
+}
+.headings{
+    display: block;
+}
+#form-views{
+    margin-top: 30px;
+    position: relative;
+}
+.button{
+   	position: relative !important;
+   	width: 60%;
+ }
+@media(max-width: 991px){
+    .centerfix{
+        display: block;
+
+    }
+    .elgo{
+        display: none;
+    }    
+    h2{
+        font-size: 30px !important;
+        top:-50px;
+        line-height: 30px !important;
+    } 
+    h3{
+        display:none;
+    }
+    #form-views{
+        margin-top: 20px;
+    }
+    .button{
+    	margin: 0 !important;
+    }
+}
+@media(max-width: 480px){
+	.button{
+		width: 100%;
+	}
+}
+</style>
+<div class="col-xs-12 col-md-12 col-sm-12 col-lg-12 qs">
+    <label>Start by telling us a bit about yourself</label>
+</div>
+<fieldset>
+    <div class="col-xs-12 col-md-12 col-sm-12 col-lg-12">
+       <!-- <label for="name">Name</label>-->
+    </div>    
+    <div class="col-xs-12 col-md-12 col-sm-12 col-lg-12">    
+        <input type="text" placeholder="Your full name" class="form-control" id="name" name="name" ng-model="formData.name" required>
+    </div>
+    <div id="nameerror" class="error">Your full name is required.</div>    
+</fieldset>    
+<fieldset>
+    <div class="col-xs-12 col-md-12 col-sm-12 col-lg-12">
+       <!-- <label for="email">Email</label>-->
+    </div>    
+    <div class="col-xs-12 col-md-12 col-sm-12 col-lg-12">           
+        <input type="text" placeholder="Your email" class="form-control" id="email" name="email" ng-model="formData.email" required>
+    </div>
+    <div id="emailerror" class="error">Your email is required.</div>         
+    <div id="emailerror1" class="error">Enter valid Email.</div>          
+</fieldset>
+<fieldset>
+    <div class="col-xs-12 col-md-12 col-sm-12 col-lg-12">
+       <!-- <label for="phone">Mobile No.</label>-->
+    </div>    
+    <div class="col-xs-12 col-md-12 col-sm-12 col-lg-12">  
+        <div class="input-group">
+            <span class="input-group-addon" id="basic-addon1">+91</span>
+            <input type="text" maxlength="10" placeholder="Your mobile no" class="form-control" id="phone" name="phone" ng-model="formData.phone" required>
+        </div> 
+    </div>
+    <div id="phoneerror" class="error">Your mobile no is required.</div>    
+    <div id="phoneerror1" class="error">Enter valid mobile number.</div>         
+</fieldset>
+<fieldset>
+    <div class="col-xs-12 col-md-12 col-sm-12 col-lg-12">
+        <!--<label for="area">Area/Locality</label>-->
+    </div>    
+    <div class="col-xs-12 col-md-12 col-sm-12 col-lg-12">   
+        <input type="text" placeholder="Your area or locality" class="form-control" id="area" name="area" ng-model="formData.area" required>
+    </div>
+    <div class="field-desc">e.g. Indiranagar, HAL Stage III, Bangalore</div>
+    <div id="areaerror" class="error">Your area or locality is required.</div>    
+</fieldset>
+<fieldset>
+    <div class="col-xs-12 col-md-2 col-sm-2 col-lg-2"></div>
+    <div class="col-xs-12 col-md-8 col-sm-8 col-lg-8 btn-div">
+        <a ui-sref="form.q2" class="button" ng-click="checkdata()" id="form-sub">Continue</a>
+    </div>
+    <div class="col-xs-12 col-md-2 col-sm-2 col-lg-2"></div>
+</fieldset>    
+</div>
+<script>
+    var localityInput = jQuery('#area');
+
+    var options = {
+        types: ['sublocality'],
+        componentRestrictions: {
+            country: 'in'
+        },
+    }
+    jQuery(function () {	
+		localityInput.geocomplete()
+		.bind("geocode:result", function (event, result) {						
+			localityInput.click();
+		});
+	});
+    localityInput.each(function() {
+    	var elem = jQuery(this);
+    	var ans = angular.element("#area").scope();
+    	elem.data('oldVal', elem.val());
+    	elem.bind("propertychange blur change click keyup input paste", function(event){
+        	if (elem.data('oldVal') != elem.val()) {
+        		elem.data('oldVal', elem.val());
+      			ans.$apply(function(){
+					ans.formData.area = localityInput.val();
+				});
+    		}
+    	});
+ 	});
+</script>

@@ -76,7 +76,8 @@ function wpua_after_avatar() {
  * @uses wpuf_has_shortcode()
  */
 function wpua_do_before_avatar() {
-  $wpua_profile_title = '<h3>'.__('Avatar').'</h3>';
+  //SKM hack $wpua_profile_title = '<h3>'.__('Avatar').'</h3>';
+    $wpua_profile_title = '';
   /**
    * Filter profile title
    * @since 1.9.4
@@ -185,12 +186,9 @@ function wpua_donation_message() {
  * @since 1.6.6
  */
 function wpua_do_donation_message() { ?>
-   <div class="updated">
-    <p><?php _e('Introducing WP USER AVATAR PRO for storage options and interactive upload avatar utility. ', 'wp-user-avatar'); ?> <a href="http://www.flippercode.com/product/wp-user-avatar/" target="_blank"><?php _e('Upgrade now', 'wp-user-avatar'); ?></a></p> 
-  </div>
  <?php 
 }
-add_action('wpua_donation_message', 'wpua_do_donation_message');
+//add_action('wpua_donation_message', 'wpua_do_donation_message');
 
 /**
  * Register widget

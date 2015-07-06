@@ -1,0 +1,75 @@
+<div class="meter blue nostripes">
+    <span style="width: 75%"></span>
+</div>
+<div class="col-xs-12 col-md-12 col-sm-12 col-lg-12 qs">
+    <label>When would you like to start classes?</label>
+</div>
+<fieldset class="radfix">
+    <div class="field">
+        <div class="radio">
+            <label class="optn">
+               <input type="radio" ng-model="formData.q7" value="Next 3 days">
+               <span>Next 3 days</span>
+               <span class="ion-chevron-right"></span>
+            </label>
+        </div>
+        <div class="radio">
+            <label class="optn">
+                <input type="radio" id="w1inp" ng-model="formData.q7" value="After one week">
+                <span>Latest by <span class="no-padding" id="w1eek"></span></span>
+                <span class="ion-chevron-right"></span>
+            </label>
+        </div>
+        <div class="radio">
+            <label class="optn">
+                <input type="radio" id="w2inp" ng-model="formData.q7" value="After two week">
+                <span>Latest by <span class="no-padding" id="w2eek"></span></span>
+                <span class="ion-chevron-right"></span>
+            </label>
+        </div>
+        <div class="radio">
+            <label class="optn">
+                <input type="radio" id="w3inp" ng-model="formData.q7" value="After three week">
+                <span>Latest by <span class="no-padding" id="w3eek"></span></span>
+                <span class="ion-chevron-right"></span>
+            </label>
+        </div>                
+    </div>
+    <div class="control-group last">
+        <input type="text" class="text-input" id="q7inp" name="q7inp" ng-model="formData.q7inp" placeholder="Custom date...">
+    </div>    
+</fieldset>
+
+<fieldset class="ng-ctrl"
+    <div class="col-xs-12 col-md-4 col-sm-4 col-lg-4"></div>
+    <div class="col-xs-12 col-md-4 col-sm-4 col-lg-4">
+        <a ui-sref="form.q6" class="prev pull-left ng-arrow"><span class="ion-android-arrow-back"></span></a>
+        <a ui-sref="form.q8" class="next pull-right ng-arrow"><span class="ion-android-arrow-forward"></span></a>
+    </div>
+    <div class="col-xs-12 col-md-4 col-sm-4 col-lg-4"></div>
+</fieldset>
+<a ui-sref="form.q8" class="button btn-blue">Next</a>
+<a ui-sref="form.q6" class="button btn-o">Back</a>
+<script type="text/javascript">
+    var weekdays = new Array(7);
+    weekdays[0] = "Sunday";
+    weekdays[1] = "Monday";
+    weekdays[2] = "Tuesday";
+    weekdays[3] = "Wednesday";
+    weekdays[4] = "Thursday";
+    weekdays[5] = "Friday";
+    weekdays[6] = "Saturday";
+    var monthNames = ["January", "February", "March", "April", "May", "June",
+      "July", "August", "September", "October", "November", "December"
+    ];    
+    var today = new Date();
+    var w1 = new Date(today.getTime() + 7 * 24 * 60 * 60 * 1000);
+    var w2 = new Date(today.getTime() + 14 * 24 * 60 * 60 * 1000);
+    var w3 = new Date(today.getTime() + 21 * 24 * 60 * 60 * 1000);
+    jQuery('#w1eek').empty().append(w1.getDate() + '-' + monthNames[w1.getMonth()] + ', ' + weekdays[w1.getDay()]);
+    jQuery('#w2eek').empty().append(w2.getDate() + '-' + monthNames[w2.getMonth()] + ', ' + weekdays[w2.getDay()]);
+    jQuery('#w3eek').empty().append(w3.getDate() + '-' + monthNames[w3.getMonth()] + ', ' + weekdays[w3.getDay()]);
+    jQuery('#w1inp').val(w1.getDate() + '-' + monthNames[w1.getMonth()] + ', ' + weekdays[w1.getDay()]);
+    jQuery('#w2inp').val(w2.getDate() + '-' + monthNames[w2.getMonth()] + ', ' + weekdays[w2.getDay()]);
+    jQuery('#w3inp').val(w3.getDate() + '-' + monthNames[w3.getMonth()] + ', ' + weekdays[w3.getDay()]);          
+</script>

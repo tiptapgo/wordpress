@@ -1,0 +1,1812 @@
+# Copyright (C) 2015 Myles McNamara
+# This file is distributed under the same license as the WP Job Manager Field Editor package.
+# Translators:
+# Myles McNamara <myles@smyl.es>, 2014-2015
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Job Manager Field Editor\n"
+"Report-Msgid-Bugs-To: http://plugins.smyl.es\n"
+"POT-Creation-Date: 2015-04-16 05:59:11+00:00\n"
+"PO-Revision-Date: 2015-04-16 05:59+0000\n"
+"Last-Translator: Myles McNamara <myles@smyl.es>\n"
+"Language-Team: Polish (Poland) (http://www.transifex.com/projects/p/wp-job-manager-field-editor/language/pl_PL/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pl_PL\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: grunt-wp-i18n 0.4.8\n"
+
+#: classes/admin/ajax.php:74
+msgid ""
+"A field group is required in order to save/edit/update fields, please "
+"contact support."
+msgstr "Grupy pól jest wymagane w celu edycji/Zapisz/zaktualizuj pola, proszę skontaktować się z obsługą."
+
+#: classes/admin/ajax.php:91
+msgid ""
+"Sorry, the taxonomy <code>%1$s</code> does not exists, please verify you are"
+" using the correct taxonomy slug"
+msgstr "Przepraszamy, taksonomii <code>%1$ s</code> nie istnieje, sprawdź, czy używasz poprawne taksonomii ślimak"
+
+#: classes/admin/ajax.php:107
+msgid ""
+"You <strong>must</strong> include the correct MIME <strong>type</strong>! As"
+" example, for jpeg extension you <strong>must</strong> include the type that"
+" is <code>image/jpeg</code>.  These values can be found for all supported "
+"extensions <a href=\"%2$s\" target=\"_blank\">here</a>."
+msgstr ""
+
+#: classes/admin/ajax.php:109
+msgid ""
+"Sorry, <code>%1$s</code> is not a valid WordPress MIME "
+"<strong>type</strong>! A list of the default ones can be found <a "
+"href=\"%2$s\" target=\"_blank\">here</a>.<br />"
+msgstr ""
+
+#: classes/admin/ajax.php:114
+msgid ""
+"Sorry, <code>%1$s</code> is not a valid WordPress MIME type "
+"<strong>extension</strong>! A list of the default ones can be found <a "
+"href=\"%2$s\" target=\"_blank\">here</a>.<br />You <strong>must</strong> "
+"include at least one of the MIME type extensions. As example, for jpeg you "
+"can use <code>jpg</code> or <code>jpg|jpeg|jpe</code>, but you "
+"<strong>must</strong> include at least one, or the entire string."
+msgstr ""
+
+#: classes/admin/ajax.php:139
+msgid ""
+"Sorry, that meta key already exists, please choose another or edit the "
+"existing one."
+msgstr "Przepraszam że klawisz meta już istnieje, proszę wybrać inny lub edytować istniejący."
+
+#: classes/admin/ajax.php:148
+msgid "Sorry, there was an error adding this field.  Unable to add new field."
+msgstr "Przepraszamy wystąpił błąd podczas dodawania tego pola.  Nie można dodać nowe pole."
+
+#: classes/admin/ajax.php:152
+msgid "Field added successfully!"
+msgstr "Pomyślnie dodano pole!"
+
+#: classes/admin/ajax.php:168
+msgid ""
+"This field can not be changed to optional as it is required for core "
+"functionality of WP Job Manager"
+msgstr "Tego pola nie można zmienić do opcjonalnego jak jest to wymagane dla podstawowych funkcji z WP pracy menedżera"
+
+#: classes/admin/ajax.php:178
+msgid "Field edited successfully!"
+msgstr "Pole edytowane pomyślnie!"
+
+#: classes/admin/ajax.php:187
+msgid ""
+"Sorry, there was an error updating this field.  Unable to create new field "
+"configuration."
+msgstr "Przepraszamy wystąpił błąd podczas aktualizowania tego pola.  Nie można utworzyć nowe pole konfiguracji."
+
+#: classes/admin/ajax.php:191
+msgid "Field configuration created, and updated successfully!"
+msgstr "Konfiguracja pole utworzone i pomyślnie zaktualizowana!"
+
+#: classes/admin/ajax.php:206
+msgid "Succesfully enabled "
+msgstr "Z powodzeniem włączone "
+
+#: classes/admin/ajax.php:215
+msgid ""
+"Sorry, there was an error enabling this field.  Unable to create new field "
+"configuration."
+msgstr "Przepraszamy wystąpił błąd podczas włączania tej dziedzinie.  Nie można utworzyć nowe pole konfiguracji."
+
+#: classes/admin/ajax.php:219
+msgid "Field configuration created, and enabled successfully!"
+msgstr "Konfiguracja pole utworzone i włączone pomyślnie!"
+
+#: classes/admin/ajax.php:231
+msgid ""
+"This field can not be disabled as it is required for core functionality of "
+"WP Job Manager"
+msgstr "To pole nie może być wyłączona, tak jak jest to wymagane dla podstawowych funkcji z WP praca Manager"
+
+#: classes/admin/ajax.php:238
+msgid "Succesfully disabled "
+msgstr "Pomyślnie wyłączona "
+
+#: classes/admin/ajax.php:247
+msgid ""
+"Sorry, there was an error disabling this field.  Unable to create new field "
+"configuration."
+msgstr "Przepraszamy wystąpił błąd podczas wyłączania tego pola.  Nie można utworzyć nowe pole konfiguracji."
+
+#: classes/admin/ajax.php:253
+msgid "Field configuration created, and disabled successfully!"
+msgstr "Konfiguracja pole utworzone i pomyślnie wyłączona!"
+
+#: classes/admin/ajax.php:267
+msgid "Field configuration removed succesfully!"
+msgstr "Konfiguracja pola usunięty pomyślnie!"
+
+#: classes/admin/ajax.php:272
+msgid ""
+"Sorry, you can only remove a default field configuration, not the actual "
+"field itself, if you want to remove it from the form, please use disable."
+msgstr "Przepraszam, tylko można usunąć domyślnej konfiguracji pole, nie rzeczywiste pole samo w sobie, jeśli chcesz go usunąć z formularza, użyj proszę wyłączyć."
+
+#: classes/admin/cpt.php:203
+msgid "WPJM Custom Fields"
+msgstr "WPJM pól niestandardowych"
+
+#: classes/admin/cpt.php:204
+msgid "WPJM Custom Field"
+msgstr "Niestandardowe pola WPJM"
+
+#: classes/admin/cpt.php:226
+msgid "Disabled (%s)"
+msgid_plural "Disabled (%s)"
+msgstr[0] "Niepełnosprawnych (%s)"
+msgstr[1] "Niepełnosprawnych (%s)"
+msgstr[2] "Niepełnosprawnych (%s)"
+
+#: classes/admin/cpt.php:235
+msgid "Enabled (%s)"
+msgid_plural "Enabled (%s)"
+msgstr[0] "Włączone (%s)"
+msgstr[1] "Włączone (%s)"
+msgstr[2] "Włączone (%s)"
+
+#: classes/admin/list-table.php:61
+msgid " Field"
+msgstr " Pole"
+
+#: classes/admin/list-table.php:196 classes/admin/settings.php:272
+msgid "Field Data"
+msgstr "Pole danych"
+
+#: classes/admin/list-table.php:205
+msgid "Fields"
+msgstr "Pola"
+
+#: classes/admin/list-table.php:211
+msgid "View"
+msgstr "Widok"
+
+#: classes/admin/list-table.php:266
+msgid "Disabled Field"
+msgstr "Wyłączone pole"
+
+#: classes/admin/list-table.php:267
+msgid "Default Field"
+msgstr "Domyślnie pola"
+
+#: classes/admin/list-table.php:267 classes/widget.php:19
+msgid "Custom Field"
+msgstr "Pole niestandardowe"
+
+#: classes/admin/list-table.php:267
+msgid "Custom Default Field"
+msgstr "Pola niestandardowe domyślnego"
+
+#: classes/admin/list-table.php:268
+msgid "Required Field"
+msgstr "Pole wymagane"
+
+#: classes/admin/list-table.php:404
+msgid ""
+"Below you will find all of the fields that have been customized.  This "
+"includes newly created custom ones, as well as any default fields that have "
+"been customized."
+msgstr "Poniżej znajdziesz wszystkie pola, które zostały dostosowane.  Obejmuje to nowo utworzone niestandardowe te, jak również wszelkie domyślne pól, które zostały dostosowane."
+
+#: classes/admin/list-table.php:413
+msgid ""
+"The default fields below WILL include any custom configuration you have made"
+" to them."
+msgstr "Poniższe pola domyślny będzie zawierać żadnych niestandardowych konfiguracji, które się do nich."
+
+#: classes/admin/list-table.php:534 includes/tgmpa.php:1397
+msgid "Status"
+msgstr "Stan"
+
+#: classes/admin/list-table.php:535 classes/admin/modal.php:68
+#: classes/admin/modal.php:343
+msgid "Meta Key"
+msgstr "Klawisz meta"
+
+#: classes/admin/list-table.php:536 classes/admin/modal.php:75
+#: classes/translations.php:91 includes/tgmpa.php:1396
+msgid "Type"
+msgstr "Typ"
+
+#: classes/admin/list-table.php:537 classes/admin/modal.php:107
+#: classes/admin/modal.php:169 classes/translations.php:92
+msgid "Label"
+msgstr "Etykieta"
+
+#: classes/admin/list-table.php:538 classes/admin/modal.php:114
+msgid "Description"
+msgstr "Opis"
+
+#: classes/admin/list-table.php:539 classes/admin/modal.php:121
+msgid "Placeholder"
+msgstr "Symbol zastępczy"
+
+#: classes/admin/list-table.php:540 classes/admin/modal.php:128
+#: classes/admin/modal.php:297
+msgid "Priority"
+msgstr "Priorytet"
+
+#: classes/admin/list-table.php:541 classes/admin/modal.php:157
+#: classes/translations.php:64 classes/translations.php:80
+msgid "Options"
+msgstr "Opcje"
+
+#: classes/admin/list-table.php:542 classes/admin/modal.php:197
+#: classes/admin/modal.php:204
+msgid "Output"
+msgstr "Wyjście"
+
+#: classes/admin/list-table.php:543 classes/admin/modal.php:211
+msgid "Output As"
+msgstr "Dane wyjściowe jako"
+
+#: classes/admin/list-table.php:544
+msgid "Output Show Label"
+msgstr "Wyjście Pokaż etykiety"
+
+#: classes/admin/list-table.php:545
+msgid "Origin"
+msgstr "Pochodzenie"
+
+#: classes/admin/list-table.php:546
+msgid "Post ID"
+msgstr "Post ID"
+
+#: classes/admin/list-table.php:615
+msgid "Delete"
+msgstr "Usuń"
+
+#: classes/admin/list-table.php:616 classes/translations.php:68
+msgid "Disable"
+msgstr "Wyłącz"
+
+#: classes/admin/list-table.php:617 classes/admin/settings.php:111
+#: classes/admin/settings.php:126 classes/admin/settings.php:141
+#: classes/admin/settings.php:162 classes/admin/settings.php:177
+#: classes/admin/settings.php:192 classes/admin/settings.php:246
+#: classes/translations.php:67
+msgid "Enable"
+msgstr "Włącz"
+
+#: classes/admin/list-table.php:643
+msgid "Default <span class=\"count\">(%s)</span>"
+msgid_plural "Default <span class=\"count\">(%s)</span>"
+msgstr[0] "Domyślnej <span class=\"count\"> (% s)</span>"
+msgstr[1] "Domyślnej <span class=\"count\"> (% s)</span>"
+msgstr[2] "Domyślnej <span class=\"count\"> (% s)</span>"
+
+#: classes/admin/list-table.php:646
+msgid "Custom <span class=\"count\">(%s)</span>"
+msgid_plural "Custom <span class=\"count\">(%s)</span>"
+msgstr[0] "Niestandardowe <span class=\"count\"> (% s)</span>"
+msgstr[1] "Niestandardowe <span class=\"count\"> (% s)</span>"
+msgstr[2] "Niestandardowe <span class=\"count\"> (% s)</span>"
+
+#: classes/admin/list-table.php:649
+msgid "Enabled <span class=\"count\">(%s)</span>"
+msgid_plural "Enabled <span class=\"count\">(%s)</span>"
+msgstr[0] "Włączone <span class=\"count\"> (% s)</span>"
+msgstr[1] "Włączone <span class=\"count\"> (% s)</span>"
+msgstr[2] "Włączone <span class=\"count\"> (% s)</span>"
+
+#: classes/admin/list-table.php:652
+msgid "Disabled <span class=\"count\">(%s)</span>"
+msgid_plural "Disabled <span class=\"count\">(%s)</span>"
+msgstr[0] "Niepełnosprawnych <span class=\"count\"> (% s)</span>"
+msgstr[1] "Niepełnosprawnych <span class=\"count\"> (% s)</span>"
+msgstr[2] "Niepełnosprawnych <span class=\"count\"> (% s)</span>"
+
+#: classes/admin/list-table.php:774
+msgid "Select All"
+msgstr "Wybierz wszystkie"
+
+#: classes/admin/modal.php:60
+msgid "Configuration"
+msgstr "Konfiguracja"
+
+#: classes/admin/modal.php:65
+msgid "Config"
+msgstr "Config"
+
+#: classes/admin/modal.php:69
+msgid "Should be something unique and lowercase, like <code>job_pay</code>"
+msgstr "Powinno być coś, unikalne i małe litery, jak <code>job_pay</code>"
+
+#: classes/admin/modal.php:76
+msgid "Textbox, WP-Editor, Dropdown, Upload, etc."
+msgstr "Rozwijane pole tekstowe, WP-Edytor, Upload, itp."
+
+#: classes/admin/modal.php:82
+msgid "Multiple"
+msgstr ""
+
+#: classes/admin/modal.php:83
+msgid "Allow multiple files to be selected in select file window."
+msgstr ""
+
+#: classes/admin/modal.php:89 classes/admin/modal.php:336
+msgid "Default"
+msgstr "Domyślnie"
+
+#: classes/admin/modal.php:90
+msgid "Default item(s) to select, not required."
+msgstr "Domyślnie elementy do wyboru, nie wymagane."
+
+#: classes/admin/modal.php:96
+msgid "Taxonomy"
+msgstr "Taksonomia"
+
+#: classes/admin/modal.php:97
+msgid ""
+"<a target=\"_blank\" "
+"href=\"http://codex.wordpress.org/Taxonomies\">WordPress Taxonomy</a>"
+msgstr ""
+
+#: classes/admin/modal.php:111
+msgid "This will be the label next to or above your field."
+msgstr "To będzie etykieta obok lub powyżej pola."
+
+#: classes/admin/modal.php:118
+msgid "This should be the help text below the field."
+msgstr "To powinno być poniżej pola tekstu pomocy."
+
+#: classes/admin/modal.php:125
+msgid "This text you are reading."
+msgstr "Ten tekst, co czytasz."
+
+#: classes/admin/modal.php:129
+msgid ""
+"Highest number will be the last field on the form, can include decimal."
+msgstr "Największą liczbą będzie ostatnim polem w formularzu, może zawierać przecinka."
+
+#: classes/admin/modal.php:135
+msgid "Max Length"
+msgstr ""
+
+#: classes/admin/modal.php:136
+msgid "Max characters allowed in field (including spaces)"
+msgstr ""
+
+#: classes/admin/modal.php:143
+msgid "Visibility"
+msgstr ""
+
+#: classes/admin/modal.php:144
+msgid "If enabled this field will not show on frontend."
+msgstr ""
+
+#: classes/admin/modal.php:149 includes/tgmpa.php:1200
+msgid "Required"
+msgstr "Wymagane"
+
+#: classes/admin/modal.php:161 classes/translations.php:96
+msgid "Value"
+msgstr "Wartość"
+
+#: classes/admin/modal.php:177
+msgid "Default Selection"
+msgstr "Domyślny wybór"
+
+#: classes/admin/modal.php:186
+msgid "Disabled Option"
+msgstr "Opcja niepełnosprawnych"
+
+#: classes/admin/modal.php:205
+msgid "Automatically output on the Job/Resume listing."
+msgstr "Automatycznie wyjście na aukcji pracy/życiorys."
+
+#: classes/admin/modal.php:207
+msgid "Do not automatically output the value"
+msgstr "Nie automatycznie dane wyjściowe wartości"
+
+#: classes/admin/modal.php:212 classes/admin/modal.php:282
+msgid "Choose what you want the value to be output as."
+msgstr "Wybierz, co chcesz, aby wartości wyjściowe jako."
+
+#: classes/admin/modal.php:218 classes/widget.php:180
+msgid "oEmbed Width"
+msgstr "oEmbed szerokość"
+
+#: classes/admin/modal.php:219 classes/widget.php:178 classes/widget.php:183
+msgid ""
+"Set a specific width for oEmbed (in pixels), use only numbers do not include"
+" px."
+msgstr "Ustaw szczególnych szerokość oEmbed (w pikselach), należy użyć tylko liczby nie obejmują px."
+
+#: classes/admin/modal.php:219 classes/admin/modal.php:227
+#: classes/admin/modal.php:242 classes/admin/modal.php:250
+#: classes/admin/modal.php:258
+msgid "<strong>(optional)</strong>"
+msgstr "<strong>(opcjonalnie)</strong>"
+
+#: classes/admin/modal.php:226 classes/widget.php:175
+msgid "oEmbed Height"
+msgstr "oEmbed wysokość"
+
+#: classes/admin/modal.php:227
+msgid ""
+"Set a specific height for oEmbed (in pixels), use only numbers do not "
+"include px."
+msgstr "Zestaw określonej wysokości dla oEmbed (w pikselach), należy użyć tylko liczby nie obejmują px."
+
+#: classes/admin/modal.php:234
+msgid "Allow Download"
+msgstr "Umożliwia pobieranie"
+
+#: classes/admin/modal.php:235 classes/widget.php:189
+msgid ""
+"Will display a download link for browsers incompatible with HTML5 video."
+msgstr "Wyświetli link do pobrania dla przeglądarek niezgodnych z wideo HTML5."
+
+#: classes/admin/modal.php:241
+msgid "Poster URL"
+msgstr "Plakat URL"
+
+#: classes/admin/modal.php:242 classes/widget.php:193
+msgid ""
+"A URL for an image to show until the user plays or seeks. If not specified, "
+"the first frame of video will be used when it becomes available."
+msgstr "Adres URL obrazu aby pokazać aż użytkownik gra lub stara. Jeśli nie określono, pierwszej klatce wideo będzie używana, gdy stanie się dostępny."
+
+#: classes/admin/modal.php:249 classes/widget.php:195
+msgid "Video Height"
+msgstr "Wysokość wideo"
+
+#: classes/admin/modal.php:250 classes/widget.php:198
+msgid ""
+"Set a specific height for video (in pixels), use only numbers do not include"
+" px."
+msgstr "Zestaw wysokości szczególnych zastosowań wideo (w pikselach), tylko do liczby nie obejmują px."
+
+#: classes/admin/modal.php:257 classes/widget.php:200
+msgid "Video Width"
+msgstr "Szerokość wideo"
+
+#: classes/admin/modal.php:258 classes/widget.php:203
+msgid ""
+"Set a specific width for video (in pixels), use only numbers do not include "
+"px."
+msgstr "Zestaw szerokości konkretnych zastosowań wideo (w pikselach), tylko do liczby nie obejmują px."
+
+#: classes/admin/modal.php:265
+msgid "Checkbox True"
+msgstr "Prawdziwe pole wyboru"
+
+#: classes/admin/modal.php:266 classes/widget.php:208
+msgid "Custom caption to use if checkbox field type is checked."
+msgstr "Niestandardowe podpisów używać, jeśli jest zaznaczone pole wyboru Typ pola."
+
+#: classes/admin/modal.php:268 classes/translations.php:62
+#: classes/widget.php:207
+msgid "Yes"
+msgstr "Tak"
+
+#: classes/admin/modal.php:273
+msgid "Checkbox False"
+msgstr "Pole wyboru False"
+
+#: classes/admin/modal.php:274
+msgid "Custom caption to use if checkbox field type is not checked"
+msgstr "Niestandardowe podpisów używać, jeśli nie jest zaznaczone pole wyboru Typ pola"
+
+#: classes/admin/modal.php:276 classes/translations.php:63
+#: classes/widget.php:211
+msgid "No"
+msgstr "Nr"
+
+#: classes/admin/modal.php:281 classes/translations.php:84
+msgid "Caption"
+msgstr "Podpis"
+
+#: classes/admin/modal.php:284
+msgid "My Link"
+msgstr "Mój Link"
+
+#: classes/admin/modal.php:289
+msgid "Classes"
+msgstr "Klasy"
+
+#: classes/admin/modal.php:290
+msgid "Add any additional classes separated by spaces"
+msgstr "Dodawanie jakichkolwiek dodatkowych klas oddzielonych spacjami"
+
+#: classes/admin/modal.php:292
+msgid "my-class my-custom-class my-other-class"
+msgstr "Moja Klasa mój zwyczaj Klasa mój inne Klasa"
+
+#: classes/admin/modal.php:298
+msgid "<strong>optional</strong>"
+msgstr "<strong>opcjonalne</strong>"
+
+#: classes/admin/modal.php:300
+msgid "1.5"
+msgstr "1.5"
+
+#: classes/admin/modal.php:305
+msgid "Show Label"
+msgstr "Pokaż etykiety"
+
+#: classes/admin/modal.php:314
+msgid "Populate"
+msgstr "Wypełnić"
+
+#: classes/admin/modal.php:320
+msgid ""
+"You can view, edit, or add user meta using my free open source <strong><a "
+"target=\"_blank\" href=\"https://wordpress.org/plugins/user-meta-"
+"display/\">User Meta Display</a></strong> plugin."
+msgstr "Można wyświetlić, edytować lub dodać użytkownika meta przy pomocy mój plugin <strong><a target=\"_blank\" href=\"https://wordpress.org/plugins/user-meta-display/\"> Użytkownika Meta wyświetlacz</a></strong> wolna open source."
+
+#: classes/admin/modal.php:324
+msgid "Auto Populate"
+msgstr "Automatyczne wypełnianie"
+
+#: classes/admin/modal.php:325
+msgid "This box must be checked to enable auto populate."
+msgstr "To pole należy sprawdzić aby włączyć auto wypełniania."
+
+#: classes/admin/modal.php:330
+msgid "Auto Save"
+msgstr "Auto uratować"
+
+#: classes/admin/modal.php:331
+msgid "Automatically save value to user's meta."
+msgstr "Automatycznie zapisać wartość do użytkownika meta."
+
+#: classes/admin/modal.php:337
+msgid "Default value for logged in users."
+msgstr ""
+
+#: classes/admin/modal.php:344
+msgid ""
+"Specify the <strong>USER</strong> meta key to auto populate this field from "
+"if it exists (and user is logged in).  If meta key is set and meta exists "
+"for user, it will take priority over default value.<br /><br />If using a "
+"meta key from WPJM or WPRM you <strong>must</strong> prepend it with an "
+"underscore.  <i>As example, company_website would be "
+"<code>_company_website</code></i>"
+msgstr ""
+
+#: classes/admin/modal.php:346
+msgid "_company_facebook"
+msgstr "_company_facebook"
+
+#: classes/admin/modal.php:368 classes/admin/modal.php:381
+msgid "Packages"
+msgstr ""
+
+#: classes/admin/modal.php:375
+msgid "Require"
+msgstr ""
+
+#: classes/admin/modal.php:376
+msgid "Require specific packages to display this field"
+msgstr ""
+
+#: classes/admin/modal.php:382
+msgid ""
+"Select packages you want this field to show for.  Require must be enabled "
+"for this to work."
+msgstr ""
+
+#: classes/admin/modal.php:467
+msgid "Add Another"
+msgstr "Dodaj kolejny"
+
+#: classes/admin/modal.php:497
+msgid "Remove"
+msgstr "Usuń"
+
+#: classes/admin/modal.php:529
+msgid "WP Job Manager"
+msgstr "WP pracy menedżera"
+
+#: classes/admin/modal.php:530
+msgid "Field Editor"
+msgstr "Edytor pól"
+
+#: classes/admin/modal.php:597 classes/translations.php:65
+msgid "Cancel"
+msgstr "Anuluj"
+
+#: classes/admin/modal.php:598 classes/translations.php:50
+msgid "Save Field"
+msgstr "Zapisz pole"
+
+#: classes/admin/settings-fields.php:131
+msgid ""
+"No fields to remove!  A button will appear here when there is field data you"
+" can remove."
+msgstr "Nie ma pola do usunięcia!  Przycisk pojawią się tutaj, jeśli ma pola danych, które można usunąć."
+
+#: classes/admin/settings-handlers.php:34
+msgid "All custom posts removed!"
+msgstr "Wszystkie niestandardowe posty usunięte!"
+
+#: classes/admin/settings-handlers.php:42
+msgid "There are not any fields that need options purged."
+msgstr "Istnieją nie wszystkich pól, które potrzebują możliwości usuwane."
+
+#: classes/admin/settings-handlers.php:49
+msgid "Options were purged from"
+msgstr "Opcje zostały przeczyszczone"
+
+#: classes/admin/settings-handlers.php:49
+msgid "fields:"
+msgstr "pola:"
+
+#: classes/admin/settings.php:44 classes/admin.php:86 classes/admin.php:87
+msgid "Field Editor Settings"
+msgstr "Pole Edytor ustawień"
+
+#: classes/admin/settings.php:110 classes/admin/settings.php:161
+msgid "Custom Required Label"
+msgstr "Niestandardowe etykiety wymagane"
+
+#: classes/admin/settings.php:112 classes/admin/settings.php:163
+msgid "Use a custom label for required fields instead of optional fields."
+msgstr "Korzystać z etykiet niestandardowych, wymaganych pól zamiast pola opcjonalne."
+
+#: classes/admin/settings.php:118 classes/admin/settings.php:169
+msgid "Required Field Label"
+msgstr "Etykiety wymagane pola"
+
+#: classes/admin/settings.php:120 classes/admin/settings.php:171
+msgid "<small>(required)</small>"
+msgstr "<small>(wymagane)</small>"
+
+#: classes/admin/settings.php:125 classes/admin/settings.php:176
+msgid "Custom Optional Label"
+msgstr "Opcjonalnie etykietę"
+
+#: classes/admin/settings.php:127 classes/admin/settings.php:178
+msgid ""
+"Use a custom label for optional fields instead of required fields. (default "
+"is optional)"
+msgstr "Korzystać z etykiet niestandardowych dla opcjonalnego pola zamiast wymagane pola. (domyślnie jest opcjonalny)"
+
+#: classes/admin/settings.php:133 classes/admin/settings.php:184
+msgid "Optional Field Label"
+msgstr "Opcjonalne pole Etykieta"
+
+#: classes/admin/settings.php:135 classes/admin/settings.php:186
+msgid "<small>(optional)</small>"
+msgstr "<small>(opcjonalnie)</small>"
+
+#: classes/admin/settings.php:140 classes/admin/settings.php:191
+msgid "Custom Submit Button"
+msgstr "Niestandardowy przycisk"
+
+#: classes/admin/settings.php:142 classes/admin/settings.php:193
+msgid "Use a custom value for the submit button (on initial submit page)"
+msgstr "Użyj niestandardowej wartości dla przycisku Prześlij (na stronie przesyłania początkowego)"
+
+#: classes/admin/settings.php:148 classes/admin/settings.php:199
+msgid "Submit Button Caption"
+msgstr "Złożyć podpis przycisku"
+
+#: classes/admin/settings.php:150 classes/admin/settings.php:201
+msgid "Preview &rarr;"
+msgstr "Podgląd &rarr;"
+
+#: classes/admin/settings.php:151 classes/admin/settings.php:202
+msgid ""
+"The default button is <code>Preview &rarr;</code>, use "
+"<code>&amp;rarr;</code> for the arrow"
+msgstr "Przycisk domyślny jest <code>Pokaz &rarr;</code>, wykorzystania strzałki <code>&amp; rarr;</code>"
+
+#: classes/admin/settings.php:156
+msgid "Resume"
+msgstr "CV"
+
+#: classes/admin/settings.php:207
+msgid "Support"
+msgstr "Wsparcie"
+
+#: classes/admin/settings.php:217
+msgid "Backup"
+msgstr "Kopia zapasowa"
+
+#: classes/admin/settings.php:221
+msgid "Create Backup!"
+msgstr "Tworzenie kopii zapasowej!"
+
+#: classes/admin/settings.php:224
+msgid "Generate Backup"
+msgstr "Generowanie kopii zapasowej"
+
+#: classes/admin/settings.php:225
+msgid "Generate and download a backup of all fields."
+msgstr "Generowanie i pobrać kopię zapasową wszystkich pól."
+
+#: classes/admin/settings.php:230
+msgid "Import Backup!"
+msgstr "Importowanie kopii zapasowej!"
+
+#: classes/admin/settings.php:233
+msgid "Import Backup"
+msgstr "Importowanie kopii zapasowej"
+
+#: classes/admin/settings.php:234
+msgid ""
+"Import a previously generated backup for custom fields.  This uses the "
+"default WordPress import feature, if you do not see a file upload after "
+"clicking this button, make sure to import using WordPress importer."
+msgstr "Importowanie kopii wcześniej wygenerowanego dla pól niestandardowych.  Używa domyślnie WordPress import cecha, jeśli nie widzisz pliku przesłać po kliknięciu tego przycisku, upewnij się, aby importować za pomocą WordPress importera."
+
+#: classes/admin/settings.php:240
+msgid "Debug"
+msgstr "Debugowania"
+
+#: classes/admin/settings.php:245
+msgid "Enable Bug Reporter"
+msgstr "Włącz Reporter błąd"
+
+#: classes/admin/settings.php:247
+msgid ""
+"Enable the bug report icon in the top right corner to submit bug reports"
+msgstr "Błąd raport ikona w prawym górnym rogu do zgłaszania błędów"
+
+#: classes/admin/settings.php:253
+msgid "I understand, remove all data!"
+msgstr "Rozumiem, usunąć wszystkie dane!"
+
+#: classes/admin/settings.php:256
+msgid "Remove All"
+msgstr "Usuń wszystkie"
+
+#: classes/admin/settings.php:257
+msgid "This will remove all custom and customized field data!"
+msgstr "Spowoduje to usunięcie wszystkich danych pola niestandardowe i wykonać na zamówienie!"
+
+#: classes/admin/settings.php:262
+msgid "Purge Options!"
+msgstr "Przeczyść opcje!"
+
+#: classes/admin/settings.php:265
+msgid "Purge Options"
+msgstr "Przeczyść opcje"
+
+#: classes/admin/settings.php:266
+msgid ""
+"Older versions of this plugin saved option values for fields that do not "
+"require them. You can purge those values by clicking this button."
+msgstr "Starsze wersje tego pluginu zapisane wartości opcji dla pól, które nie wymagają. Te wartości można usunąć klikając ten przycisk."
+
+#: classes/admin/settings.php:278
+msgid "About"
+msgstr "O"
+
+#: classes/admin.php:147
+msgid "Fields Per Page"
+msgstr "Pola na stronie"
+
+#: classes/admin.php:156
+msgid "%1$s Field"
+msgstr "%1$ s pola"
+
+#: classes/admin.php:221 classes/resume/menu.php:34 classes/resume/menu.php:35
+msgid "Resume Fields"
+msgstr "Wznowić pola"
+
+#: classes/admin.php:246
+msgid "%1$s Fields"
+msgstr "%1$ s pola"
+
+#: classes/admin.php:247
+msgid "Company Fields"
+msgstr "Firma pola"
+
+#: classes/assets.php:62
+msgid "Done"
+msgstr ""
+
+#: classes/assets.php:63
+msgid "Today"
+msgstr ""
+
+#: classes/auto-output.php:170
+msgid "Standard Value Output (Regular text)"
+msgstr "Standardowe wartości wyjściowych (zwykły tekst)"
+
+#: classes/auto-output.php:171
+msgid "Link"
+msgstr "Link"
+
+#: classes/auto-output.php:172
+msgid "Image"
+msgstr "Obraz"
+
+#: classes/auto-output.php:173
+msgid "oEmbed (YouTube/Vimeo/SoundCloud etc)"
+msgstr "oEmbed (YouTube, Vimeo/SoundCloud itp)"
+
+#: classes/auto-output.php:174
+msgid "HTML5 Video"
+msgstr "Wideo HTML5"
+
+#: classes/auto-output.php:175
+msgid "Checkbox Output Options"
+msgstr "Opcje wyboru wyjścia"
+
+#: classes/auto-output.php:176
+msgid "Checkbox (Only show label if checked)"
+msgstr "Pole wyboru (tylko Pokaż etykiety Jeśli zaznaczone)"
+
+#: classes/auto-output.php:177
+msgid "Checkbox (Custom True/False Labels)"
+msgstr "Pole wyboru (niestandardowe etykiety prawda/fałsz)"
+
+#: classes/auto-output.php:294
+msgid "Jobera Theme"
+msgstr ""
+
+#: classes/auto-output.php:295
+msgid "Single Job Listing Above Logo"
+msgstr ""
+
+#: classes/auto-output.php:296
+msgid "Single Job Listing Below Social Links"
+msgstr ""
+
+#: classes/auto-output.php:297
+msgid "Single Job Listing Below Location Map"
+msgstr ""
+
+#: classes/auto-output.php:336 classes/auto-output.php:346
+msgid "Jobify Theme"
+msgstr "Jobify tematu"
+
+#: classes/auto-output.php:337
+msgid "Single Job Listing Before"
+msgstr "Pojedyncze stanowisko pracy przed"
+
+#: classes/auto-output.php:338
+msgid "Single Job Listing After"
+msgstr "Pojedyncze stanowisko pracy, po"
+
+#: classes/auto-output.php:339
+msgid "Single Job Listing Start"
+msgstr "Rozpoczęcia aukcji jednego zadania"
+
+#: classes/auto-output.php:340
+msgid "Single Job Listing End"
+msgstr "Koniec aukcji pojedynczego zadania"
+
+#: classes/auto-output.php:347
+msgid "Single Resume Listing Before"
+msgstr "Życiorys jednej aukcji przed"
+
+#: classes/auto-output.php:348
+msgid "Single Resume Listing After"
+msgstr "Życiorys jednej aukcji po"
+
+#: classes/auto-output.php:349
+msgid "Single Resume Listing Start"
+msgstr "Życiorys jednej aukcji Start"
+
+#: classes/auto-output.php:350
+msgid "Single Resume Listing End"
+msgstr "Koniec aukcji jednego CV"
+
+#: classes/auto-output.php:380
+msgid "Single Job Page"
+msgstr "Pojedynczy praca Strona"
+
+#: classes/auto-output.php:381
+msgid "Top of Job Listing"
+msgstr "Top oferty pracy"
+
+#: classes/auto-output.php:382
+msgid "Before Job Meta"
+msgstr "Przed praca Meta"
+
+#: classes/auto-output.php:383
+msgid "Job Meta Start (before Job Type)"
+msgstr "Start Meta pracy (przed pracą)"
+
+#: classes/auto-output.php:384
+msgid "Job Meta End (after Date Posted)"
+msgstr "Praca koniec Meta (daty opublikowany)"
+
+#: classes/auto-output.php:385
+msgid "After Job Meta"
+msgstr "Po pracy Meta"
+
+#: classes/auto-output.php:386
+msgid "Before Company Meta"
+msgstr "Przed firmą Meta"
+
+#: classes/auto-output.php:387
+msgid "After Company Meta"
+msgstr "Po firmy Meta"
+
+#: classes/auto-output.php:388
+msgid "Bottom of Job Description"
+msgstr ""
+
+#: classes/auto-output.php:389
+msgid "Bottom of Job Listing"
+msgstr "Dolnej części oferty pracy"
+
+#: classes/auto-output.php:392
+msgid "Jobs List Page"
+msgstr "Strona listy oferty pracy"
+
+#: classes/auto-output.php:393
+msgid "Jobs List Meta Start"
+msgstr "Start Meta lista zadań"
+
+#: classes/auto-output.php:394
+msgid "Jobs List Meta End"
+msgstr "Praca lista Meta koniec"
+
+#: classes/auto-output.php:424
+msgid "---Single Resume Page"
+msgstr "---CV pojedyncze strony"
+
+#: classes/auto-output.php:425
+msgid "Meta Start (before Category)"
+msgstr "Start meta (przed kategorii)"
+
+#: classes/auto-output.php:426
+msgid "Meta End (after Date Posted)"
+msgstr "Koniec meta (daty opublikowany)"
+
+#: classes/auto-output.php:429
+msgid "Top of Resume Listing"
+msgstr "Top lista CV"
+
+#: classes/auto-output.php:430
+msgid "Bottom of Resume Listing"
+msgstr "Dole CV aukcji"
+
+#: classes/field-types.php:181
+msgid "None"
+msgstr "Brak"
+
+#: classes/field-types.php:275
+msgid "No Value Field Types"
+msgstr ""
+
+#: classes/field-types.php:338
+msgid "Checkbox"
+msgstr "Pole wyboru"
+
+#: classes/field-types.php:341
+msgid "Multi-Select"
+msgstr "Wybór wielokrotny"
+
+#: classes/field-types.php:342 classes/field-types.php:375
+msgid "Taxonomy Field Types"
+msgstr "Typy pól taksonomii"
+
+#: classes/field-types.php:343 classes/field-types.php:376
+msgid "Taxonomy Checklist"
+msgstr "Lista kontrolna taksonomii"
+
+#: classes/field-types.php:344 classes/field-types.php:377
+msgid "Taxonomy Dropdown"
+msgstr "Taksonomia rozwijanej"
+
+#: classes/field-types.php:345 classes/field-types.php:378
+msgid "Taxonomy Multi-Select Dropdown"
+msgstr "Taksonomia rozwijana wielokrotnego wyboru"
+
+#: classes/fields.php:685
+msgid "No field data found!"
+msgstr "Nie znaleziono danych pole!"
+
+#: classes/job/fields.php:307 classes/resume/fields.php:258
+msgid "(optional)"
+msgstr "(opcjonalnie)"
+
+#: classes/job/writepanels.php:26 wp-job-manager-field-editor.php:350
+#: wp-job-manager-field-editor.php:352
+msgid "Job"
+msgstr "Praca"
+
+#: classes/requires.php:89 includes/tgmpa.php:199
+msgid "Install Required Plugins"
+msgstr "Zainstalować wtyczki wymagane"
+
+#: classes/requires.php:90 includes/tgmpa.php:200
+msgid "Install Plugins"
+msgstr "Zainstalować wtyczki"
+
+#: classes/requires.php:91 includes/tgmpa.php:201
+msgid "Installing Plugin: %s"
+msgstr "Instalacja pluginu: %s"
+
+#: classes/requires.php:93
+msgid "Something went wrong with the plugin API."
+msgstr "Coś się zepsuło z wtyczki API."
+
+#: classes/requires.php:94
+msgid "This plugin requires the following plugin: %1$s."
+msgid_plural "This plugin requires the following plugins: %1$s."
+msgstr[0] "Ten plugin wymaga następujące wtyczki: %1$ s."
+msgstr[1] "Ten plugin wymaga następujących wtyczek: %1$ s."
+msgstr[2] "Ten plugin wymaga następujących wtyczek: %1$ s."
+
+#: classes/requires.php:96
+msgid "This plugin recommends the following plugin: %1$s."
+msgid_plural "This plugin recommends the following plugins: %1$s."
+msgstr[0] "Ten plugin zaleca następujące wtyczki: %1$ s."
+msgstr[1] "Ten plugin zaleca następujące pluginy: %1$ s."
+msgstr[2] "Ten plugin zaleca następujące pluginy: %1$ s."
+
+#: classes/requires.php:98 includes/tgmpa.php:205
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin."
+" Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] "Przepraszam, ale nie masz odpowiednie uprawnienia, aby zainstalować wtyczki %s. Skontaktuj się z administratorem tej strony o pomoc na uzyskanie zainstalowany plugin."
+msgstr[1] "Przepraszam, ale nie masz odpowiednie uprawnienia, aby zainstalować wtyczki %s. Skontaktuj się z administratorem tej strony do pomocy na uzyskanie zainstalowanych wtyczek."
+msgstr[2] "Przepraszam, ale nie masz odpowiednie uprawnienia, aby zainstalować wtyczki %s. Skontaktuj się z administratorem tej strony do pomocy na uzyskanie zainstalowanych wtyczek."
+
+#: classes/requires.php:100 includes/tgmpa.php:206
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "Następujące wymagane wtyczki jest obecnie nieaktywne: %1$ s."
+msgstr[1] "Następujące wymagane wtyczki są obecnie nieaktywne: %1$ s."
+msgstr[2] "Następujące wymagane wtyczki są obecnie nieaktywne: %1$ s."
+
+#: classes/requires.php:102 includes/tgmpa.php:207
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "Następujące zalecane plugin jest obecnie nieaktywne: %1$ s."
+msgstr[1] "Następujące zalecane wtyczki są obecnie nieaktywne: %1$ s."
+msgstr[2] "Następujące zalecane wtyczki są obecnie nieaktywne: %1$ s."
+
+#: classes/requires.php:104 includes/tgmpa.php:208
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] "Przepraszam, ale nie masz odpowiednie uprawnienia, aby aktywować wtyczki %s. Skontaktuj się z administratorem tej strony do pomocy na uzyskanie plugin aktywowany."
+msgstr[1] "Przepraszam, ale nie masz odpowiednie uprawnienia, aby uaktywnić wtyczki %s. Skontaktuj się z administratorem tej strony o pomoc u dostawanie ten szpunt uaktywniony."
+msgstr[2] "Przepraszam, ale nie masz odpowiednie uprawnienia, aby uaktywnić wtyczki %s. Skontaktuj się z administratorem tej strony o pomoc u dostawanie ten szpunt uaktywniony."
+
+#: classes/requires.php:106
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this plugin: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this plugin: %1$s."
+msgstr[0] "Następujące wtyczki należy zaktualizować do najnowszej wersji dla zapewnienia maksimum zgodność rezygnować ten plugin: %1$ s."
+msgstr[1] "Następujące wtyczki muszą zostać zaktualizowane, aby ich najnowsza wersja, aby zapewnić maksymalną kompatybilność z tej wtyczki: %1$ s."
+msgstr[2] "Następujące wtyczki muszą zostać zaktualizowane, aby ich najnowsza wersja, aby zapewnić maksymalną kompatybilność z tej wtyczki: %1$ s."
+
+#: classes/requires.php:108 includes/tgmpa.php:210
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins."
+" Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] "Przepraszam, ale nie masz odpowiednie uprawnienia, aby zaktualizować wtyczkę %s. Skontaktuj się z administratorem tej strony o pomoc na uzyskanie plugin aktualizowane."
+msgstr[1] "Przepraszam, ale nie masz odpowiednie uprawnienia, aby aktualizacja wtyczki %s. Skontaktuj się z administratorem tej strony do pomocy na pierwsze aktualizacje wtyczek."
+msgstr[2] "Przepraszam, ale nie masz odpowiednie uprawnienia, aby aktualizacja wtyczki %s. Skontaktuj się z administratorem tej strony do pomocy na pierwsze aktualizacje wtyczek."
+
+#: classes/requires.php:110
+msgid "Install Plugin"
+msgid_plural "Install Plugins"
+msgstr[0] "Zainstaluj Plugin"
+msgstr[1] "Zainstalować wtyczki"
+msgstr[2] "Zainstalować wtyczki"
+
+#: classes/requires.php:111
+msgid "Activate Plugin"
+msgid_plural "Activate Plugins"
+msgstr[0] "Aktywuj Plugin"
+msgstr[1] "Aktywować wtyczki"
+msgstr[2] "Aktywować wtyczki"
+
+#: classes/requires.php:112 includes/tgmpa.php:213
+msgid "Return to Required Plugins Installer"
+msgstr "Powrót do wymagany Instalator pluginów"
+
+#: classes/requires.php:113 includes/tgmpa.php:215 includes/tgmpa.php:1970
+msgid "Plugin activated successfully."
+msgstr "Plugin pomyślnie aktywowany."
+
+#: classes/requires.php:114
+msgid "All plugins installed and activated successfully. %s"
+msgstr "Wszystkie pluginy rata i uaktywniony pomyślnie. %s"
+
+#: classes/resume/menu.php:44 classes/resume/menu.php:45
+msgid "Education Fields"
+msgstr "Pola edukacji"
+
+#: classes/resume/menu.php:54 classes/resume/menu.php:55
+msgid "Experience Fields"
+msgstr "Doświadczenie pola"
+
+#: classes/resume/menu.php:64 classes/resume/menu.php:65
+msgid "Links Fields"
+msgstr "Linki pola"
+
+#: classes/shortcodes.php:46
+msgid "Meta Key was not specified!"
+msgstr "Nie określono meta klucz!"
+
+#: classes/shortcodes.php:50
+msgid "Unable to determine correct job/resume/post ID!"
+msgstr "Nie można ustalić poprawnej pracy/CV/post ID!"
+
+#: classes/translations.php:34
+msgid ""
+"If you continue receive this error, please submit a <a target=\"_blank\" "
+"href=\"%s\">support ticket</a>."
+msgstr "Jeśli w dalszym ciągu otrzymywać ten błąd, proszę prześlij <a target=\"_blank\" href=\"%s\"> wsparcia bilet</a>."
+
+#: classes/translations.php:35
+msgid ""
+"If you want to edit this field, please click the <strong>Edit</strong> link "
+"from the list table."
+msgstr "Jeśli chcesz edytować to pole, kliknij link <strong>Edytuj</strong> z tabeli listy."
+
+#: classes/translations.php:36
+msgid "A valid meta key is required!"
+msgstr "Wymagany jest prawidłowy klucz meta!"
+
+#: classes/translations.php:37
+msgid ""
+"Meta keys can NOT have spaces in them, use an underscore instead! As an "
+"example, job shift should be job_shift."
+msgstr "Meta klucze można nie mieć w nich spacje, użyj znaku podkreślenia! Na przykład zmiana pracy powinny być job_shift."
+
+#: classes/translations.php:38
+msgid ""
+"If you change the meta key it will be saved as a new field!  You should NOT "
+"do this unless you know what your doing!"
+msgstr ""
+
+#: classes/translations.php:39
+msgid ""
+"The ONLY supported characters for meta keys are a-z (lowercase), 0-9 "
+"(numbers), and _ (underscores, in place of space) for meta keys!<br />Do "
+"<strong>NOT</strong> use any other characters or you will have issues!"
+msgstr ""
+
+#: classes/translations.php:40
+msgid "Spaces are not allowed in this field!"
+msgstr "Spacje nie są dozwolone w tej dziedzinie!"
+
+#: classes/translations.php:41
+msgid "A valid type is required!"
+msgstr "Wymagany jest prawidłowy typ!"
+
+#: classes/translations.php:42
+msgid "This field is required!"
+msgstr "To pole jest wymagane!"
+
+#: classes/translations.php:43
+msgid ""
+"Options are required for this field type!  Value IS required, label is "
+"optional.  If label is not provided the value will be used instead."
+msgstr "Opcje są wymagane dla tego typu pola!  Wartość jest wymagana, etykieta jest opcjonalne.  Jeżeli etykieta nie jest pod warunkiem, że wartość zostanie użyty."
+
+#: classes/translations.php:44
+msgid ""
+"Option values can NOT contain the asterisk (*) or tilde (~) characters! "
+"Labels are allowed to have these characters, but values can not!"
+msgstr "Wartości opcji nie może zawierać gwiazdki (*) lub znaków tyldy (~)! Etykiety są dozwolone do tych znaków, ale wartości nie można!"
+
+#: classes/translations.php:45
+msgid "A valid priority is required! Priority must be a numerical value."
+msgstr "Wymagany jest ważny priorytet! Priorytetem musi być wartością liczbową."
+
+#: classes/translations.php:46
+msgid "Priority must be a numerical value! You CAN use decimals."
+msgstr "Priorytetem musi być wartością liczbową! MOŻNA użyć miejsc po przecinku."
+
+#: classes/translations.php:47
+msgid "Add New Field"
+msgstr "Dodaj nowe pole"
+
+#: classes/translations.php:48
+msgid "Edit Field"
+msgstr "Edytuj pole"
+
+#: classes/translations.php:49
+msgid "View Field"
+msgstr "Pole widzenia"
+
+#: classes/translations.php:51
+msgid "Remove Field"
+msgstr "Usuń pole"
+
+#: classes/translations.php:52
+msgid "Enable Field"
+msgstr "Włączyć pole"
+
+#: classes/translations.php:53
+msgid "Disable Field"
+msgstr "Wyłącz pole"
+
+#: classes/translations.php:54
+msgid "type"
+msgstr "Typ"
+
+#: classes/translations.php:55
+msgid "label"
+msgstr "etykieta"
+
+#: classes/translations.php:56
+msgid "description"
+msgstr "opis"
+
+#: classes/translations.php:57
+msgid "placeholder"
+msgstr "Symbol zastępczy"
+
+#: classes/translations.php:58
+msgid "priority"
+msgstr "priorytet"
+
+#: classes/translations.php:59
+msgid "required"
+msgstr "Wymagane"
+
+#: classes/translations.php:60
+msgid "remove"
+msgstr "Usuń"
+
+#: classes/translations.php:61
+msgid "disable"
+msgstr "Wyłącz"
+
+#: classes/translations.php:66
+msgid "Close"
+msgstr "Zamknij"
+
+#: classes/translations.php:69
+msgid "Error"
+msgstr "Błąd"
+
+#: classes/translations.php:70
+msgid "Uknown Error! Refresh the page and try again."
+msgstr "Nieznany błąd! Odśwież stronę i spróbuj ponownie."
+
+#: classes/translations.php:71
+msgid "Success"
+msgstr "Sukces"
+
+#: classes/translations.php:72
+msgid "Are you sure you want to remove"
+msgstr "Czy na pewno chcesz usunąć"
+
+#: classes/translations.php:73
+msgid "Are you sure you want to disable"
+msgstr "Czy na pewno chcesz wyłączyć"
+
+#: classes/translations.php:74
+msgid "Are you sure you want to enable"
+msgstr "Czy na pewno chcesz włączyć"
+
+#: classes/translations.php:75
+msgid ""
+"Are you sure?  This will remove ALL of your custom and customized field "
+"data!"
+msgstr "Czy na pewno?  Spowoduje to usunięcie wszystkich danych pola niestandardowe i wykonać na zamówienie!"
+
+#: classes/translations.php:76
+msgid "Using the syntax "
+msgstr "Za pomocą składni "
+
+#: classes/translations.php:77
+msgid "Edit Field Options"
+msgstr "Edytuj opcje pola"
+
+#: classes/translations.php:79
+msgid ""
+"Allowed<br/><a href=\"%1$s\" target=\"_blank\">Mime Types</a><br/><small>NOT"
+" required</small>"
+msgstr "Dozwolone <br/> <a href=\"%1$s\" target=\"_blank\"> Typy Mime</a> <br/> <small>nie jest wymagane</small>"
+
+#: classes/translations.php:83
+msgid "image/jpeg"
+msgstr ""
+
+#: classes/translations.php:87
+msgid "jpg"
+msgstr "jpg"
+
+#: classes/translations.php:88
+msgid "value"
+msgstr "wartość"
+
+#: classes/translations.php:95
+msgid "Extension"
+msgstr "Rozszerzenie"
+
+#: classes/widget.php:21
+msgid ""
+"Output a custom/default field value from WP Job Manager Field Editor on any "
+"listing that supports widgets."
+msgstr "Wyjście wartość pola niestandardowe domyślne z WP praca Manager pola edytora na aukcji, która obsługuje widżety."
+
+#: classes/widget.php:106
+msgid "Title:"
+msgstr "Tytuł:"
+
+#: classes/widget.php:110
+msgid "Use Widget Style:"
+msgstr "Użyj styl:"
+
+#: classes/widget.php:115
+msgid "Show Label:"
+msgstr "Pokaż etykiety:"
+
+#: classes/widget.php:119
+msgid "Field Meta Key:"
+msgstr "Pole klawisz Meta:"
+
+#: classes/widget.php:142
+msgid "Extra Classes:"
+msgstr "Dodatkowe zajęcia:"
+
+#: classes/widget.php:143
+msgid "my-class my-class2"
+msgstr "Moja Klasa mój class2"
+
+#: classes/widget.php:146
+msgid "Output As:"
+msgstr "Dane wyjściowe jako:"
+
+#: classes/widget.php:170
+msgid "Caption:"
+msgstr "Podpis:"
+
+#: classes/widget.php:171
+msgid "Click Here!"
+msgstr "Kliknij tutaj!"
+
+#: classes/widget.php:172
+msgid ""
+"If you want to use a specific caption for the link enter it above. Leave "
+"blank to use the URL as the caption."
+msgstr "Jeśli chcesz użyć okreolony podpis na link do niego wejść wyżej. Pozostaw puste, aby używać adresu URL jako podpis."
+
+#: classes/widget.php:175 classes/widget.php:180 classes/widget.php:191
+#: classes/widget.php:195 classes/widget.php:200
+msgid "Optional"
+msgstr "Opcjonalne"
+
+#: classes/widget.php:186
+msgid "Allow Download:"
+msgstr "Zezwalaj na pobieranie:"
+
+#: classes/widget.php:191
+msgid "Poster URL:"
+msgstr "Plakat URL:"
+
+#: classes/widget.php:206
+msgid "Checkbox True:"
+msgstr "Prawdziwe pole wyboru:"
+
+#: classes/widget.php:210
+msgid "Checkbox False:"
+msgstr "Pole wyboru False:"
+
+#: classes/widget.php:212
+msgid "Custom caption to use if checkbox field type is not checked."
+msgstr "Niestandardowe podpis jeśli typ pola wyboru nie jest zaznaczone."
+
+#: includes/compatibility.php:68
+msgid ""
+"Your server is using a <strong>VERY OLD</strong> and unsupported version of "
+"PHP, version 5.2 or older. <a href=\"%1$s\" target=\"_blank\">EOL (End of "
+"Life)</a> for PHP 5.2 was about <strong>%2$s ago</strong>!!<br /><br />It is"
+" <strong>strongly</strong> recommended that you upgrade to PHP 5.3 or "
+"newer...you can upgrade PHP or <a href=\"%3$s\">Hide this Notice "
+"Forever!</a><br/><br />Did you know im also the Founder and CEO of Host "
+"Tornado?<br/><a href=\"%4$s\" target=\"_blank\">Contact me</a> for an "
+"exclusive sMyles Plugins customer promo code discount for any shared "
+"<strong>SSD (Solid State Drive)</strong> hosting packages!  Data centers in "
+"Florida USA, Arizona USA, Montreal Canada, and France.  Your site will run "
+"faster than it ever has, or your money back!"
+msgstr "Serwer jest za pomocą <strong>Bardzo stary</strong> i nieobsługiwanych wersji PHP, wersja 5.2 lub starszych. <a href=\"%1$s\" target=\"_blank\"> EOL (End of Life)</a> dla PHP 5.2 był o <strong>%2$ s temu</strong>!<br /> <br /> jest <strong>mocno</strong> zalecane... uaktualnić PHP 5.3 lub nowszej można uaktualnić PHP lub <a href=\"%3$s\"> ukryć ten zawiadomienie Forever!</a> <br/><br /> wiesz, im również założyciel i CEO od hosta Tornado? <br/><a href=\"%4$s\" target=\"_blank\"> skontaktuj się ze mną</a> na wyłączne sMyles wtyczki klienta promocyjny kod zniżki dla każdej udostępnione <strong>SSD (Solid State Drive)</strong> pakiety hostingowe!  Dane ośrodki w Florida USA, Arizona, Stany Zjednoczone Ameryki, Montrealu i Francji.  Twoja witryna będzie działać szybciej niż kiedykolwiek ma, lub swoje pieniądze z powrotem!"
+
+#: includes/functions.php:393
+msgid ""
+"Sorry, your browser doesn't support embedded videos, you should upgrade to a"
+" modern browser."
+msgstr "Niestety Twoja przeglądarka nie obsługuje osadzone pliki wideo, należy uaktualnić do nowoczesnej przeglądarki."
+
+#: includes/functions.php:394
+msgid "Or you can"
+msgstr "Czy można"
+
+#: includes/functions.php:394
+msgid "Download The File"
+msgstr "Pobierz plik"
+
+#: includes/functions.php:394
+msgid "(right click and select Save As)"
+msgstr "(kliknij prawym przyciskiem myszy i wybierz Zapisz jako)"
+
+#: includes/functions.php:415
+msgid "True"
+msgstr "Prawdziwe"
+
+#: includes/functions.php:420
+msgid "False"
+msgstr "Fałszywe"
+
+#: includes/smyles-bug-report/smyles-bug-report.php:112
+msgid "Debug logging has been disabled."
+msgstr "Debugowania rejestrowania został wyłączony."
+
+#: includes/smyles-bug-report/smyles-bug-report.php:120
+msgid "Debug logging has been enabled."
+msgstr "Debugowania rejestrowanie zostało włączone."
+
+#: includes/smyles-bug-report/smyles-bug-report.php:184
+msgid "Bug Report submitted succesfully!  Thank You!"
+msgstr "Raport dodano pomyślnie!  Dziękujemy!"
+
+#: includes/smyles-bug-report/smyles-bug-report.php:185
+msgid "There was an error submitting your bug report, please try again later."
+msgstr "Wystąpił błąd podczas składania raportu błąd, spróbuj ponownie później."
+
+#: includes/smyles-bug-report/smyles-bug-report.php:290
+msgid "Invalid Email"
+msgstr "Nieprawidłowy adres E-mail"
+
+#: includes/smyles-bug-report/smyles-bug-report.php:374
+#: includes/smyles-bug-report/smyles-bug-report.php:377
+msgid "Report a Bug"
+msgstr "Zgłoś błąd"
+
+#: includes/smyles-bug-report/smyles-bug-report.php:383
+msgid "Email Address"
+msgstr "Adres e-mail"
+
+#: includes/smyles-bug-report/smyles-bug-report.php:384
+msgid "Your Email"
+msgstr "Twój E-mail"
+
+#: includes/smyles-bug-report/smyles-bug-report.php:387
+msgid "Bug Description"
+msgstr "Opis błędu"
+
+#: includes/smyles-bug-report/smyles-bug-report.php:388
+msgid "Short Bug Description ..."
+msgstr "Błąd Krótki opis..."
+
+#: includes/smyles-bug-report/smyles-bug-report.php:391
+msgid "Bug Details"
+msgstr "Szczegóły błędów"
+
+#: includes/smyles-bug-report/smyles-bug-report.php:392
+msgid ""
+"Please describe the bug, how to replicate the bug, and any other details you"
+" can add.  Links to screenshots would be helpful as well."
+msgstr "Proszę opisać błąd, jak powtórzyć błędów oraz wszelkie inne szczegóły można dodać.  Linki do screenów byłoby pomocne, jak również."
+
+#: includes/smyles-bug-report/smyles-bug-report.php:399
+msgid "Debug is <strong>ENABLED</strong>"
+msgstr "Debugowania jest <strong>włączone</strong>"
+
+#: includes/smyles-bug-report/smyles-bug-report.php:413
+msgid "Disable Force Debug"
+msgstr "Wyłączyć Debug życie"
+
+#: includes/smyles-bug-report/smyles-bug-report.php:416
+msgid "Enable Force Debug"
+msgstr "Włączanie debugowania życie"
+
+#: includes/smyles-update/class-smyles-update.php:71
+msgid "Deactivate Licence"
+msgstr "Dezaktywuj licencję"
+
+#: includes/smyles-update/class-smyles-update.php:83
+msgid "Your licence for <strong>%s</strong> has been activated. Thanks!"
+msgstr "Licencji dla <strong>%s</strong> został aktywowany. Dzięki!"
+
+#: includes/smyles-update/class-smyles-update.php:349
+msgid ""
+"A licence key for %s could not be found. Maybe you forgot to enter a licence"
+" key when setting up %s."
+msgstr "Nie można odnaleźć klucz licencyjny dla %s. Może ty zapominał wobec wchodzić pewien klucz licencji podczas konfigurowania %s."
+
+#: includes/smyles-update/class-smyles-update.php:353
+msgid "Invalid update request"
+msgstr "Nieprawidłowe żądanie SystemSettingsUpdate"
+
+#: includes/smyles-update/class-smyles-update.php:374
+msgid "Your licence for <strong>%s</strong> has been deactivated."
+msgstr "Licencji dla <strong>%s</strong> została zdezaktywowana."
+
+#: includes/smyles-update/class-smyles-update.php:414
+msgid "Licence"
+msgstr "Licencja"
+
+#: includes/smyles-update/class-smyles-update.php:417
+msgid ""
+"Enter your licence key and email and hit return. A valid key is required for"
+" automatic updates."
+msgstr "Wpisz klucz licencyjny i e-mail i naciśnij Enter. Pewien zdrowy klucz jest wymagany dla funkcji Aktualizacje automatyczne."
+
+#: includes/smyles-update/class-smyles-update.php:438
+msgid "Hide notice"
+msgstr "Ukryj ogłoszenia"
+
+#: includes/smyles-update/class-smyles-update.php:439
+msgid ""
+"<a href=\"%s\">Please activate your licence key</a> to get updates for "
+"<strong>%s</strong>.  This ensures you have the latest features, bug fixes, "
+"and experience!"
+msgstr "<a href=\"%s\"> proszę aktywować klucz licencyjny</a>, aby uzyskać aktualizacje dla <strong>%s</strong>.  Dzięki temu masz najnowsze funkcje, poprawki błędów i doświadczenie!"
+
+#: includes/smyles-update/class-smyles-update.php:440
+msgid "Lost your key? <a href=\"%s\">Retrieve it here</a>."
+msgstr "Zgubiony klucz? <a href=\"%s\"> pobrać go tutaj</a>."
+
+#: includes/tgmpa.php:202
+msgid "Something went wrong."
+msgstr "Coś poszło nie tak."
+
+#: includes/tgmpa.php:203
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Temat ten wymaga następujące wtyczki: %1$ s."
+msgstr[1] "Temat ten wymaga następujących wtyczek: %1$ s."
+msgstr[2] "Temat ten wymaga następujących wtyczek: %1$ s."
+
+#: includes/tgmpa.php:204
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Ten temat zaleca następujące wtyczki: %1$ s."
+msgstr[1] "Ten temat zaleca następujące pluginy: %1$ s."
+msgstr[2] "Ten temat zaleca następujące pluginy: %1$ s."
+
+#: includes/tgmpa.php:209
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] "Następujące wtyczki należy zaktualizować do najnowszej wersji aby zapewnić maksymalną kompatybilność z tego tematu: %1$ s."
+msgstr[1] "Następujące wtyczki muszą być zaktualizowane do najnowszej wersji aby zapewnić maksymalną kompatybilność z tego tematu: %1$ s."
+msgstr[2] "Następujące wtyczki muszą być zaktualizowane do najnowszej wersji aby zapewnić maksymalną kompatybilność z tego tematu: %1$ s."
+
+#: includes/tgmpa.php:211
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Rozpoczęcie instalacji wtyczki"
+msgstr[1] "Rozpocząć instalowanie wtyczek"
+msgstr[2] "Rozpocząć instalowanie wtyczek"
+
+#: includes/tgmpa.php:212
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Rozpoczęcie aktywowania plugin"
+msgstr[1] "Rozpocząć aktywacji wtyczki"
+msgstr[2] "Rozpocząć aktywacji wtyczki"
+
+#: includes/tgmpa.php:214
+msgid "Return to the dashboard"
+msgstr "Powrót do deski rozdzielczej"
+
+#: includes/tgmpa.php:216 includes/tgmpa.php:1655
+msgid "The following plugin was activated successfully:"
+msgstr "Następujące wtyczki został pomyślnie aktywowany:"
+
+#: includes/tgmpa.php:217
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Wszystkie pluginy rata i uaktywniony pomyślnie. %1$ s"
+
+#: includes/tgmpa.php:218
+msgid "Dismiss this notice"
+msgstr "Odrzucić ten zawiadomienie"
+
+#: includes/tgmpa.php:559 includes/tgmpa.php:2187
+msgid "Return to the Dashboard"
+msgstr "Powrót do deski rozdzielczej"
+
+#: includes/tgmpa.php:1189
+msgid "Private Repository"
+msgstr "Prywatne repozytorium"
+
+#: includes/tgmpa.php:1192
+msgid "Pre-Packaged"
+msgstr "Paczkowane"
+
+#: includes/tgmpa.php:1197
+msgid "WordPress Repository"
+msgstr "Repozytorium WordPress"
+
+#: includes/tgmpa.php:1200
+msgid "Recommended"
+msgstr "Zalecane"
+
+#: includes/tgmpa.php:1203
+msgid "Not Installed"
+msgstr "Nie zainstalowane"
+
+#: includes/tgmpa.php:1205
+msgid "Installed But Not Activated"
+msgstr "Zainstalowane, ale nie uaktywniony"
+
+#: includes/tgmpa.php:1307 includes/tgmpa.php:1415
+msgid "Install"
+msgstr "Zainstalować"
+
+#: includes/tgmpa.php:1329 includes/tgmpa.php:1416
+msgid "Activate"
+msgstr "Aktywować"
+
+#: includes/tgmpa.php:1378
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr "Brak wtyczki do instalacji i aktywacji. <a href=\"%1$s\" title=\"Return to the Dashboard\"> Powrót do deski rozdzielczej</a>"
+
+#: includes/tgmpa.php:1394
+msgid "Plugin"
+msgstr "Plugin"
+
+#: includes/tgmpa.php:1395
+msgid "Source"
+msgstr "Źródła"
+
+#: includes/tgmpa.php:1525
+msgid "No plugins are available to be installed at this time."
+msgstr "Brak wtyczki są dostępne do zainstalowania w tym czasie."
+
+#: includes/tgmpa.php:1633
+msgid "No plugins are available to be activated at this time."
+msgstr "Brak wtyczki są dostępne do być uaktywniony w tym czasie."
+
+#: includes/tgmpa.php:1953
+msgid "Install package not available."
+msgstr "Zainstaluj pakiet nie jest dostępna."
+
+#: includes/tgmpa.php:1954
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr "Pobieranie zainstalować pakiet z <span class=\"code\"> %s</span> &#8230;"
+
+#: includes/tgmpa.php:1955
+msgid "Unpacking the package&#8230;"
+msgstr "Rozpakowanie pakietu &#8230;"
+
+#: includes/tgmpa.php:1956
+msgid "Installing the plugin&#8230;"
+msgstr "Instalacja wtyczki &#8230;"
+
+#: includes/tgmpa.php:1957
+msgid "Plugin install failed."
+msgstr "Zainstaluj plugin nie powiodło się."
+
+#: includes/tgmpa.php:1958
+msgid "Plugin installed successfully."
+msgstr "Wtyczki zainstalowane pomyślnie."
+
+#: includes/tgmpa.php:1969
+msgid "Plugin activation failed."
+msgstr "Plugin aktywacji nie powiodło się."
+
+#: includes/tgmpa.php:2083
+msgid ""
+"The installation and activation process is starting. This process may take a"
+" while on some hosts, so please be patient."
+msgstr "Zaczyna się proces instalacji i aktywacji. Proces ten może potrwać chwilę na niektóre hosty, więc proszę o cierpliwość."
+
+#: includes/tgmpa.php:2084
+msgid "%1$s installed and activated successfully."
+msgstr "%1$ s rata i uaktywniony pomyślnie."
+
+#: includes/tgmpa.php:2084 includes/tgmpa.php:2093
+msgid "Show Details"
+msgstr "Pokaż szczegóły"
+
+#: includes/tgmpa.php:2084 includes/tgmpa.php:2093
+msgid "Hide Details"
+msgstr "Ukryj szczegóły"
+
+#: includes/tgmpa.php:2085
+msgid "All installations and activations have been completed."
+msgstr "Wszystkie instalacje i aktywacje zostały zakończone."
+
+#: includes/tgmpa.php:2086
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Instalacja i uruchomienie wtyczki %1$ s (% 2$d/%3$d)"
+
+#: includes/tgmpa.php:2090
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr "Zaczyna się proces instalacji. Proces ten może potrwać chwilę na niektóre hosty, więc proszę o cierpliwość."
+
+#: includes/tgmpa.php:2091
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Wystąpił błąd podczas instalacji %1$ s: <strong>%2$ s</strong>."
+
+#: includes/tgmpa.php:2092
+msgid "The installation of %1$s failed."
+msgstr "Instalacja %1$ s nie powiodło się."
+
+#: includes/tgmpa.php:2093
+msgid "%1$s installed successfully."
+msgstr "%1$ s zainstalowane pomyślnie."
+
+#: includes/tgmpa.php:2094
+msgid "All installations have been completed."
+msgstr "Wszystkie urządzenia zostały zakończone."
+
+#: includes/tgmpa.php:2095
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Instalacja wtyczki %1$ s (% 2$d/%3$d)"
+
+#: templates/form-fields/radio-field.php:24
+msgid "Clear Selection"
+msgstr "Wyczyść zaznaczenie"
+
+#: wp-job-manager-field-editor.php:254
+msgid "Translations"
+msgstr "Tłumaczenia"
+
+#. Plugin Name of the plugin/theme
+msgid "WP Job Manager Field Editor"
+msgstr "WP praca Manager pola edytora"
+
+#. Plugin URI of the plugin/theme
+msgid "https://plugins.smyl.es/wp-job-manager-field-editor"
+msgstr "https://plugins.smyl.es/wp-Job-Manager-Field-Editor"
+
+#. Description of the plugin/theme
+msgid ""
+"Full ajax plugin to Disable, Create, or Modify all WP Job Manager Fields, as"
+" well as automagically output custom fields on listing pages."
+msgstr "Pełny wtyczki ajax wyłączyć, tworzenie, lub zmodyfikować wszystkie pola pracy menedżera WP, jak również automagicznie wyjściowych pól na wyświetlanie stron."
+
+#. Author of the plugin/theme
+msgid "Myles McNamara"
+msgstr "Myles McNamara"
+
+#. Author URI of the plugin/theme
+msgid "http://plugins.smyl.es"
+msgstr "http://plugins.smyl.es"
+
+#: classes/admin/cpt.php:225
+msgctxt "Disabled Field Status"
+msgid "disabled"
+msgstr "wyłączone"
+
+#: classes/admin/cpt.php:234
+msgctxt "Enabled Field Status"
+msgid "enabled"
+msgstr "włączone"
+
+#: classes/admin/list-table.php:640
+msgctxt "fields"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Wszystkie <span class=\"count\"> (% s)</span>"
+msgstr[1] "Wszystkie <span class=\"count\"> (% s)</span>"
+msgstr[2] "Wszystkie <span class=\"count\"> (% s)</span>"

@@ -32,7 +32,7 @@ class Listify_Rating_Listing extends Listify_Rating {
 
 		if ( ! $total || $votes == 0 ) {
 			update_post_meta( $this->object_id, 'rating', 0 );
-
+			update_post_meta( $this->object_id, '_rating', 0 );
 			return;
 		}
 
@@ -40,7 +40,7 @@ class Listify_Rating_Listing extends Listify_Rating {
 		$rating = round( round( $avg * 2 ) / 2, 1 );
 
 		update_post_meta( $this->object_id, 'rating', $rating );
-
+		update_post_meta( $this->object_id, '_rating', $rating );
 		return $rating;
 	}
 

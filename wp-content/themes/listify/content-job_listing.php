@@ -4,10 +4,13 @@
  *
  * @package Listify
  */
+
+$classStr = "job_listing job-type-conducted-at-tutors-location type-job_listing status-publish has-post-thumbnail hentry job_listing_category-bollywood job_listing_type-conducted-at-tutors-location col-xs-12 col-sm-6 col-md-4 style-grid";
+if(is_page('My Account') || is_page('Profile'))
+	$classStr = str_replace("col-md-4", "col-md-6", $classStr);
 ?>
 
-<li id="job_listing-<?php the_ID(); ?>" <?php job_listing_class(); ?> <?php echo apply_filters(
-'listify_job_listing_data', '', false ); ?>>
+<li id="job_listing-<?php the_ID(); ?>" <?php echo 'class="'.$classStr.'"'; echo apply_filters('listify_job_listing_data', '', false ); ?>>
 
 	<div class="content-box">
 

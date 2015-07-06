@@ -1,0 +1,21 @@
+<div class="meter blue nostripes">
+    <span style="width: 87.5%"></span>
+</div>
+<div class="col-xs-12 col-md-12 col-sm-12 col-lg-12 qs">
+    <label>Anything else you would like your future Tutor to know?</label>
+</div>
+<fieldset class="radfix">
+    <div class="control-group last">
+        <textarea class="text-input" id="q8inp" name="q8inp" ng-model="formData.q8inp" placeholder="Start typing here..."></textarea>
+</fieldset>
+
+<fieldset class="ng-ctrl">
+    <div class="col-xs-12 col-md-4 col-sm-4 col-lg-4"></div>
+    <div class="col-xs-12 col-md-4 col-sm-4 col-lg-4">
+        <a ui-sref="form.q7" class="prev pull-left ng-arrow"><span class="ion-android-arrow-back"></span></a>
+        <a ng-click="processForm()" ui-sref="form.good" class="next pull-right ng-arrow"><span class="ion-android-arrow-forward"></span></a>
+    </div>
+    <div class="col-xs-12 col-md-4 col-sm-4 col-lg-4"></div>
+</fieldset>
+<a ng-click="processForm()" ui-sref="form.good" type="submit" class="button">Done</a>
+<!--<a ui-sref="form.q5" class="button btn-o">Back</a>-->

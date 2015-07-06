@@ -1,0 +1,60 @@
+<div class="meter blue nostripes">
+    <span style="width: 50%"></span>
+</div>
+<div class="col-xs-12 col-md-12 col-sm-12 col-lg-12 qs">
+    <label>On a scale of 1-10 how much would you rate yourself in {{ formData.q2cat }}?</label>
+</div>
+<fieldset class="radfix">
+    <input id="ex8" ng-model="formData.slider8" ng-init="formData.slider8 = 5" data-slider-id='ex1Slider' type="text" data-slider-min="1" data-slider-max="10" data-slider-step="1" data-slider-value="5"/>
+</fieldset>
+<div class="col-xs-12 col-md-12 col-sm-12 col-lg-12 qs bel">
+    <label>... and where would you like to be after taking the classes?</label>
+</div>
+<fieldset class="radfix">
+    <input id="ex9" ng-model="formData.slider9" ng-init="formData.slider9 = 5" data-slider-id='ex1Slider1' type="text" data-slider-min="1" data-slider-max="10" data-slider-step="1" data-slider-value="5"/>
+</fieldset>
+
+<fieldset class="ng-ctrl">
+    <div class="col-xs-12 col-md-4 col-sm-4 col-lg-4"></div>
+    <div class="col-xs-12 col-md-4 col-sm-4 col-lg-4">
+        <a ui-sref="form.q4" class="prev pull-left ng-arrow"><span class="ion-android-arrow-back"></span></a>
+        <a ui-sref="form.q6" class="next pull-right ng-arrow"><span class="ion-android-arrow-forward"></span></a>
+    </div>
+    <div class="col-xs-12 col-md-4 col-sm-4 col-lg-4"></div>
+</fieldset>
+<a ui-sref="form.q6" class="button btn-blue">Next</a>
+<a ui-sref="form.q4" class="button btn-o">Back</a>
+<script type="text/javascript">
+    var slider = new Slider("#ex8", {tooltip: 'always'});
+    var slider1 = new Slider("#ex9", {tooltip: 'always'});
+    var originalVal;
+    jQuery('#ex8').slider().on('slideStart', function(ev){
+        originalVal = jQuery('#ex8').slider().val();
+    });
+
+    jQuery('#ex8').slider().on('slideStop', function(ev){
+        var newVal = jQuery('#ex8').slider().val();
+        if(originalVal != newVal) {
+            var ans1 = angular.element('#ex8').scope();
+            ans1.$apply(function(){
+                ans1.formData.slider8 = jQuery('#ex8').val();
+            });        
+
+        }
+    });   
+    var originalVal1;
+    jQuery('#ex9').slider().on('slideStart', function(ev){
+        originalVal1 = jQuery('#ex9').slider().val();
+    });
+
+    jQuery('#ex9').slider().on('slideStop', function(ev){
+        var newVal1 = jQuery('#ex9').slider().val()
+        if(originalVal1 != newVal1) {
+            var ans2 = angular.element('#ex9').scope();
+            ans2.$apply(function(){
+                ans2.formData.slider9 = jQuery('#ex9').val();
+            });        
+
+        }
+    });  
+ </script>

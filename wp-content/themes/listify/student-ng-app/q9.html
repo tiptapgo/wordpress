@@ -1,0 +1,57 @@
+<style type="text/css">
+	@media(max-width: 480px){
+		.row{
+			margin-bottom: 10px;
+		}
+	}
+</style>
+<div class="meter blue nostripes">
+    <span style="width: 100%"></span>
+</div>
+<div class="col-xs-12 col-md-12 col-sm-12 col-lg-12 qs">
+    <label>Review you data</label>
+</div>
+<div class="row formdata">
+	<div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
+		<div class="row">
+			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">Name</div>
+			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">{{ formData.name }}</div>
+		</div>	
+		<div class="row">
+			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">Email</div>
+			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">{{ formData.email }}</div>
+		</div>	
+		<div class="row">
+			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">Phone No</div>
+			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">{{ formData.phone }}</div>
+		</div>	
+		<div class="row">
+			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">Area</div>
+			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">{{ formData.area }}</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">Do you like spicy food</div>
+			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">{{ formData.q2 }}</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">What makes you bored</div>
+			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">{{ formData.q3 }}</div>
+		</div>			
+		<div class="row">
+			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">How often do you go online</div>
+			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">{{ formData.q4 }}</div>
+		</div>			
+		<div class="row">
+			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">Do you like chocolate</div>
+			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">{{ formData.q5 }}</div>
+		</div>																			
+	</div>
+</div>	
+<fieldset>
+    <div class="col-xs-12 col-md-2 col-sm-2 col-lg-2"></div>
+    <div class="col-xs-12 col-md-8 col-sm-8 col-lg-8 btn-div">
+        <a ng-click="processForm()" ui-sref="form.good" type="submit" class="button"><span class="ion-android-done"></span><span class="findtext">Find me a Tutor</span></a>
+    </div>
+    <div class="col-xs-12 col-md-2 col-sm-2 col-lg-2"></div>	
+</fieldset>
+<a ui-sref="form.q5" class="button btn-o">Back</a>

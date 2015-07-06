@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<!-- start Mixpanel --><script type="text/javascript">(function(f,b){if(!b.__SV){var a,e,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
+for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=f.createElement("script");a.type="text/javascript";a.async=!0;a.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";e=f.getElementsByTagName("script")[0];e.parentNode.insertBefore(a,e)}})(document,window.mixpanel||[]);
+mixpanel.init("f39c8dc269a848da80cc50761b6ddfe4");</script><!-- end Mixpanel -->
+
+<script type="text/javascript">mixpanel.track("Testing Mixpanel Snippet");</script>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="http://tiptapgo.co/xmlrpc.php">
+	<link rel="shortcut icon" href="http://tiptapgo.co/wp-content/themes/listify/favicon.ico" />
+
+	<title>Environmental Science | Listing Categories | TipTapGo!</title>
+<link rel="alternate" type="application/rss+xml" title="TipTapGo! &raquo; Feed" href="http://tiptapgo.co/feed/" />
+<link rel="alternate" type="application/rss+xml" title="TipTapGo! &raquo; Comments Feed" href="http://tiptapgo.co/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/tiptapgo.co\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.2.2"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='mr-frontend-style-css'  href='http://tiptapgo.co/wp-content/plugins/multi-rating/assets/css/frontend-min.css?ver=4.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-layout-css'  href='//tiptapgo.co/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=2.3.11' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-smallscreen-css'  href='//tiptapgo.co/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=2.3.11' type='text/css' media='only screen and (max-width: 768px)' />
+<link rel='stylesheet' id='listify-fonts-css'  href='//fonts.googleapis.com/css?family=Montserrat%3A400%2C700&#038;subset=latin%2Clatin-ext&#038;ver=4.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='listify-css'  href='http://tiptapgo.co/wp-content/themes/listify/css/style.min.css?ver=4.2.2' type='text/css' media='all' />
+<style id='listify-inline-css' type='text/css'>
+.nav-menu .sub-menu.category-list,ul.nav-menu .sub-menu.category-list,input,textarea,.site select,.facetwp-facet .facetwp-checkbox:before,.widget_layered_nav li a:before,.site-main .content-box select,.site-main .job_listings select,body .chosen-container-single .chosen-single,body .chosen-container-multi .chosen-choices li.search-field input[type=text],.select2-container .select2-choice,.entry-content div.mce-toolbar-grp{background-color:#f3f6f9;}.listing-cover,.entry-cover,.homepage-cover.page-cover,.list-cover{background-color:#e6e9ec;}input,textarea,input[type="checkbox"],input[type="radio"],.site select,.facetwp-facet .facetwp-checkbox:before,.widget_layered_nav li a:before,.site-main .content-box select,.site-main .job_listings select,.content-pagination .page-numbers,.facetwp-pager .facetwp-page,.js-toggle-area-trigger,.chosen-container-multi .chosen-choices,.wp-editor-wrap,.account-sign-in,.filter_by_tag,.job-manager-form fieldset.fieldset-job_hours,.ninja-forms-required-items,.showing_jobs,.summary .stock,.woocommerce-tabs .woocommerce-noreviews,.entry-content .rcp_form input[type="text"]:focus,.entry-content .rcp_form input[type="password"]:focus,.entry-content .rcp_form input[type="email"]:focus,.entry-content div.mce-toolbar-grp,body .chosen-container-single .chosen-single,body .chosen-container-multi .chosen-choices,body .chosen-container-multi .chosen-choices li.search-field input[type=text],.payment_methods li .payment_box,.search-choice-close,.filter_by_tag a:before,.woocommerce .quantity input[type="button"]{border-color:#ebeef1;}.payment_methods li{background-color:#ebeef1;}.map-marker.type-37:after{border-top-color:#1e73be;}.map-marker.type-37 i:after{background-color:#1e73be;}.map-marker.type-37 i:before{color:#1e73be;}.map-marker.type-38:after{border-top-color:#81d742;}.map-marker.type-38 i:after{background-color:#81d742;}.map-marker.type-38 i:before{color:#81d742;}a,.content-pagination .page-numbers.current{color:#3396d1;}a:active,a:hover,.primary-header .current-account-toggle .sub-menu a{color:#1a7db8;}.job_position_featured .content-box{box-shadow:0 0 0 3px #3396d1;}.woocommerce .quantity input[type="button"]{color:#77c04b;}.woocommerce-message,.job-manager-message{border-color:#77c04b;}.type-product .onsale,.type-product .price ins,.job-package-tag{background-color:#3396d1;}.woocommerce-tabs .tabs .active a{color:#3396d1;}.as-seen-on{background-color:#3396d1;}body,button,input,select,textarea,.current-account-user-info,.listify_widget_panel_listing_tags .tag,.entry-cover.no-image,.entry-cover.no-image a,.listing-cover.no-image,.listing-cover.no-image a:not(.button),.entry-footer .button.button-small,.button[name="apply_coupon"],.button[name="apply_coupon"]:hover,.widget a,.content-pagination .page-numbers,.facetwp-pager .facetwp-page,.type-job_listing.style-list .job_listing-entry-header,.type-job_listing.style-list .job_listing-entry-header a,.js-toggle-area-trigger,.job-dashboard-actions a,body.fixed-map .site-footer,body.fixed-map .site-footer a,.homepage-cover .job_search_form .select:after,.tabbed-listings-tabs a,.archive-job_listing-toggle,.map-marker-info a,.map-marker-info a:hover,.job-manager-form fieldset.fieldset-job_hours,.listing-by-term-title a,.listings-by-term-more a:hover,.search_location .locate-me:hover:before,.no-image .ion-ios-star:before,.no-image .ion-ios-star-half:before,.back-to-listing a,body .chosen-container-single .chosen-single,.select2-default,.select2-container .select2-choice,.select2-container-multi .select2-choices .select2-search-choice,body .homepage-cover .chosen-container .chosen-results li,.filter_by_tag a,a.upload-images,a.upload-images span,.nav-menu .sub-menu.category-list a,.woocommerce-tabs .tabs a,.job-manager-bookmark-actions a{color:#717a8f;}.comment-meta a,.commentlist a.comment-ago,div:not(.no-image) .star-rating:before,div:not(.no-image) .stars span a:before,.cta-subtext,.cta-description p,.job_listing-author-descriptor,.entry-meta,.entry-meta a,.home-widget-description,.listings-by-term-content .job_listing-rating-count,.listings-by-term-more a,.search-form .search-submit:before,.mfp-content .mfp-close:before,div:not(.job-package-price) .woocommerce .amount,.woocommerce .quantity,.showing_jobs{color:#949db2;}.social-profiles a{background-color:#949db2;}.search-overlay,.primary-header{background-color:#3396d1;}.nav-menu a,.nav-menu li:before,.nav-menu li:after,.nav-menu a:before,.nav-menu a:after,.nav-menu ul a,.nav-menu.primary ul ul a,.nav-menu.primary ul ul li:before,.nav-menu.primary ul ul li:after{color:#3396d1;}.search-overlay a.search-overlay-toggle{color:#ffffff;}.listify_widget_panel_listing_tags .tag.active:before,.job-package-includes li:before,.woocommerce-tabs .tabs .active a{color:#77c04b;}.button-secondary:hover,.button-secondary:focus,input[type="button"].facetwp-reset:hover,input[type="button"].facetwp-reset:focus,.star-rating-wrapper a:hover ~ a:before,.star-rating-wrapper a:hover:before,.star-rating-wrapper a.active ~ a:before,.star-rating-wrapper a.active:before,.woocommerce-tabs .stars span a:hover:before,.woocommerce-tabs .stars span a.active:before,.woocommerce-tabs .stars span a.hover:before,.tabbed-listings-tabs a:hover,.tabbed-listings-tabs a.active,.archive-job_listing-toggle.active{color:#549d28;}button:not([role="presentation"]),input[type="button"],input[type="reset"],input[type="submit"],.button,.facetwp-type-slider .noUi-connect,.ui-slider .ui-slider-range,.listing-owner,.comment-rating,.job_listing-rating-average,.map-marker.active:after,.cluster,.widget_calendar tbody a,.job_listing-author-info-more a:first-child,.load_more_jobs{background-color:#77c04b;}button:not([role="presentation"]):hover,button:not([role="presentation"]):focus,input[type="button"]:hover,input[type="button"]:focus,input[type="reset"]:hover,input[type="reset"]:focus,input[type="submit"]:hover,input[type="submit"]:focus,.button:hover,.button:focus,::selection,.load_more_jobs:hover,.update_results.refreshing{background-color:#72bb46;}::-moz-selection{background-color:#72bb46;}.facetwp-type-slider .noUi-horizontal .noUi-handle,.ui-slider .ui-slider-handle,.tabbed-listings-tabs a:hover,.tabbed-listings-tabs a.active,.archive-job_listing-toggle.active,li.job-package:hover,.job_listing_packages ul.job_packages li:hover,.woocommerce-info{border-color:#77c04b;}input[type=checkbox]:checked:before,.facetwp-facet .facetwp-checkbox.checked:after,.facetwp-facet .facetwp-link.checked,.widget_layered_nav li.chosen a:after,.widget_layered_nav li.chosen a,.ion-ios-star:before,.ion-ios-star-half:before,.upload-images:hover .upload-area,.comment-author .rating-stars .ion-ios-star,.archive-job_listing-layout.button.active,.job_listing_packages ul.job_packages li label,.upload-images:hover,.filter_by_tag a:after,.search-choice-close:after,.claimed-ribbon span:before{color:#3396d1;}.button-secondary,input[type="button"].facetwp-reset,.job_listing-author-info-more a:last-child{background-color:#3396d1;}.button-secondary:hover,.button-secondary:focus,input[type="button"].facetwp-reset:hover,input[type="button"].facetwp-reset:focus{background-color:#2e91cc;}.upload-images:hover{border-color:#3396d1;}.site-footer-widgets{background-color:#2f3339;}.site-footer{background-color:#22262c;}
+@media screen and (min-width: 768px){.nav-menu .sub-menu.category-list{background-color:#f0f3f6;}}
+@media screen and (min-width: 992px){.nav-menu.primary a,.nav-menu.primary li:before,.nav-menu.primary li:after,.nav-menu.primary a:before,.nav-menu.primary a:after{color:#ffffff;}.primary.nav-menu .current-cart .current-cart-count{background-color:#77c04b;border-color:#3396d1;}}
+</style>
+<link rel='stylesheet' id='font-awesome-css'  href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css?ver=4.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack_css-css'  href='http://tiptapgo.co/wp-content/plugins/jetpack/css/jetpack.css?ver=3.5.3' type='text/css' media='all' />
+<!-- This site uses the Google Analytics by Yoast plugin v5.4.2 - Universal enabled - https://yoast.com/wordpress/plugins/google-analytics/ -->
+<script type="text/javascript">
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');
+
+	__gaTracker('create', 'UA-60139822-1', 'auto');
+	__gaTracker('set', 'forceSSL', true);
+	__gaTracker('require', 'displayfeatures');
+	__gaTracker('require', 'linkid', 'linkid.js');
+	__gaTracker('send','pageview');
+
+</script>
+<!-- / Google Analytics by Yoast -->
+<script type='text/javascript' src='http://tiptapgo.co/wp-includes/js/jquery/jquery.js?ver=1.11.2'></script>
+<script type='text/javascript' src='http://tiptapgo.co/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='//maps.googleapis.com/maps/api/js?v=3&#038;libraries=geometry%2Cplaces&#038;key&#038;language=en&#038;region=in&#038;ver=4.2.2'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://tiptapgo.co/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://tiptapgo.co/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.2.2" />
+<meta name="generator" content="WooCommerce 2.3.11" />
+		<style type="text/css">
+			.rating-results-list .rank { font-weight: bold; }.rating-results-list .rank { font-weight: bold; }		.mr-custom-full-star {
+			background: url() no-repeat;
+			width: 32px;
+			height: 32px;
+			background-size: 32px 32px;
+			image-rendering: -moz-crisp-edges;
+			display: inline-block;
+		}
+		.mr-custom-half-star {
+			background: url() no-repeat;
+			width: 32px;
+			height: 32px;
+			background-size: 32px 32px;
+			image-rendering: -moz-crisp-edges;
+			display: inline-block;
+		}
+		.mr-custom-empty-star {
+			background: url() no-repeat;
+			width: 32px;
+			height: 32px;
+			background-size: 32px 32px;
+			image-rendering: -moz-crisp-edges;
+			display: inline-block;
+		}
+		.mr-custom-hover-star {
+			background: url() no-repeat;
+			width: 32px;
+			height: 32px;
+			background-size: 32px 32px;
+			image-rendering: -moz-crisp-edges;		
+			display: inline-block;		
+		}
+		
+			.mr-star-hover {
+				color: #ffba00 !important;
+			}
+			.mr-star-full, .mr-star-half, .mr-star-empty {
+				color: #ffd700;
+			}
+			.mr-error {
+				color: #EC6464;
+			}
+		</style>
+		
+<link rel='dns-prefetch' href='//i0.wp.com'>
+<link rel='dns-prefetch' href='//i1.wp.com'>
+<link rel='dns-prefetch' href='//i2.wp.com'>
+<style type='text/css'>img#wpstats{display:none}</style>	<style type="text/css">
+		.site-title a,
+	.site-description {
+		color: #ffffff;
+	}
+	</style>
+	
+<style id="custom-css-css">.secondary,.search_jobs > div.search_keywords{display:none}.wp-job-manager-categories-enabled.wp-job-manager-categories-multi-enabled.home .search_jobs>div,.wp-job-manager-categories-enabled:not(.wp-job-manager-categories-multi-enabled) .search_jobs>div{width:48.25%}.site-footer{background-color:#fff}</style>
+</head>
+
+<body class="archive tax-job_listing_category term-environmental-science term-121 fixed-header directory-fields color-scheme-default footer- listify listify-10212 wp-job-manager woocommerce jetpack ratings job-manager-archive fixed-map">
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-60139822-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<div id="page" class="hfeed site">
+
+	<header id="masthead" class="site-header" role="banner">
+		<div class="primary-header">
+			<div class="container">
+				<div class="primary-header-inner">
+					<div class="site-branding">
+												
+						<h1 class="site-title"><a href="http://tiptapgo.co/" rel="home">TipTapGo!</a></h1>
+						<h2 class="site-description">Find Amazing Teachers In Your Area</h2>
+					</div>
+
+					<div class="primary nav-menu">
+						<div class="nav-menu-container"><ul id="menu-primary-menu" class="menu"><li class="menu-item menu-type-link"><a href="#search-header" data-toggle="#search-header" class="search-overlay-toggle"></a></li><li id="menu-item-888" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-888"><a href="http://tiptapgo.co/how-it-works/">WhatsApp: 9901079974</a></li>
+<li id="menu-item-1103" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1103"><a href="http://tiptapgo.co/become-a-tutor/">Become a Tutor</a></li>
+</ul></div>					</div>
+				</div>
+
+				<div id="search-header" class="search-overlay">
+					<div class="container">
+						
+<form role="search" method="get" class="search-form" action="http://tiptapgo.co/listings/">
+	<label>
+		<span class="screen-reader-text">Search for:</span>
+		<input type="search" class="search-field" placeholder="Search" value=""
+		name="search_keywords" title="Search for:" />
+	</label>
+	<button type="submit" class="search-submit"></button>
+</form>
+						<a href="#search-header" data-toggle="#search-header" class="ion-close search-overlay-toggle"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<nav id="site-navigation" class="main-navigation" role="navigation">
+			<div class="container">
+				<a href="#" class="navigation-bar-toggle">
+					<i class="ion-navicon-round"></i>
+					Primary Menu				</a>
+
+				<div class="navigation-bar-wrapper">
+					<div class="primary nav-menu"><ul id="menu-primary-menu-1" class="primary nav-menu"><li class="menu-item menu-type-link"><a href="#search-header" data-toggle="#search-header" class="search-overlay-toggle"></a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-888"><a href="http://tiptapgo.co/how-it-works/">WhatsApp: 9901079974</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1103"><a href="http://tiptapgo.co/become-a-tutor/">Become a Tutor</a></li>
+</ul></div><div class="secondary nav-menu"><ul id="menu-secondary" class="secondary nav-menu"><li id="categories-mega-menu" class="ion-navicon-round menu-item menu-type-link"><a href="http://tiptapgo.co/listings/">Browse Categories</a><ul class="sub-menu category-list"><form id="job_listing_tax_mobile" action="http://tiptapgo.co" method="get"><select name='job_listing_category' id='job_listing_category' class='postform' >
+	<option value='0' selected='selected'>Select a Category</option>
+	<option class="level-0" value="arts">Arts&nbsp;&nbsp;(0)</option>
+	<option class="level-0" value="dance">Dance&nbsp;&nbsp;(0)</option>
+	<option class="level-0" value="high-school">Class 11 &#8211; Class 12&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="primary-school">Class 1 &#8211; Class 5&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="languages">Languages&nbsp;&nbsp;(0)</option>
+	<option class="level-0" value="music">Music&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="technology">Technology&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="test-prep">Test Prep&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="english">English&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="french">French&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="german">German&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="hindi">Hindi&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="sanskrit">Sanskrit&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="gmat">GMAT&nbsp;&nbsp;(0)</option>
+	<option class="level-0" value="gre">GRE&nbsp;&nbsp;(0)</option>
+	<option class="level-0" value="sat">SAT&nbsp;&nbsp;(0)</option>
+	<option class="level-0" value="iitjee">IITJEE&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="aipmt">AIPMT&nbsp;&nbsp;(0)</option>
+	<option class="level-0" value="sports">Sports&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="cooking">Cooking&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="theatre">Theatre&nbsp;&nbsp;(0)</option>
+	<option class="level-0" value="art-craft">Art &amp; Craft&nbsp;&nbsp;(0)</option>
+	<option class="level-0" value="baking">Baking&nbsp;&nbsp;(0)</option>
+	<option class="level-0" value="phonics">Phonics&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="workshop">Workshop&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="physics">Physics&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="chemistry">Chemistry&nbsp;&nbsp;(7)</option>
+	<option class="level-0" value="mathematics">Mathematics&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="mathematics-primary-school">Mathematics&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="science">Science&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="recreation">Recreation&nbsp;&nbsp;(0)</option>
+	<option class="level-0" value="meditation">Meditation&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="reiki">Reiki&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="yoga">Yoga&nbsp;&nbsp;(0)</option>
+	<option class="level-0" value="drawing">Drawing&nbsp;&nbsp;(0)</option>
+	<option class="level-0" value="creative-design">Creative Design&nbsp;&nbsp;(0)</option>
+	<option class="level-0" value="chess">Chess&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="kids">Kids&nbsp;&nbsp;(0)</option>
+	<option class="level-0" value="play-dates">Play Dates&nbsp;&nbsp;(0)</option>
+	<option class="level-0" value="class-9-class-10">Class 9 &#8211; Class 10&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="mathematics-class-9-class-10">Mathematics&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="social-studies">Social Studies&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="bharatnatyam">Bharatnatyam&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="electronics">Electronics&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="all-subjects">All Subjects&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="medical">Medical&nbsp;&nbsp;(0)</option>
+	<option class="level-0" value="bio-chemistry">Bio Chemistry&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="graduation-classes">Graduation Classes&nbsp;&nbsp;(0)</option>
+	<option class="level-0" value="computer-science">Computer Science&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="business-studies">Business Studies&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="economics">Economics&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="accounting">Accounting&nbsp;&nbsp;(5)</option>
+	<option class="level-0" value="management">Management&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="statistics">Statistics&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="biology">Biology&nbsp;&nbsp;(7)</option>
+	<option class="level-0" value="kanada">Kanada&nbsp;&nbsp;(5)</option>
+	<option class="level-0" value="computer-science-technology">Computer Science&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="java">Java&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="programming">Programming&nbsp;&nbsp;(0)</option>
+	<option class="level-0" value="c">C&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="unix">Unix&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="c-plus-plus">C Plus Plus&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="japanese">Japanese&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="engineering">Engineering&nbsp;&nbsp;(0)</option>
+	<option class="level-0" value="mechanical-engineering">Mechanical Engineering&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="website-design">Website Design&nbsp;&nbsp;(0)</option>
+	<option class="level-0" value="hobby">Hobby&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="card-making">Card-making&nbsp;&nbsp;(0)</option>
+	<option class="level-0" value="creative-writing">Creative-writing&nbsp;&nbsp;(0)</option>
+	<option class="level-0" value="class-6-class-8">Class 6 &#8211; Class 8&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="oil-painting">Oil painting&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="glass-painting">Glass painting&nbsp;&nbsp;(0)</option>
+	<option class="level-0" value="acrylic-painting">Acrylic painting&nbsp;&nbsp;(0)</option>
+	<option class="level-0" value="bottle-painting">Bottle painting&nbsp;&nbsp;(0)</option>
+	<option class="level-0" value="crossfit">CrossFit&nbsp;&nbsp;(0)</option>
+	<option class="level-0" value="bollywood">Bollywood&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="carnatic">Carnatic&nbsp;&nbsp;(0)</option>
+	<option class="level-0" value="public-speaking">Public Speaking&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="geography">Geography&nbsp;&nbsp;(0)</option>
+	<option class="level-0" value="tennis">Tennis&nbsp;&nbsp;(0)</option>
+	<option class="level-0" value="environmental-science">Environmental Science&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="typing">Typing&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="telugu">Telugu&nbsp;&nbsp;(0)</option>
+	<option class="level-0" value="mathematics-class-6-class-8">Mathematics&nbsp;&nbsp;(0)</option>
+	<option class="level-0" value="science-class-6-class-8">Science&nbsp;&nbsp;(0)</option>
+	<option class="level-0" value="social-science">Social Science&nbsp;&nbsp;(0)</option>
+	<option class="level-0" value="science-class-9-class-10">Science&nbsp;&nbsp;(0)</option>
+	<option class="level-0" value="social-science-class-9-class-10">Social Science&nbsp;&nbsp;(0)</option>
+	<option class="level-0" value="political-science">Political Science&nbsp;&nbsp;(0)</option>
+	<option class="level-0" value="history">History&nbsp;&nbsp;(0)</option>
+	<option class="level-0" value="economics-high-school">Economics&nbsp;&nbsp;(0)</option>
+	<option class="level-0" value="geography-high-school">Geography&nbsp;&nbsp;(0)</option>
+	<option class="level-0" value="psychology">Psychology&nbsp;&nbsp;(0)</option>
+	<option class="level-0" value="computer-science-high-school">Computer Science&nbsp;&nbsp;(0)</option>
+	<option class="level-0" value="business-studies-high-school">Business Studies&nbsp;&nbsp;(0)</option>
+	<option class="level-0" value="accounts">Accounts&nbsp;&nbsp;(0)</option>
+</select>
+</form>
+				<div class="container">
+					<div class="mega-category-list-wrapper">	<li class="cat-item cat-item-39"><a href="http://tiptapgo.co/listing-category/arts/" title="View all listings filed under Arts"><span class="category-count">1</span>Arts</a>
+</li>
+	<li class="cat-item cat-item-42"><a href="http://tiptapgo.co/listing-category/primary-school/" title="View all listings filed under Class 1 &#8211; Class 5"><span class="category-count">12</span>Class 1 &#8211; Class 5</a>
+</li>
+	<li class="cat-item cat-item-41"><a href="http://tiptapgo.co/listing-category/high-school/" title="View all listings filed under Class 11 &#8211; Class 12"><span class="category-count">19</span>Class 11 &#8211; Class 12</a>
+</li>
+	<li class="cat-item cat-item-110"><a href="http://tiptapgo.co/listing-category/class-6-class-8/" title="View all listings filed under Class 6 &#8211; Class 8"><span class="category-count">2</span>Class 6 &#8211; Class 8</a>
+</li>
+	<li class="cat-item cat-item-80"><a href="http://tiptapgo.co/listing-category/class-9-class-10/" title="View all listings filed under Class 9 &#8211; Class 10"><span class="category-count">4</span>Class 9 &#8211; Class 10</a>
+</li>
+	<li class="cat-item cat-item-60"><a href="http://tiptapgo.co/listing-category/cooking/" title="View all listings filed under Cooking"><span class="category-count">1</span>Cooking</a>
+</li>
+	<li class="cat-item cat-item-40"><a href="http://tiptapgo.co/listing-category/dance/" title="View all listings filed under Dance"><span class="category-count">2</span>Dance</a>
+</li>
+	<li class="cat-item cat-item-104"><a href="http://tiptapgo.co/listing-category/engineering/" title="View all listings filed under Engineering"><span class="category-count">1</span>Engineering</a>
+</li>
+	<li class="cat-item cat-item-121 current-cat"><a href="http://tiptapgo.co/listing-category/environmental-science/" title="View all listings filed under Environmental Science"><span class="category-count">1</span>Environmental Science</a>
+</li>
+	<li class="cat-item cat-item-88"><a href="http://tiptapgo.co/listing-category/graduation-classes/" title="View all listings filed under Graduation Classes"><span class="category-count">2</span>Graduation Classes</a>
+</li>
+	<li class="cat-item cat-item-107"><a href="http://tiptapgo.co/listing-category/hobby/" title="View all listings filed under Hobby"><span class="category-count">2</span>Hobby</a>
+</li>
+	<li class="cat-item cat-item-78"><a href="http://tiptapgo.co/listing-category/kids/" title="View all listings filed under Kids"><span class="category-count">0</span>Kids</a>
+</li>
+	<li class="cat-item cat-item-43"><a href="http://tiptapgo.co/listing-category/languages/" title="View all listings filed under Languages"><span class="category-count">14</span>Languages</a>
+</li>
+	<li class="cat-item cat-item-93"><a href="http://tiptapgo.co/listing-category/management/" title="View all listings filed under Management"><span class="category-count">7</span>Management</a>
+</li>
+	<li class="cat-item cat-item-86"><a href="http://tiptapgo.co/listing-category/medical/" title="View all listings filed under Medical"><span class="category-count">2</span>Medical</a>
+</li>
+	<li class="cat-item cat-item-44"><a href="http://tiptapgo.co/listing-category/music/" title="View all listings filed under Music"><span class="category-count">1</span>Music</a>
+</li>
+	<li class="cat-item cat-item-99"><a href="http://tiptapgo.co/listing-category/programming/" title="View all listings filed under Programming"><span class="category-count">1</span>Programming</a>
+</li>
+	<li class="cat-item cat-item-71"><a href="http://tiptapgo.co/listing-category/recreation/" title="View all listings filed under Recreation"><span class="category-count">2</span>Recreation</a>
+</li>
+	<li class="cat-item cat-item-58"><a href="http://tiptapgo.co/listing-category/sports/" title="View all listings filed under Sports"><span class="category-count">1</span>Sports</a>
+</li>
+	<li class="cat-item cat-item-45"><a href="http://tiptapgo.co/listing-category/technology/" title="View all listings filed under Technology"><span class="category-count">4</span>Technology</a>
+</li>
+	<li class="cat-item cat-item-46"><a href="http://tiptapgo.co/listing-category/test-prep/" title="View all listings filed under Test Prep"><span class="category-count">1</span>Test Prep</a>
+</li>
+	<li class="cat-item cat-item-65"><a href="http://tiptapgo.co/listing-category/workshop/" title="View all listings filed under Workshop"><span class="category-count">1</span>Workshop</a>
+</li>
+</div>
+					<!--<a href="http://tiptapgo.co/listings/">View All</a>-->
+				</div>
+			</ul></li></ul></div>				</div>
+
+									<a href="#search-navigation" data-toggle="#search-navigation" class="ion-search search-overlay-toggle"></a>
+
+					<div id="search-navigation" class="search-overlay">
+						
+<form role="search" method="get" class="search-form" action="http://tiptapgo.co/listings/">
+	<label>
+		<span class="screen-reader-text">Search for:</span>
+		<input type="search" class="search-field" placeholder="Search" value=""
+		name="search_keywords" title="Search for:" />
+	</label>
+	<button type="submit" class="search-submit"></button>
+</form>
+						<a href="#search-navigation" data-toggle="#search-navigation" class="ion-close search-overlay-toggle"></a>
+					</div>
+							</div>
+		</nav><!-- #site-navigation -->
+	</header><!-- #masthead -->
+
+	
+	<div id="content" class="site-content">
+	
+		<div class="archive-job_listing-toggle-wrapper container">
+			<div class="archive-job_listing-toggle-inner views">
+				<a href="#" class="archive-job_listing-toggle active" data-toggle=".content-area">Results</a><a href="#" class="archive-job_listing-toggle" data-toggle=".job_listings-map-wrapper">Map</a>
+			</div>
+		</div>
+	
+<div class="job_listings-map-wrapper">
+	
+	<div class="job_listings-map">
+		<div id="job_listings-map-canvas"></div>
+	</div>
+
+	</div>
+
+
+	<div id="primary" class="container">
+		<div class="row content-area">
+
+			
+			<main id="main" class="site-main col-xs-12" role="main">
+				<div class="job_listings" data-location="" data-keywords="" data-show_filters="true" data-show_pagination="true" data-per_page="10" data-orderby="featured" data-order="DESC" data-categories="environmental-science" >
+		<a href="#" data-toggle=".job_filters" class="js-toggle-area-trigger">Toggle Filters</a>
+	
+<form class="job_filters">
+	
+	<div class="search_jobs">
+		
+		<div class="search_keywords">
+			<label for="search_keywords">Keywords</label>
+			<input type="text" name="search_keywords" id="search_keywords" placeholder="Keywords" value="" />
+		</div>
+
+		<div class="search_location">
+			<label for="search_location">Location</label>
+			<input type="text" name="search_location" id="search_location" placeholder="Location" value="" />
+		</div>
+
+									<input type="hidden" name="search_categories[]" value="environmental-science" />
+					
+				<div class="search-radius-wrapper in-use">
+			<div class="search-radius-label">
+				<label for="use_search_radius">
+					<input type="checkbox" name="use_search_radius" id="use_search_radius"  checked='checked'/>
+					Radius: <span class="radi">2</span> km				</label>
+			</div>
+			<div class="search-radius-slider">
+				<div id="search-radius"></div>
+			</div>
+
+			<input type="hidden" id="search_radius" name="search_radius" value="2" />
+		</div>
+
+		<input type="hidden" id="search_lat" name="search_lat" value="0" />
+  		<input type="hidden" id="search_lng" name="search_lng" value="0" />
+		</div>
+
+	<p class="filter-by-type-label">Filter by type:</p><input type="hidden" id="search_context" name="search_context" value="archive-environmental-science" />	<ul class="job_types">
+					<li><label for="job_type_conducted-at-students-location" class="conducted-at-students-location"><input type="checkbox" name="filter_job_type[]" value="conducted-at-students-location"  checked='checked' id="job_type_conducted-at-students-location" /> Conducted At Student's Location</label></li>
+					<li><label for="job_type_conducted-at-tutors-location" class="conducted-at-tutors-location"><input type="checkbox" name="filter_job_type[]" value="conducted-at-tutors-location"  checked='checked' id="job_type_conducted-at-tutors-location" /> Conducted At Tutor's Location</label></li>
+			</ul>
+	<input type="hidden" name="filter_job_type[]" value="" />
+<button type="submit" data-refresh="Loading..." data-label="Update Listings" name="update_results" class="update_results">Update Listings</button><div class="showing_jobs"></div></form>
+
+		<div class="archive-job_listing-filter-title">
+			<div class="archive-job_listing-layout-wrapper">
+				
+				<a href="#" data-style="grid" class="archive-job_listing-layout button active"><span class="ion-grid"></span></a>
+				<a href="#" data-style="list" class="archive-job_listing-layout button"><span class="ion-navicon-round"></span></a>
+
+							</div>
+
+			<h3 class="archive-job_listing-found">
+				<span class="results-found">1</span> Results Found			</h3>
+		</div>
+	
+<noscript>Your browser does not support JavaScript, or it is disabled. JavaScript must be enabled in order to view listings.</noscript><ul class="job_listings"></ul></div>			</main>
+
+		</div>
+	</div>
+
+
+
+
+	</div><!-- #content -->
+
+
+
+	<div class="footer-wrapper">
+
+
+
+		
+
+
+		<footer id="colophon" class="site-footer" role="contentinfo">
+
+			<div class="container">
+
+
+
+				<div class="site-info">
+
+					Copyright TipTapGo Inc. © 2015. All Rights Reserved
+				</div><!-- .site-info -->
+
+
+
+				<div class="site-social">
+
+					<div class="menu-contact-menu-container"><ul id="menu-contact-menu" class="nav-menu-social"><li id="menu-item-1112" class="col-xs-12 col-md-3 menu-item menu-item-type-custom menu-item-object-custom menu-item-1112"><a href="https://www.facebook.com/tiptapgoco" onclick="__gaTracker('send', 'event', 'outbound-widget', 'https://www.facebook.com/tiptapgoco', 'Facebook');">Facebook</a></li>
+<li id="menu-item-1113" class="col-xs-12 col-md-3 menu-item menu-item-type-custom menu-item-object-custom menu-item-1113"><a href="https://twitter.com/tiptapgoco" onclick="__gaTracker('send', 'event', 'outbound-widget', 'https://twitter.com/tiptapgoco', 'Twitter');">Twitter</a></li>
+<li id="menu-item-1114" class="col-xs-12 col-md-3 menu-item menu-item-type-custom menu-item-object-custom menu-item-1114"><a href="http://blog.tiptapgo.co/">Blog</a></li>
+<li id="menu-item-896" class="col-xs-12 col-md-3 menu-item menu-item-type-custom menu-item-object-custom menu-item-896"><a href="mailto:help@tiptapgo.co">help@tiptapgo.co</a></li>
+</ul></div>
+				</div>
+
+
+
+			</div>
+
+		</footer><!-- #colophon -->
+
+
+
+	</div>
+
+
+
+</div><!-- #page -->
+
+
+
+<div id="ajax-response"></div>
+
+
+
+	<div style="display:none">
+	</div>
+		<script id="pinTemplate" type="text/template">
+			<div class="map-marker type-<%= term %>"><i class="<%= icon %>"></i></div>
+		</script>
+			<script id="infoBubbleTemplate" type="text/template">
+			<a href="<%= link %>">
+				<% if ( typeof( thumb ) != 'undefined') { %>
+				<span style="background-image: url(<%= thumb %>)" class="list-cover has-image"></span>
+				<% } %>
+
+				<% if ( typeof( title ) != 'undefined') { %>
+				<h1><%= title %></h1>
+				<% } %>
+
+				<% if ( typeof( rating ) != 'undefined') { %> 
+				<span class="rating stars-<%= rating %>">
+					<%= rating %>
+				</span> 
+				<% } %>
+
+				<% if ( typeof( address ) != 'undefined') { %>
+				<span class="address"><%= address %></span>
+				<% } %>
+			</a>
+		</script>
+	<script type='text/javascript' src='http://tiptapgo.co/wp-content/plugins/jetpack/modules/photon/photon.js?ver=20130122'></script>
+<script type='text/javascript' src='http://tiptapgo.co/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://tiptapgo.co/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://tiptapgo.co/wp-includes/js/jquery/ui/mouse.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://tiptapgo.co/wp-includes/js/jquery/ui/slider.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://tiptapgo.co/wp-includes/js/underscore.min.js?ver=1.6.0'></script>
+<script type='text/javascript' src='http://tiptapgo.co/wp-includes/js/backbone.min.js?ver=1.1.2'></script>
+<script type='text/javascript' src='http://tiptapgo.co/wp-content/plugins/wp-job-manager/assets/js/jquery-deserialize/jquery.deserialize.js?ver=1.2.1'></script>
+<script type='text/javascript' src='//tiptapgo.co/wp-content/plugins/woocommerce/assets/js/chosen/chosen.jquery.min.js?ver=1.0.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var job_manager_ajax_filters = {"ajax_url":"\/wp-admin\/admin-ajax.php","is_rtl":"0","i18n_load_prev_listings":"Load previous listings"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://tiptapgo.co/wp-content/plugins/wp-job-manager/assets/js/ajax-filters.min.js?ver=1.22.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var listifySettings = {"ajaxurl":"http:\/\/tiptapgo.co\/wp-admin\/admin-ajax.php","homeurl":"http:\/\/tiptapgo.co\/","archiveurl":"http:\/\/tiptapgo.co\/listings\/","is_job_manager_archive":"1","l10n":{"closed":"Closed","timeFormat":"g:i a"}};
+var listifyListingGallery = {"canUpload":"","gallery_title":"Add Images to Gallery","gallery_button":"Add to gallery","delete_image":"Delete image","default_title":"Upload","default_button":"Select this"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://tiptapgo.co/wp-content/themes/listify/js/app.min.js?ver=20141204'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var listifyMapSettings = {"displayMap":"1","facetwp":"","useClusters":"1","autoFit":"1","trigger":"click","mapOptions":{"zoom":3,"maxZoom":17,"gridSize":60,"center":["12.9567746","77.6983846"]},"searchRadius":{"min":"0","max":"3","default":"2"},"autoComplete":{"componentRestrictions":{"country":"in"}}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://tiptapgo.co/wp-content/themes/listify/inc/integrations/wp-job-manager/js/map/app.min.js?ver=20150213'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mr_frontend_data = {"ajax_url":"http:\/\/tiptapgo.co\/wp-admin\/admin-ajax.php","ajax_nonce":"ddb6d72ba8","icon_classes":"{\"star_full\":\"fa fa-star mr-star-full\",\"star_half\":\"fa fa-star-half-o mr-star-half\",\"star_empty\":\"fa fa-star-o mr-star-empty\",\"minus\":\"fa fa-minus-circle mr-minus\",\"spinner\":\"fa fa-spinner fa-spin mr-spinner\"}","use_custom_star_images":"false"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://tiptapgo.co/wp-content/plugins/multi-rating/assets/js/frontend-min.js?ver=4.1.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","i18n_view_cart":"View Cart","cart_url":"http:\/\/tiptapgo.co\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//tiptapgo.co/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=2.3.11'></script>
+<script type='text/javascript' src='//tiptapgo.co/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.60'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//tiptapgo.co/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=2.3.11'></script>
+<script type='text/javascript' src='//tiptapgo.co/wp-content/plugins/woocommerce/assets/js/jquery-cookie/jquery.cookie.min.js?ver=1.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","fragment_name":"wc_fragments"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//tiptapgo.co/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=2.3.11'></script>
+<script type='text/javascript' src='http://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201528'></script>
+<script type='text/javascript' src='http://s.gravatar.com/js/gprofiles.js?ver=2015Julaa'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://tiptapgo.co/wp-content/plugins/jetpack/modules/wpgroho.js?ver=4.2.2'></script>
+<script type='text/javascript' src='http://tiptapgo.co/wp-content/themes/listify/js/vendor/salvattore.min.js?ver=4.2.2'></script>
+<script type='text/javascript' src='http://stats.wp.com/e-201528.js' async defer></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:3.5.3',blog:'90892729',post:'0',tz:'0',srv:'tiptapgo.co'} ]);
+	_stq.push([ 'clickTrackerInit', '90892729', '0' ]);
+</script>
+
+
+</body>
+
+</html>
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using disk: enhanced
+Database Caching 5/74 queries in 0.011 seconds using disk
+Object Caching 2827/3135 objects using disk
+
+ Served from: tiptapgo.co @ 2015-07-06 10:35:47 by W3 Total Cache -->
