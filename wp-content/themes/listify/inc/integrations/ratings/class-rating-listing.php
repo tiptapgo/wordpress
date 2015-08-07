@@ -9,7 +9,24 @@ class Listify_Rating_Listing extends Listify_Rating {
 	}
 
 	public function listing_data( $data ) {
-		$data[ 'rating' ] = sprintf( _n( '%s Review', '%s Reviews', $this->count(), 'listify' ), $this->count() );
+		$args=array(
+			'meta_query' => array(
+				array(
+					'key' => 'review_id',
+					'value' => get_the_ID(),
+					'compare' => 'LIKE'
+					)
+				),
+			'post_type' => 'reviews',
+			'post_status' => 'publish',
+			'posts_per_page' => -1,
+			'caller_get_posts'=> 1
+		);
+
+		$my_query = null;
+		$my_query = new WP_Query($args);
+		$totalReviews = $my_query->post_count;		
+		$data[ 'rating' ] = sprintf( _n( '%s Review', '%s Reviews', $totalReviews, 'listify' ), $totalReviews );
 
 		return $data;
 	}
@@ -32,7 +49,7 @@ class Listify_Rating_Listing extends Listify_Rating {
 
 		if ( ! $total || $votes == 0 ) {
 			update_post_meta( $this->object_id, 'rating', 0 );
-
+			update_post_meta( $this->object_id, '_rating', 0 );
 			return;
 		}
 
@@ -40,7 +57,7 @@ class Listify_Rating_Listing extends Listify_Rating {
 		$rating = round( round( $avg * 2 ) / 2, 1 );
 
 		update_post_meta( $this->object_id, 'rating', $rating );
-
+		update_post_meta( $this->object_id, '_rating', $rating );
 		return $rating;
 	}
 

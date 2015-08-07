@@ -1,0 +1,203 @@
+<style type="text/css">
+    input[type=radio]{
+        display: block !important;
+        position: absolute;
+        left: 50%;
+        -ms-transform: translate(-50%,0);
+        -webkit-transform: translate(-50%,0);
+        -moz-transform: translate(-50%,0);
+             transform: translate(-50%,0);
+    }
+    .time{
+        text-align: center;
+    }
+    .radrow{
+        padding: 7px 30px !important;
+    }
+    .radbul{
+        position:relative;
+    }
+    .reset{
+        left: 0;
+        right: initial !important;
+        margin: 20px 0 !important;
+    }
+</style>
+<div class="meter blue nostripes">
+    <span style="width: 40%"></span>
+</div>
+<div class="col-xs-12 col-md-12 col-sm-12 col-lg-12 qs">
+    <label>When would you like to take classes?</label>
+</div>
+<fieldset class="radfix">
+    <div class="row radrow">
+
+        <div class="col-md-2 col-xs-2 col-sm-2 col-lg-2"></div>
+        <div class="col-md-2 col-xs-2 col-sm-2 col-lg-2 time">8AM <br>to <br>10AM</div>
+        <div class="col-md-2 col-xs-2 col-sm-2 col-lg-2 time">10AM <br>to <br>1PM</div>
+        <div class="col-md-2 col-xs-2 col-sm-2 col-lg-2 time">1PM <br>to <br>4PM</div>
+        <div class="col-md-2 col-xs-2 col-sm-2 col-lg-2 time">4PM <br>to <br>7PM</div>
+        <div class="col-md-2 col-xs-2 col-sm-2 col-lg-2 time">7PM <br>to <br>10PM</div>                                
+    
+    </div>
+    <div class="row radrow">
+
+        <div class="col-md-2 col-xs-2 col-sm-2 col-lg-2">Monday</div>
+        <div class="col-md-2 col-xs-2 col-sm-2 col-lg-2 radbul">
+            <input type="radio" ng-model="formData.q4mon" value="8AM to 10AM">
+        </div>
+        <div class="col-md-2 col-xs-2 col-sm-2 col-lg-2 radbul">
+            <input type="radio" ng-model="formData.q4mon" value="10AM to 1PM">
+        </div>
+        <div class="col-md-2 col-xs-2 col-sm-2 col-lg-2 radbul">
+            <input type="radio" ng-model="formData.q4mon" value="1PM to 4PM">
+        </div>
+        <div class="col-md-2 col-xs-2 col-sm-2 col-lg-2 radbul">
+            <input type="radio" ng-model="formData.q4mon" value="4PM to 7PM">
+        </div>         
+        <div class="col-md-2 col-xs-2 col-sm-2 col-lg-2 radbul">
+            <input type="radio" ng-model="formData.q4mon" value="7PM to 10PM">
+        </div>
+
+    </div>                        
+    <div class="row radrow">
+
+        <div class="col-md-2 col-xs-2 col-sm-2 col-lg-2">Tuesday</div>
+        <div class="col-md-2 col-xs-2 col-sm-2 col-lg-2 radbul">
+            <input type="radio" ng-model="formData.q4tue" value="8AM to 10AM">
+        </div>
+        <div class="col-md-2 col-xs-2 col-sm-2 col-lg-2 radbul">
+            <input type="radio" ng-model="formData.q4tue" value="10AM to 1PM">
+        </div>
+        <div class="col-md-2 col-xs-2 col-sm-2 col-lg-2 radbul">
+            <input type="radio" ng-model="formData.q4tue" value="1PM to 4PM">
+        </div>
+        <div class="col-md-2 col-xs-2 col-sm-2 col-lg-2 radbul">
+            <input type="radio" ng-model="formData.q4tue" value="4PM to 7PM">
+        </div>         
+        <div class="col-md-2 col-xs-2 col-sm-2 col-lg-2 radbul">
+            <input type="radio" ng-model="formData.q4tue" value="7PM to 10PM">
+        </div>
+
+    </div>  
+    <div class="row radrow">
+
+        <div class="col-md-2 col-xs-2 col-sm-2 col-lg-2">Wednesday</div>
+        <div class="col-md-2 col-xs-2 col-sm-2 col-lg-2 radbul">
+            <input type="radio" ng-model="formData.q4wed" value="8AM to 10AM">
+        </div>
+        <div class="col-md-2 col-xs-2 col-sm-2 col-lg-2 radbul">
+            <input type="radio" ng-model="formData.q4wed" value="10AM to 1PM">
+        </div>
+        <div class="col-md-2 col-xs-2 col-sm-2 col-lg-2 radbul">
+            <input type="radio" ng-model="formData.q4wed" value="1PM to 4PM">
+        </div>
+        <div class="col-md-2 col-xs-2 col-sm-2 col-lg-2 radbul">
+            <input type="radio" ng-model="formData.q4wed" value="4PM to 7PM">
+        </div>         
+        <div class="col-md-2 col-xs-2 col-sm-2 col-lg-2 radbul">
+            <input type="radio" ng-model="formData.q4wed" value="7PM to 10PM">
+        </div>
+
+    </div>  
+    <div class="row radrow">
+
+        <div class="col-md-2 col-xs-2 col-sm-2 col-lg-2">Thursday</div>
+        <div class="col-md-2 col-xs-2 col-sm-2 col-lg-2 radbul">
+            <input type="radio" ng-model="formData.q4thr" value="8AM to 10AM">
+        </div>
+        <div class="col-md-2 col-xs-2 col-sm-2 col-lg-2 radbul">
+            <input type="radio" ng-model="formData.q4thr" value="10AM to 1PM">
+        </div>
+        <div class="col-md-2 col-xs-2 col-sm-2 col-lg-2 radbul">
+            <input type="radio" ng-model="formData.q4thr" value="1PM to 4PM">
+        </div>
+        <div class="col-md-2 col-xs-2 col-sm-2 col-lg-2 radbul">
+            <input type="radio" ng-model="formData.q4thr" value="4PM to 7PM">
+        </div>         
+        <div class="col-md-2 col-xs-2 col-sm-2 col-lg-2 radbul">
+            <input type="radio" ng-model="formData.q4thr" value="7PM to 10PM">
+        </div>
+
+    </div>              
+    <div class="row radrow">
+
+        <div class="col-md-2 col-xs-2 col-sm-2 col-lg-2">Friday</div>
+        <div class="col-md-2 col-xs-2 col-sm-2 col-lg-2 radbul">
+            <input type="radio" ng-model="formData.q4fri" value="8AM to 10AM">
+        </div>
+        <div class="col-md-2 col-xs-2 col-sm-2 col-lg-2 radbul">
+            <input type="radio" ng-model="formData.q4fri" value="10AM to 1PM">
+        </div>
+        <div class="col-md-2 col-xs-2 col-sm-2 col-lg-2 radbul">
+            <input type="radio" ng-model="formData.q4fri" value="1PM to 4PM">
+        </div>
+        <div class="col-md-2 col-xs-2 col-sm-2 col-lg-2 radbul">
+            <input type="radio" ng-model="formData.q4fri" value="4PM to 7PM">
+        </div>         
+        <div class="col-md-2 col-xs-2 col-sm-2 col-lg-2 radbul">
+            <input type="radio" ng-model="formData.q4fri" value="7PM to 10PM">
+        </div>
+
+    </div>  
+    <div class="row radrow">
+
+        <div class="col-md-2 col-xs-2 col-sm-2 col-lg-2">Saturday</div>
+        <div class="col-md-2 col-xs-2 col-sm-2 col-lg-2 radbul">
+            <input type="radio" ng-model="formData.q4sat" value="8AM to 10AM">
+        </div>
+        <div class="col-md-2 col-xs-2 col-sm-2 col-lg-2 radbul">
+            <input type="radio" ng-model="formData.q4sat" value="10AM to 1PM">
+        </div>
+        <div class="col-md-2 col-xs-2 col-sm-2 col-lg-2 radbul">
+            <input type="radio" ng-model="formData.q4sat" value="1PM to 4PM">
+        </div>
+        <div class="col-md-2 col-xs-2 col-sm-2 col-lg-2 radbul">
+            <input type="radio" ng-model="formData.q4sat" value="4PM to 7PM">
+        </div>             
+        <div class="col-md-2 col-xs-2 col-sm-2 col-lg-2 radbul">
+            <input type="radio" ng-model="formData.q4sat" value="7PM to 10PM">
+        </div>
+
+    </div>  
+    <div class="row radrow">
+
+        <div class="col-md-2 col-xs-2 col-sm-2 col-lg-2">Sunday</div>
+        <div class="col-md-2 col-xs-2 col-sm-2 col-lg-2 radbul">
+            <input type="radio" ng-model="formData.q4sun" value="8AM to 10AM">
+        </div>
+        <div class="col-md-2 col-xs-2 col-sm-2 col-lg-2 radbul">
+            <input type="radio" ng-model="formData.q4sun" value="10AM to 1PM">
+        </div>
+        <div class="col-md-2 col-xs-2 col-sm-2 col-lg-2 radbul">
+            <input type="radio" ng-model="formData.q4sun" value="1PM to 4PM">
+        </div>
+        <div class="col-md-2 col-xs-2 col-sm-2 col-lg-2 radbul">
+            <input type="radio" ng-model="formData.q4sun" value="4PM to 7PM">
+        </div>    
+        <div class="col-md-2 col-xs-2 col-sm-2 col-lg-2 radbul">
+            <input type="radio" ng-model="formData.q4sun" value="7PM to 10PM">
+        </div>
+
+    </div>           
+</fieldset>
+
+<fieldset class="ng-ctrl">
+    <div class="col-xs-12 col-md-4 col-sm-4 col-lg-4"></div>
+    <div class="col-xs-12 col-md-4 col-sm-4 col-lg-4">
+        <a ui-sref="form.q3" class="prev pull-left ng-arrow radrow"><span class="ion-android-arrow radrow-back"></span></a>
+        <a ui-sref="form.q5" class="next pull-right ng-arrow radrow"><span class="ion-android-arrow radrow-forward"></span></a>
+    </div>
+    <div class="col-xs-12 col-md-4 col-sm-4 col-lg-4"></div>
+</fieldset>
+<a ui-sref="form.q5" class="button btn-blue">Next</a> 
+<a href="javascript:void(0)" id="reset" class="button btn-o reset">Reset</a> 
+<a ui-sref="form.q3" class="button btn-o">Back</a>
+
+<script type="text/javascript">
+    jQuery("#reset").click(function(){
+        jQuery(".radbul input").each(function(){
+            jQuery(this).attr('checked',false);
+        });
+    });
+</script>

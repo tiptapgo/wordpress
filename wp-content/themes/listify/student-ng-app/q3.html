@@ -1,0 +1,61 @@
+<div class="meter blue nostripes">
+    <span style="width: 30%"></span>
+</div>
+<div class="col-xs-12 col-md-12 col-sm-12 col-lg-12 qs">
+    <label>What grade are you in?</label>    
+</div>
+
+<fieldset class="radfix">
+    <div class="control-group">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <select id="select-beast1" ng-model="formData.q3cat" placeholder="Select a class">
+                <option value="">Select a Class</option>                
+                    <option value="Class 1">Class 1</option>
+                    <option value="Class 2">Class 2</option>
+                    <option value="Class 3">Class 3</option>
+                    <option value="Class 4">Class 4</option>
+                    <option value="Class 5">Class 5</option>
+                    <option value="Class 6">Class 6</option>
+                    <option value="Class 7">Class 7</option>
+                    <option value="Class 8">Class 8</option>
+                    <option value="Class 9">Class 9</option>
+                    <option value="Class 10">Class 10</option>
+                    <option value="Class 11">Class 11</option>
+                    <option value="Class 12">Class 12</option>
+                    <option value="Graduate">Graduate</option>
+                    <option value="Post Graduate">Post Graduate</option>
+                    <option value="Ph.D">Ph.D</option>                                          
+            </select>
+        </div>    
+    </div>
+    <div class="control-group last">
+        <input type="text" class="text-input" id="q3inp" name="q3inp" ng-model="formData.q3inp" placeholder="Specialization like Commerce, Computer Science">
+    </div>
+</fieldset>    
+<fieldset class="ng-ctrl">
+    <div class="col-xs-12 col-md-4 col-sm-4 col-lg-4"></div>
+    <div class="col-xs-12 col-md-4 col-sm-4 col-lg-4">
+        <a ui-sref="form.q2" class="prev pull-left ng-arrow"><span class="ion-android-arrow-back"></span></a>
+        <a ui-sref="form.q4" class="next pull-right ng-arrow"><span class="ion-android-arrow-forward"></span></a>
+    </div>
+    <div class="col-xs-12 col-md-4 col-sm-4 col-lg-4"></div>
+</fieldset>
+<p class="floating-text">Click 'Next', if you feel this is not relevent for your requirements.</p>
+<a ui-sref="form.q4" class="button btn-blue">Next</a> 
+<a ui-sref="form.q2" class="button btn-o">Back</a> 
+<script type="text/javascript">
+    jQuery('#select-beast1').selectize();
+    jQuery('.item').each(function() {
+        var elem = jQuery(this);
+        var ans1 = angular.element('#select-beast1.selectized').scope();
+        elem.data('oldVal', elem.val());
+        elem.bind("propertychange blur change click keyup input paste", function(event){
+            if (elem.data('oldVal') != elem.val()) {
+                elem.data('oldVal', elem.val());
+                ans1.$apply(function(){
+                    ans1.formData.q2cat = elem.innerHTML;
+                });
+            }
+        });
+    });
+</script>

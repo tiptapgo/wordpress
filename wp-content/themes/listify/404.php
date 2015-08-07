@@ -7,18 +7,12 @@
 
 get_header(); ?>
 
-	<div <?php echo apply_filters( 'listify_cover', 'page-cover entry-cover' ); ?>>
-		<div class="cover-wrapper">
-			<h1 class="page-title"><?php _e( 'Oops! That page can&rsquo;t be found.', 'listify' ); ?></h1>
-		</div>
-	</div>
-
 	<div id="primary" class="container">
 		<div class="row content-area">
 
 			<main id="main" class="site-main col-md-10 col-md-offset-1 col-xs-12" role="main">
 
-				<?php get_template_part( 'content', 'none' ); ?>
+				<?php get_template_part( 'content', 'null' ); ?>
 
 			</main>
 

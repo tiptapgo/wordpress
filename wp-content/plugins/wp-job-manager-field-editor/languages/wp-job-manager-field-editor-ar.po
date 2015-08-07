@@ -1,0 +1,1879 @@
+# Copyright (C) 2015 Myles McNamara
+# This file is distributed under the same license as the WP Job Manager Field Editor package.
+# Translators:
+# Mamdouh Ezz Samy <asyuti47@yahoo.com>, 2015
+# Myles McNamara <myles@smyl.es>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Job Manager Field Editor\n"
+"Report-Msgid-Bugs-To: http://plugins.smyl.es\n"
+"POT-Creation-Date: 2015-04-16 05:59:11+00:00\n"
+"PO-Revision-Date: 2015-04-16 05:59+0000\n"
+"Last-Translator: Myles McNamara <myles@smyl.es>\n"
+"Language-Team: Arabic (http://www.transifex.com/projects/p/wp-job-manager-field-editor/language/ar/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ar\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: grunt-wp-i18n 0.4.8\n"
+
+#: classes/admin/ajax.php:74
+msgid ""
+"A field group is required in order to save/edit/update fields, please "
+"contact support."
+msgstr "مجموعة حقل مطلوب من أجل حفظ/تحرير/تحديث الحقول، الرجاء الاتصال بالدعم."
+
+#: classes/admin/ajax.php:91
+msgid ""
+"Sorry, the taxonomy <code>%1$s</code> does not exists, please verify you are"
+" using the correct taxonomy slug"
+msgstr "عذراً، لم يكن كذلك بالتصنيف <code>% 1$ s</code> موجود، الرجاء التحقق من استخدام سبيكة التصنيف الصحيح"
+
+#: classes/admin/ajax.php:107
+msgid ""
+"You <strong>must</strong> include the correct MIME <strong>type</strong>! As"
+" example, for jpeg extension you <strong>must</strong> include the type that"
+" is <code>image/jpeg</code>.  These values can be found for all supported "
+"extensions <a href=\"%2$s\" target=\"_blank\">here</a>."
+msgstr ""
+
+#: classes/admin/ajax.php:109
+msgid ""
+"Sorry, <code>%1$s</code> is not a valid WordPress MIME "
+"<strong>type</strong>! A list of the default ones can be found <a "
+"href=\"%2$s\" target=\"_blank\">here</a>.<br />"
+msgstr ""
+
+#: classes/admin/ajax.php:114
+msgid ""
+"Sorry, <code>%1$s</code> is not a valid WordPress MIME type "
+"<strong>extension</strong>! A list of the default ones can be found <a "
+"href=\"%2$s\" target=\"_blank\">here</a>.<br />You <strong>must</strong> "
+"include at least one of the MIME type extensions. As example, for jpeg you "
+"can use <code>jpg</code> or <code>jpg|jpeg|jpe</code>, but you "
+"<strong>must</strong> include at least one, or the entire string."
+msgstr ""
+
+#: classes/admin/ajax.php:139
+msgid ""
+"Sorry, that meta key already exists, please choose another or edit the "
+"existing one."
+msgstr "عذراً، أن الفوقية المفتاح موجود مسبقاً، الرجاء اختيار اسم آخر أو تحرير واحدة موجودة."
+
+#: classes/admin/ajax.php:148
+msgid "Sorry, there was an error adding this field.  Unable to add new field."
+msgstr "عذراً، حدث خطأ أثناء إضافة هذا الحقل.  غير قادر على إضافة حقل جديد."
+
+#: classes/admin/ajax.php:152
+msgid "Field added successfully!"
+msgstr "حقل إضافة بنجاح!"
+
+#: classes/admin/ajax.php:168
+msgid ""
+"This field can not be changed to optional as it is required for core "
+"functionality of WP Job Manager"
+msgstr "هذا الحقل لا يمكن أن تتغير باختياري كما مطلوب للوظيفة الأساسية للفسفور الأبيض وظيفة مدير"
+
+#: classes/admin/ajax.php:178
+msgid "Field edited successfully!"
+msgstr "حقل التعديل تم بنجاح!"
+
+#: classes/admin/ajax.php:187
+msgid ""
+"Sorry, there was an error updating this field.  Unable to create new field "
+"configuration."
+msgstr "عذراً، حدث خطأ في تحديث هذا الحقل.  غير قادر على إنشاء تكوين جديد للحقل."
+
+#: classes/admin/ajax.php:191
+msgid "Field configuration created, and updated successfully!"
+msgstr "ميدان التكوين التي تم إنشاؤها، وتحديث بنجاح!"
+
+#: classes/admin/ajax.php:206
+msgid "Succesfully enabled "
+msgstr "تمكين بنجاح "
+
+#: classes/admin/ajax.php:215
+msgid ""
+"Sorry, there was an error enabling this field.  Unable to create new field "
+"configuration."
+msgstr "عذراً، حدث خطأ أثناء تمكين هذا الحقل.  غير قادر على إنشاء تكوين جديد للحقل."
+
+#: classes/admin/ajax.php:219
+msgid "Field configuration created, and enabled successfully!"
+msgstr "ميدان التكوين التي تم إنشاؤها، ومكنت بنجاح!"
+
+#: classes/admin/ajax.php:231
+msgid ""
+"This field can not be disabled as it is required for core functionality of "
+"WP Job Manager"
+msgstr "لا يتم تعطيل هذا الحقل كما مطلوب للوظيفة الأساسية للفسفور الأبيض وظيفة مدير"
+
+#: classes/admin/ajax.php:238
+msgid "Succesfully disabled "
+msgstr "تعطيل بنجاح "
+
+#: classes/admin/ajax.php:247
+msgid ""
+"Sorry, there was an error disabling this field.  Unable to create new field "
+"configuration."
+msgstr "عذراً، حدث خطأ أثناء تعطيل هذا الحقل.  غير قادر على إنشاء تكوين جديد للحقل."
+
+#: classes/admin/ajax.php:253
+msgid "Field configuration created, and disabled successfully!"
+msgstr "ميدان التكوين التي تم إنشاؤها، وتعطيل بنجاح!"
+
+#: classes/admin/ajax.php:267
+msgid "Field configuration removed succesfully!"
+msgstr "إزالة حقل التكوين بنجاح!"
+
+#: classes/admin/ajax.php:272
+msgid ""
+"Sorry, you can only remove a default field configuration, not the actual "
+"field itself, if you want to remove it from the form, please use disable."
+msgstr "عذراً، يمكنك فقط إزالة تكوين حقل افتراضي، لا الحقل الفعلي نفسه، إذا كنت ترغب في إزالته من النموذج، الرجاء استخدام تعطيل."
+
+#: classes/admin/cpt.php:203
+msgid "WPJM Custom Fields"
+msgstr "الحقول المخصصة وبجم"
+
+#: classes/admin/cpt.php:204
+msgid "WPJM Custom Field"
+msgstr "الحقل المخصص وبجم"
+
+#: classes/admin/cpt.php:226
+msgid "Disabled (%s)"
+msgid_plural "Disabled (%s)"
+msgstr[0] "معطل (% s)"
+msgstr[1] "معطل (% s)"
+msgstr[2] "معطل (% s)"
+msgstr[3] "معطل (% s)"
+msgstr[4] "معطل (% s)"
+msgstr[5] "معطل (% s)"
+
+#: classes/admin/cpt.php:235
+msgid "Enabled (%s)"
+msgid_plural "Enabled (%s)"
+msgstr[0] "تمكين (% s)"
+msgstr[1] "تمكين (% s)"
+msgstr[2] "تمكين (% s)"
+msgstr[3] "تمكين (% s)"
+msgstr[4] "تمكين (% s)"
+msgstr[5] "تمكين (% s)"
+
+#: classes/admin/list-table.php:61
+msgid " Field"
+msgstr " حقل"
+
+#: classes/admin/list-table.php:196 classes/admin/settings.php:272
+msgid "Field Data"
+msgstr "حقل البيانات"
+
+#: classes/admin/list-table.php:205
+msgid "Fields"
+msgstr "الحقول"
+
+#: classes/admin/list-table.php:211
+msgid "View"
+msgstr "طريقة العرض"
+
+#: classes/admin/list-table.php:266
+msgid "Disabled Field"
+msgstr "حقل ذوي"
+
+#: classes/admin/list-table.php:267
+msgid "Default Field"
+msgstr "الحقل الافتراضي"
+
+#: classes/admin/list-table.php:267 classes/widget.php:19
+msgid "Custom Field"
+msgstr "حقل مخصص"
+
+#: classes/admin/list-table.php:267
+msgid "Custom Default Field"
+msgstr "الحقل الافتراضي المخصص"
+
+#: classes/admin/list-table.php:268
+msgid "Required Field"
+msgstr "حقل مطلوب"
+
+#: classes/admin/list-table.php:404
+msgid ""
+"Below you will find all of the fields that have been customized.  This "
+"includes newly created custom ones, as well as any default fields that have "
+"been customized."
+msgstr "أدناه سوف تجد كافة الحقول التي تم تخصيصها.  وهذا يشمل تلك المخصصة التي تم إنشاؤها حديثا، فضلا عن أي الحقول الافتراضية التي تم تخصيصها."
+
+#: classes/admin/list-table.php:413
+msgid ""
+"The default fields below WILL include any custom configuration you have made"
+" to them."
+msgstr "سوف تشمل الحقول الافتراضية أدناه أي تكوين مخصص قمت بها إليها."
+
+#: classes/admin/list-table.php:534 includes/tgmpa.php:1397
+msgid "Status"
+msgstr "مركز"
+
+#: classes/admin/list-table.php:535 classes/admin/modal.php:68
+#: classes/admin/modal.php:343
+msgid "Meta Key"
+msgstr "مفتاح ميتا"
+
+#: classes/admin/list-table.php:536 classes/admin/modal.php:75
+#: classes/translations.php:91 includes/tgmpa.php:1396
+msgid "Type"
+msgstr "نوع"
+
+#: classes/admin/list-table.php:537 classes/admin/modal.php:107
+#: classes/admin/modal.php:169 classes/translations.php:92
+msgid "Label"
+msgstr "التسمية"
+
+#: classes/admin/list-table.php:538 classes/admin/modal.php:114
+msgid "Description"
+msgstr "الوصف"
+
+#: classes/admin/list-table.php:539 classes/admin/modal.php:121
+msgid "Placeholder"
+msgstr "العنصر النائب"
+
+#: classes/admin/list-table.php:540 classes/admin/modal.php:128
+#: classes/admin/modal.php:297
+msgid "Priority"
+msgstr "أولوية"
+
+#: classes/admin/list-table.php:541 classes/admin/modal.php:157
+#: classes/translations.php:64 classes/translations.php:80
+msgid "Options"
+msgstr "خيارات"
+
+#: classes/admin/list-table.php:542 classes/admin/modal.php:197
+#: classes/admin/modal.php:204
+msgid "Output"
+msgstr "الإخراج"
+
+#: classes/admin/list-table.php:543 classes/admin/modal.php:211
+msgid "Output As"
+msgstr "الإخراج"
+
+#: classes/admin/list-table.php:544
+msgid "Output Show Label"
+msgstr "الإخراج إظهار تسمية"
+
+#: classes/admin/list-table.php:545
+msgid "Origin"
+msgstr "الأصل"
+
+#: classes/admin/list-table.php:546
+msgid "Post ID"
+msgstr "معرف الوظيفة"
+
+#: classes/admin/list-table.php:615
+msgid "Delete"
+msgstr "حذف"
+
+#: classes/admin/list-table.php:616 classes/translations.php:68
+msgid "Disable"
+msgstr "تعطيل"
+
+#: classes/admin/list-table.php:617 classes/admin/settings.php:111
+#: classes/admin/settings.php:126 classes/admin/settings.php:141
+#: classes/admin/settings.php:162 classes/admin/settings.php:177
+#: classes/admin/settings.php:192 classes/admin/settings.php:246
+#: classes/translations.php:67
+msgid "Enable"
+msgstr "تمكين"
+
+#: classes/admin/list-table.php:643
+msgid "Default <span class=\"count\">(%s)</span>"
+msgid_plural "Default <span class=\"count\">(%s)</span>"
+msgstr[0] "الافتراضي <span class=\"count\"> (% s)</span>"
+msgstr[1] "الافتراضي <span class=\"count\"> (% s)</span>"
+msgstr[2] "الافتراضي <span class=\"count\"> (% s)</span>"
+msgstr[3] "الافتراضي <span class=\"count\"> (% s)</span>"
+msgstr[4] "الافتراضي <span class=\"count\"> (% s)</span>"
+msgstr[5] "الافتراضي <span class=\"count\"> (% s)</span>"
+
+#: classes/admin/list-table.php:646
+msgid "Custom <span class=\"count\">(%s)</span>"
+msgid_plural "Custom <span class=\"count\">(%s)</span>"
+msgstr[0] "مخصص <span class=\"count\"> (% s)</span>"
+msgstr[1] "مخصص <span class=\"count\"> (% s)</span>"
+msgstr[2] "مخصص <span class=\"count\"> (% s)</span>"
+msgstr[3] "مخصص <span class=\"count\"> (% s)</span>"
+msgstr[4] "مخصص <span class=\"count\"> (% s)</span>"
+msgstr[5] "مخصص <span class=\"count\"> (% s)</span>"
+
+#: classes/admin/list-table.php:649
+msgid "Enabled <span class=\"count\">(%s)</span>"
+msgid_plural "Enabled <span class=\"count\">(%s)</span>"
+msgstr[0] "تمكين <span class=\"count\"> (% s)</span>"
+msgstr[1] "تمكين <span class=\"count\"> (% s)</span>"
+msgstr[2] "تمكين <span class=\"count\"> (% s)</span>"
+msgstr[3] "تمكين <span class=\"count\"> (% s)</span>"
+msgstr[4] "تمكين <span class=\"count\"> (% s)</span>"
+msgstr[5] "تمكين <span class=\"count\"> (% s)</span>"
+
+#: classes/admin/list-table.php:652
+msgid "Disabled <span class=\"count\">(%s)</span>"
+msgid_plural "Disabled <span class=\"count\">(%s)</span>"
+msgstr[0] "ذوي <span class=\"count\"> (% s)</span>"
+msgstr[1] "ذوي <span class=\"count\"> (% s)</span>"
+msgstr[2] "ذوي <span class=\"count\"> (% s)</span>"
+msgstr[3] "ذوي <span class=\"count\"> (% s)</span>"
+msgstr[4] "ذوي <span class=\"count\"> (% s)</span>"
+msgstr[5] "ذوي <span class=\"count\"> (% s)</span>"
+
+#: classes/admin/list-table.php:774
+msgid "Select All"
+msgstr "حدد كافة"
+
+#: classes/admin/modal.php:60
+msgid "Configuration"
+msgstr "التكوين"
+
+#: classes/admin/modal.php:65
+msgid "Config"
+msgstr "التهيئة"
+
+#: classes/admin/modal.php:69
+msgid "Should be something unique and lowercase, like <code>job_pay</code>"
+msgstr "ينبغي أن يكون شيئا فريداً وأحرف صغيرة، مثل <code>job_pay</code>"
+
+#: classes/admin/modal.php:76
+msgid "Textbox, WP-Editor, Dropdown, Upload, etc."
+msgstr "القائمة المنسدلة لمربع نص، الفسفور الأبيض--محرر،، تحميل، إلخ."
+
+#: classes/admin/modal.php:82
+msgid "Multiple"
+msgstr "متعدد"
+
+#: classes/admin/modal.php:83
+msgid "Allow multiple files to be selected in select file window."
+msgstr "السماح باختيار أكثر من ملف من نافذة اختيار الملفات"
+
+#: classes/admin/modal.php:89 classes/admin/modal.php:336
+msgid "Default"
+msgstr "الافتراضي"
+
+#: classes/admin/modal.php:90
+msgid "Default item(s) to select, not required."
+msgstr "الافتراضي العنصر (العناصر) تحديد، ليس مطلوباً."
+
+#: classes/admin/modal.php:96
+msgid "Taxonomy"
+msgstr "التصنيف"
+
+#: classes/admin/modal.php:97
+msgid ""
+"<a target=\"_blank\" "
+"href=\"http://codex.wordpress.org/Taxonomies\">WordPress Taxonomy</a>"
+msgstr ""
+
+#: classes/admin/modal.php:111
+msgid "This will be the label next to or above your field."
+msgstr "ستكون هذه التسمية بجوار أو أعلى الحقل الخاص بك."
+
+#: classes/admin/modal.php:118
+msgid "This should be the help text below the field."
+msgstr "وهذا ينبغي أن يكون نص التعليمات أدناه الحقل."
+
+#: classes/admin/modal.php:125
+msgid "This text you are reading."
+msgstr "هذا النص كنت تقرأ."
+
+#: classes/admin/modal.php:129
+msgid ""
+"Highest number will be the last field on the form, can include decimal."
+msgstr "عدد أعلى سوف يكون الحقل الأخير في النموذج، ويمكن أن تتضمن العلامة العشرية."
+
+#: classes/admin/modal.php:135
+msgid "Max Length"
+msgstr "اقصي عدد أحرف مسموح به"
+
+#: classes/admin/modal.php:136
+msgid "Max characters allowed in field (including spaces)"
+msgstr "أقصي عدد أحرف مسموح به في الحقل( شاملاً الفراغات)"
+
+#: classes/admin/modal.php:143
+msgid "Visibility"
+msgstr ""
+
+#: classes/admin/modal.php:144
+msgid "If enabled this field will not show on frontend."
+msgstr ""
+
+#: classes/admin/modal.php:149 includes/tgmpa.php:1200
+msgid "Required"
+msgstr "مطلوب"
+
+#: classes/admin/modal.php:161 classes/translations.php:96
+msgid "Value"
+msgstr "القيمة"
+
+#: classes/admin/modal.php:177
+msgid "Default Selection"
+msgstr "التحديد الافتراضي"
+
+#: classes/admin/modal.php:186
+msgid "Disabled Option"
+msgstr "خيار ذوي"
+
+#: classes/admin/modal.php:205
+msgid "Automatically output on the Job/Resume listing."
+msgstr "الإخراج تلقائياً في قائمة الوظائف/السيرة الذاتية."
+
+#: classes/admin/modal.php:207
+msgid "Do not automatically output the value"
+msgstr "لا تلقائياً إلى إخراج القيمة"
+
+#: classes/admin/modal.php:212 classes/admin/modal.php:282
+msgid "Choose what you want the value to be output as."
+msgstr "اختر ما تريد القيمة يكون الإخراج كما."
+
+#: classes/admin/modal.php:218 classes/widget.php:180
+msgid "oEmbed Width"
+msgstr "oEmbed العرض"
+
+#: classes/admin/modal.php:219 classes/widget.php:178 classes/widget.php:183
+msgid ""
+"Set a specific width for oEmbed (in pixels), use only numbers do not include"
+" px."
+msgstr "تعيين عرض معين ل oEmbed (بكسل)، استخدم فقط ولا تشمل الأرقام px."
+
+#: classes/admin/modal.php:219 classes/admin/modal.php:227
+#: classes/admin/modal.php:242 classes/admin/modal.php:250
+#: classes/admin/modal.php:258
+msgid "<strong>(optional)</strong>"
+msgstr "<strong>(اختياري)</strong>"
+
+#: classes/admin/modal.php:226 classes/widget.php:175
+msgid "oEmbed Height"
+msgstr "oEmbed الطول"
+
+#: classes/admin/modal.php:227
+msgid ""
+"Set a specific height for oEmbed (in pixels), use only numbers do not "
+"include px."
+msgstr "تعيين ارتفاع معين ل oEmbed (بكسل)، استخدم فقط ولا تشمل الأرقام px."
+
+#: classes/admin/modal.php:234
+msgid "Allow Download"
+msgstr "السماح بتحميل"
+
+#: classes/admin/modal.php:235 classes/widget.php:189
+msgid ""
+"Will display a download link for browsers incompatible with HTML5 video."
+msgstr "سيتم عرض رابط تحميل للمتصفحات متوافق مع HTML5 الفيديو."
+
+#: classes/admin/modal.php:241
+msgid "Poster URL"
+msgstr "URL ملصق"
+
+#: classes/admin/modal.php:242 classes/widget.php:193
+msgid ""
+"A URL for an image to show until the user plays or seeks. If not specified, "
+"the first frame of video will be used when it becomes available."
+msgstr "عنوان URL لصورة إظهار حتى المستخدم يلعب أو يسعى. إذا لم يكن محدداً، سيتم استخدام الإطار الأول من الفيديو عندما تصبح متوفرة."
+
+#: classes/admin/modal.php:249 classes/widget.php:195
+msgid "Video Height"
+msgstr "ارتفاع الفيديو"
+
+#: classes/admin/modal.php:250 classes/widget.php:198
+msgid ""
+"Set a specific height for video (in pixels), use only numbers do not include"
+" px."
+msgstr "تعيين ارتفاع معين لاستخدام الفيديو (بكسل)، فقط ولا تشمل الأرقام px."
+
+#: classes/admin/modal.php:257 classes/widget.php:200
+msgid "Video Width"
+msgstr "عرض الفيديو"
+
+#: classes/admin/modal.php:258 classes/widget.php:203
+msgid ""
+"Set a specific width for video (in pixels), use only numbers do not include "
+"px."
+msgstr "تعيين عرض معين لاستخدام الفيديو (بكسل)، فقط ولا تشمل الأرقام px."
+
+#: classes/admin/modal.php:265
+msgid "Checkbox True"
+msgstr "خانة الاختيار True"
+
+#: classes/admin/modal.php:266 classes/widget.php:208
+msgid "Custom caption to use if checkbox field type is checked."
+msgstr "التسمية التوضيحية مخصص استخدام إذا تم تحديد خانة الاختيار نوع الحقل."
+
+#: classes/admin/modal.php:268 classes/translations.php:62
+#: classes/widget.php:207
+msgid "Yes"
+msgstr "نعم"
+
+#: classes/admin/modal.php:273
+msgid "Checkbox False"
+msgstr "خانة الاختيار كاذبة"
+
+#: classes/admin/modal.php:274
+msgid "Custom caption to use if checkbox field type is not checked"
+msgstr "التسمية التوضيحية مخصص استخدام إذا لم يتم تحديد خانة الاختيار نوع الحقل"
+
+#: classes/admin/modal.php:276 classes/translations.php:63
+#: classes/widget.php:211
+msgid "No"
+msgstr "لا"
+
+#: classes/admin/modal.php:281 classes/translations.php:84
+msgid "Caption"
+msgstr "التسمية التوضيحية"
+
+#: classes/admin/modal.php:284
+msgid "My Link"
+msgstr "بلدي صلة"
+
+#: classes/admin/modal.php:289
+msgid "Classes"
+msgstr "فئات"
+
+#: classes/admin/modal.php:290
+msgid "Add any additional classes separated by spaces"
+msgstr "إضافة أي دروس إضافية مفصولة بمسافات"
+
+#: classes/admin/modal.php:292
+msgid "my-class my-custom-class my-other-class"
+msgstr "بي-فئة مخصصة بي بي-غيره-فئة"
+
+#: classes/admin/modal.php:298
+msgid "<strong>optional</strong>"
+msgstr "<strong>اختياري</strong>"
+
+#: classes/admin/modal.php:300
+msgid "1.5"
+msgstr "1.5"
+
+#: classes/admin/modal.php:305
+msgid "Show Label"
+msgstr "إظهار التسمية"
+
+#: classes/admin/modal.php:314
+msgid "Populate"
+msgstr "ملء"
+
+#: classes/admin/modal.php:320
+msgid ""
+"You can view, edit, or add user meta using my free open source <strong><a "
+"target=\"_blank\" href=\"https://wordpress.org/plugins/user-meta-"
+"display/\">User Meta Display</a></strong> plugin."
+msgstr "يمكنك عرض، تحرير، أو إضافة التعريف المستخدم باستخدام بلدي المساعد <strong><a target=\"_blank\" href=\"https://wordpress.org/plugins/user-meta-display/\"> عرض التعريف المستخدم</a></strong> الحرة والمفتوحة المصدر."
+
+#: classes/admin/modal.php:324
+msgid "Auto Populate"
+msgstr "تجميع السيارات"
+
+#: classes/admin/modal.php:325
+msgid "This box must be checked to enable auto populate."
+msgstr "يجب أن يكون اختيار هذا المربع لتمكين التلقائي ملء."
+
+#: classes/admin/modal.php:330
+msgid "Auto Save"
+msgstr "إنقاذ السيارات"
+
+#: classes/admin/modal.php:331
+msgid "Automatically save value to user's meta."
+msgstr "تلقائياً بحفظ القيمة للتعريف الخاص بالمستخدم."
+
+#: classes/admin/modal.php:337
+msgid "Default value for logged in users."
+msgstr ""
+
+#: classes/admin/modal.php:344
+msgid ""
+"Specify the <strong>USER</strong> meta key to auto populate this field from "
+"if it exists (and user is logged in).  If meta key is set and meta exists "
+"for user, it will take priority over default value.<br /><br />If using a "
+"meta key from WPJM or WPRM you <strong>must</strong> prepend it with an "
+"underscore.  <i>As example, company_website would be "
+"<code>_company_website</code></i>"
+msgstr ""
+
+#: classes/admin/modal.php:346
+msgid "_company_facebook"
+msgstr "_company_facebook"
+
+#: classes/admin/modal.php:368 classes/admin/modal.php:381
+msgid "Packages"
+msgstr ""
+
+#: classes/admin/modal.php:375
+msgid "Require"
+msgstr "مطلوب"
+
+#: classes/admin/modal.php:376
+msgid "Require specific packages to display this field"
+msgstr ""
+
+#: classes/admin/modal.php:382
+msgid ""
+"Select packages you want this field to show for.  Require must be enabled "
+"for this to work."
+msgstr ""
+
+#: classes/admin/modal.php:467
+msgid "Add Another"
+msgstr "إضافة آخر"
+
+#: classes/admin/modal.php:497
+msgid "Remove"
+msgstr "إزالة"
+
+#: classes/admin/modal.php:529
+msgid "WP Job Manager"
+msgstr "الفسفور الأبيض بين وظيفة مدير"
+
+#: classes/admin/modal.php:530
+msgid "Field Editor"
+msgstr "محرر الحقل"
+
+#: classes/admin/modal.php:597 classes/translations.php:65
+msgid "Cancel"
+msgstr "إلغاء الأمر"
+
+#: classes/admin/modal.php:598 classes/translations.php:50
+msgid "Save Field"
+msgstr "حفظ الحقل"
+
+#: classes/admin/settings-fields.php:131
+msgid ""
+"No fields to remove!  A button will appear here when there is field data you"
+" can remove."
+msgstr "لا توجد حقول إزالة!  سوف يظهر زر هنا عندما يكون هناك بيانات حقل يمكنك إزالة."
+
+#: classes/admin/settings-handlers.php:34
+msgid "All custom posts removed!"
+msgstr "إزالة كافة وظائف مخصصة!"
+
+#: classes/admin/settings-handlers.php:42
+msgid "There are not any fields that need options purged."
+msgstr "لا توجد أي الحقول التي تحتاج إلى إزالة الخيارات."
+
+#: classes/admin/settings-handlers.php:49
+msgid "Options were purged from"
+msgstr "تم إزالة خيارات من"
+
+#: classes/admin/settings-handlers.php:49
+msgid "fields:"
+msgstr "الحقول:"
+
+#: classes/admin/settings.php:44 classes/admin.php:86 classes/admin.php:87
+msgid "Field Editor Settings"
+msgstr "إعدادات محرر الحقل"
+
+#: classes/admin/settings.php:110 classes/admin/settings.php:161
+msgid "Custom Required Label"
+msgstr "التسمية المطلوبة مخصصة"
+
+#: classes/admin/settings.php:112 classes/admin/settings.php:163
+msgid "Use a custom label for required fields instead of optional fields."
+msgstr "استخدام بطاقة عنونة مخصصة للحقول المطلوبة بدلاً من الحقول الاختيارية."
+
+#: classes/admin/settings.php:118 classes/admin/settings.php:169
+msgid "Required Field Label"
+msgstr "تسمية الحقل المطلوب"
+
+#: classes/admin/settings.php:120 classes/admin/settings.php:171
+msgid "<small>(required)</small>"
+msgstr "<small>(مطلوب)</small>"
+
+#: classes/admin/settings.php:125 classes/admin/settings.php:176
+msgid "Custom Optional Label"
+msgstr "تسمية اختيارية مخصصة"
+
+#: classes/admin/settings.php:127 classes/admin/settings.php:178
+msgid ""
+"Use a custom label for optional fields instead of required fields. (default "
+"is optional)"
+msgstr "استخدام بطاقة عنونة مخصصة لحقول اختيارية بدلاً من الحقول المطلوبة. (الافتراضي اختياري)"
+
+#: classes/admin/settings.php:133 classes/admin/settings.php:184
+msgid "Optional Field Label"
+msgstr "تسمية حقل اختياري"
+
+#: classes/admin/settings.php:135 classes/admin/settings.php:186
+msgid "<small>(optional)</small>"
+msgstr "<small>(اختياري)</small>"
+
+#: classes/admin/settings.php:140 classes/admin/settings.php:191
+msgid "Custom Submit Button"
+msgstr "الزر إرسال مخصص"
+
+#: classes/admin/settings.php:142 classes/admin/settings.php:193
+msgid "Use a custom value for the submit button (on initial submit page)"
+msgstr "استخدام قيمة مخصصة لزر الإرسال (في صفحة الإرسال الأولى)"
+
+#: classes/admin/settings.php:148 classes/admin/settings.php:199
+msgid "Submit Button Caption"
+msgstr "يقدم التسمية التوضيحية للزر"
+
+#: classes/admin/settings.php:150 classes/admin/settings.php:201
+msgid "Preview &rarr;"
+msgstr "معاينة &rarr;"
+
+#: classes/admin/settings.php:151 classes/admin/settings.php:202
+msgid ""
+"The default button is <code>Preview &rarr;</code>, use "
+"<code>&amp;rarr;</code> for the arrow"
+msgstr "الزر الافتراضي <code>معاينة &rarr;</code>، استخدم <code>&amp; رار؛</code> للسهم"
+
+#: classes/admin/settings.php:156
+msgid "Resume"
+msgstr "السيرة الذاتية"
+
+#: classes/admin/settings.php:207
+msgid "Support"
+msgstr "الدعم"
+
+#: classes/admin/settings.php:217
+msgid "Backup"
+msgstr "النسخ الاحتياطي"
+
+#: classes/admin/settings.php:221
+msgid "Create Backup!"
+msgstr "إنشاء نسخة احتياطية!"
+
+#: classes/admin/settings.php:224
+msgid "Generate Backup"
+msgstr "إنشاء النسخ الاحتياطي"
+
+#: classes/admin/settings.php:225
+msgid "Generate and download a backup of all fields."
+msgstr "إنشاء وتحميل نسخة احتياطية من كافة المجالات."
+
+#: classes/admin/settings.php:230
+msgid "Import Backup!"
+msgstr "استيراد نسخة احتياطية!"
+
+#: classes/admin/settings.php:233
+msgid "Import Backup"
+msgstr "استيراد النسخة الاحتياطية"
+
+#: classes/admin/settings.php:234
+msgid ""
+"Import a previously generated backup for custom fields.  This uses the "
+"default WordPress import feature, if you do not see a file upload after "
+"clicking this button, make sure to import using WordPress importer."
+msgstr "استيراد النسخ احتياطي التي تم إنشاؤها مسبقاً للحقول المخصصة.  هذا يستخدم الافتراضي استيراد وورد الميزة، إذا لم تكن تشاهد ملف تحميل بعد النقر فوق هذا الزر، تأكد من استيراد باستخدام وورد المستورد."
+
+#: classes/admin/settings.php:240
+msgid "Debug"
+msgstr "التصحيح"
+
+#: classes/admin/settings.php:245
+msgid "Enable Bug Reporter"
+msgstr "تمكن مراسل الشوائب"
+
+#: classes/admin/settings.php:247
+msgid ""
+"Enable the bug report icon in the top right corner to submit bug reports"
+msgstr "تمكين رمز تقرير الشوائب في الزاوية اليمنى العليا تقديم تقارير الشوائب"
+
+#: classes/admin/settings.php:253
+msgid "I understand, remove all data!"
+msgstr "أنا أفهم، وإزالة كافة البيانات!"
+
+#: classes/admin/settings.php:256
+msgid "Remove All"
+msgstr "قم بإزالة كافة"
+
+#: classes/admin/settings.php:257
+msgid "This will remove all custom and customized field data!"
+msgstr "يؤدي هذا إلى إزالة كافة بيانات حقل مخصص ومخصصة!"
+
+#: classes/admin/settings.php:262
+msgid "Purge Options!"
+msgstr "إزالة خيارات!"
+
+#: classes/admin/settings.php:265
+msgid "Purge Options"
+msgstr "إزالة خيارات"
+
+#: classes/admin/settings.php:266
+msgid ""
+"Older versions of this plugin saved option values for fields that do not "
+"require them. You can purge those values by clicking this button."
+msgstr "حفظ الإصدارات القديمة من هذا البرنامج المساعد الخيار قيم للحقول التي لا تتطلب منهم. يمكنك إزالة تلك القيم بواسطة النقر فوق هذا الزر."
+
+#: classes/admin/settings.php:278
+msgid "About"
+msgstr "حول"
+
+#: classes/admin.php:147
+msgid "Fields Per Page"
+msgstr "الحقول في الصفحة الواحدة"
+
+#: classes/admin.php:156
+msgid "%1$s Field"
+msgstr "% 1$ s الحقل"
+
+#: classes/admin.php:221 classes/resume/menu.php:34 classes/resume/menu.php:35
+msgid "Resume Fields"
+msgstr "استئناف الحقول"
+
+#: classes/admin.php:246
+msgid "%1$s Fields"
+msgstr "% 1$ s الحقول"
+
+#: classes/admin.php:247
+msgid "Company Fields"
+msgstr "حقول الشركة"
+
+#: classes/assets.php:62
+msgid "Done"
+msgstr ""
+
+#: classes/assets.php:63
+msgid "Today"
+msgstr ""
+
+#: classes/auto-output.php:170
+msgid "Standard Value Output (Regular text)"
+msgstr "قيمة الإخراج القياسي (نص عادي)"
+
+#: classes/auto-output.php:171
+msgid "Link"
+msgstr "وصلة"
+
+#: classes/auto-output.php:172
+msgid "Image"
+msgstr "الصورة"
+
+#: classes/auto-output.php:173
+msgid "oEmbed (YouTube/Vimeo/SoundCloud etc)"
+msgstr "oEmbed (يوتيوب/Vimeo/سوندكلود إلخ)"
+
+#: classes/auto-output.php:174
+msgid "HTML5 Video"
+msgstr "فيديو HTML5"
+
+#: classes/auto-output.php:175
+msgid "Checkbox Output Options"
+msgstr "خيارات الإخراج خانة الاختيار"
+
+#: classes/auto-output.php:176
+msgid "Checkbox (Only show label if checked)"
+msgstr "خانة الاختيار (فقط إظهار التسمية إذا راجعت)"
+
+#: classes/auto-output.php:177
+msgid "Checkbox (Custom True/False Labels)"
+msgstr "خانة الاختيار (True/False التسميات المخصصة)"
+
+#: classes/auto-output.php:294
+msgid "Jobera Theme"
+msgstr ""
+
+#: classes/auto-output.php:295
+msgid "Single Job Listing Above Logo"
+msgstr ""
+
+#: classes/auto-output.php:296
+msgid "Single Job Listing Below Social Links"
+msgstr ""
+
+#: classes/auto-output.php:297
+msgid "Single Job Listing Below Location Map"
+msgstr ""
+
+#: classes/auto-output.php:336 classes/auto-output.php:346
+msgid "Jobify Theme"
+msgstr "جوبيفي الموضوع"
+
+#: classes/auto-output.php:337
+msgid "Single Job Listing Before"
+msgstr "وظيفة واحدة من القائمة قبل"
+
+#: classes/auto-output.php:338
+msgid "Single Job Listing After"
+msgstr "وظيفة واحدة من القائمة بعد"
+
+#: classes/auto-output.php:339
+msgid "Single Job Listing Start"
+msgstr "وظيفة واحدة قائمة ابدأ"
+
+#: classes/auto-output.php:340
+msgid "Single Job Listing End"
+msgstr "نهاية قائمة مهمة مفردة"
+
+#: classes/auto-output.php:347
+msgid "Single Resume Listing Before"
+msgstr "استئناف واحد من القائمة قبل"
+
+#: classes/auto-output.php:348
+msgid "Single Resume Listing After"
+msgstr "استئناف واحد من القائمة بعد"
+
+#: classes/auto-output.php:349
+msgid "Single Resume Listing Start"
+msgstr "سيرة ذاتية واحدة قائمة ابدأ"
+
+#: classes/auto-output.php:350
+msgid "Single Resume Listing End"
+msgstr "نهاية سرد سيرة ذاتية واحدة"
+
+#: classes/auto-output.php:380
+msgid "Single Job Page"
+msgstr "صفحة مهمة مفردة"
+
+#: classes/auto-output.php:381
+msgid "Top of Job Listing"
+msgstr "أعلى قائمة الوظائف"
+
+#: classes/auto-output.php:382
+msgid "Before Job Meta"
+msgstr "قبل الوظيفة الوصفية"
+
+#: classes/auto-output.php:383
+msgid "Job Meta Start (before Job Type)"
+msgstr "الوظيفة الوصفية ابدأ (قبل نوع الوظيفة)"
+
+#: classes/auto-output.php:384
+msgid "Job Meta End (after Date Posted)"
+msgstr "نهاية ميتا الوظيفة (بعد تاريخ النشر)"
+
+#: classes/auto-output.php:385
+msgid "After Job Meta"
+msgstr "بعد تعريف الوظيفة"
+
+#: classes/auto-output.php:386
+msgid "Before Company Meta"
+msgstr "قبل شركة ميتا"
+
+#: classes/auto-output.php:387
+msgid "After Company Meta"
+msgstr "بعد تعريف الشركة"
+
+#: classes/auto-output.php:388
+msgid "Bottom of Job Description"
+msgstr "في نهاية طلب التقديم"
+
+#: classes/auto-output.php:389
+msgid "Bottom of Job Listing"
+msgstr "أسفل قائمة الوظائف"
+
+#: classes/auto-output.php:392
+msgid "Jobs List Page"
+msgstr "صفحة قائمة الوظائف"
+
+#: classes/auto-output.php:393
+msgid "Jobs List Meta Start"
+msgstr "وظائف قائمة ميتا ابدأ"
+
+#: classes/auto-output.php:394
+msgid "Jobs List Meta End"
+msgstr "وظائف قائمة ميتا نهاية"
+
+#: classes/auto-output.php:424
+msgid "---Single Resume Page"
+msgstr "---صفحة السيرة الذاتية واحد"
+
+#: classes/auto-output.php:425
+msgid "Meta Start (before Category)"
+msgstr "ابدأ ميتا (قبل الفئة)"
+
+#: classes/auto-output.php:426
+msgid "Meta End (after Date Posted)"
+msgstr "نهاية ميتا (بعد تاريخ النشر)"
+
+#: classes/auto-output.php:429
+msgid "Top of Resume Listing"
+msgstr "أعلى قائمة السيرة الذاتية"
+
+#: classes/auto-output.php:430
+msgid "Bottom of Resume Listing"
+msgstr "أسفل قائمة السيرة الذاتية"
+
+#: classes/field-types.php:181
+msgid "None"
+msgstr "لا شيء"
+
+#: classes/field-types.php:275
+msgid "No Value Field Types"
+msgstr ""
+
+#: classes/field-types.php:338
+msgid "Checkbox"
+msgstr "خانة الاختيار"
+
+#: classes/field-types.php:341
+msgid "Multi-Select"
+msgstr "تحديد متعدد"
+
+#: classes/field-types.php:342 classes/field-types.php:375
+msgid "Taxonomy Field Types"
+msgstr "تصنيف أنواع الحقول"
+
+#: classes/field-types.php:343 classes/field-types.php:376
+msgid "Taxonomy Checklist"
+msgstr "قائمة التصنيف"
+
+#: classes/field-types.php:344 classes/field-types.php:377
+msgid "Taxonomy Dropdown"
+msgstr "القائمة المنسدلة للتصنيف"
+
+#: classes/field-types.php:345 classes/field-types.php:378
+msgid "Taxonomy Multi-Select Dropdown"
+msgstr "تصنيف متعدد حدد القائمة المنسدلة"
+
+#: classes/fields.php:685
+msgid "No field data found!"
+msgstr "لا توجد بيانات الحقل وجدت!"
+
+#: classes/job/fields.php:307 classes/resume/fields.php:258
+msgid "(optional)"
+msgstr "(اختياري)"
+
+#: classes/job/writepanels.php:26 wp-job-manager-field-editor.php:350
+#: wp-job-manager-field-editor.php:352
+msgid "Job"
+msgstr "الوظيفة"
+
+#: classes/requires.php:89 includes/tgmpa.php:199
+msgid "Install Required Plugins"
+msgstr "تثبيت الإضافات المطلوبة"
+
+#: classes/requires.php:90 includes/tgmpa.php:200
+msgid "Install Plugins"
+msgstr "تثبيت الإضافات"
+
+#: classes/requires.php:91 includes/tgmpa.php:201
+msgid "Installing Plugin: %s"
+msgstr "تثبيت البرنامج المساعد: % s"
+
+#: classes/requires.php:93
+msgid "Something went wrong with the plugin API."
+msgstr "حدث خطأ مع البرنامج المساعد API."
+
+#: classes/requires.php:94
+msgid "This plugin requires the following plugin: %1$s."
+msgid_plural "This plugin requires the following plugins: %1$s."
+msgstr[0] "ويتطلب هذا البرنامج المساعد المساعد التالية: % 1$ s."
+msgstr[1] "ويتطلب هذا البرنامج المساعد المساعد التالية: % 1$ s."
+msgstr[2] "ويتطلب هذا البرنامج المساعد الإضافات التالية: % 1$ s."
+msgstr[3] "ويتطلب هذا البرنامج المساعد الإضافات التالية: % 1$ s."
+msgstr[4] "ويتطلب هذا البرنامج المساعد الإضافات التالية: % 1$ s."
+msgstr[5] "ويتطلب هذا البرنامج المساعد الإضافات التالية: % 1$ s."
+
+#: classes/requires.php:96
+msgid "This plugin recommends the following plugin: %1$s."
+msgid_plural "This plugin recommends the following plugins: %1$s."
+msgstr[0] "ويوصي هذا البرنامج المساعد المساعد التالية: % 1$ s."
+msgstr[1] "ويوصي هذا البرنامج المساعد المساعد التالية: % 1$ s."
+msgstr[2] "ويوصي هذا البرنامج المساعد الإضافات التالية: % 1$ s."
+msgstr[3] "ويوصي هذا البرنامج المساعد الإضافات التالية: % 1$ s."
+msgstr[4] "ويوصي هذا البرنامج المساعد الإضافات التالية: % 1$ s."
+msgstr[5] "ويوصي هذا البرنامج المساعد الإضافات التالية: % 1$ s."
+
+#: classes/requires.php:98 includes/tgmpa.php:205
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin."
+" Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] "عذراً، ولكن ليس لديك الأذونات الصحيحة لتثبيت البرنامج المساعد % s. اتصل بالمسؤول لهذا الموقع للحصول على تعليمات حول الحصول على تثبيت البرنامج المساعد."
+msgstr[1] "عذراً، ولكن ليس لديك الأذونات الصحيحة لتثبيت البرنامج المساعد % s. اتصل بالمسؤول لهذا الموقع للحصول على تعليمات حول الحصول على تثبيت البرنامج المساعد."
+msgstr[2] "عذراً، ولكن ليس لديك الأذونات الصحيحة لتثبيت الإضافات % s. اتصل بالمسؤول لهذا الموقع للحصول على مساعدة في الحصول على الوظائف الإضافية المثبتة."
+msgstr[3] "عذراً، ولكن ليس لديك الأذونات الصحيحة لتثبيت الإضافات % s. اتصل بالمسؤول لهذا الموقع للحصول على مساعدة في الحصول على الوظائف الإضافية المثبتة."
+msgstr[4] "عذراً، ولكن ليس لديك الأذونات الصحيحة لتثبيت الإضافات % s. اتصل بالمسؤول لهذا الموقع للحصول على مساعدة في الحصول على الوظائف الإضافية المثبتة."
+msgstr[5] "عذراً، ولكن ليس لديك الأذونات الصحيحة لتثبيت الإضافات % s. اتصل بالمسؤول لهذا الموقع للحصول على مساعدة في الحصول على الوظائف الإضافية المثبتة."
+
+#: classes/requires.php:100 includes/tgmpa.php:206
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "المطلوبة التالية البرنامج المساعد غير نشط حاليا: % 1$ s."
+msgstr[1] "المطلوبة التالية البرنامج المساعد غير نشط حاليا: % 1$ s."
+msgstr[2] "التالية المطلوبة الإضافات غير نشط حاليا: % 1$ s."
+msgstr[3] "التالية المطلوبة الإضافات غير نشط حاليا: % 1$ s."
+msgstr[4] "التالية المطلوبة الإضافات غير نشط حاليا: % 1$ s."
+msgstr[5] "التالية المطلوبة الإضافات غير نشط حاليا: % 1$ s."
+
+#: classes/requires.php:102 includes/tgmpa.php:207
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "يوصي التالية البرنامج المساعد غير نشط حاليا: % 1$ s."
+msgstr[1] "يوصي التالية البرنامج المساعد غير نشط حاليا: % 1$ s."
+msgstr[2] "التالية الموصى بها للإضافات، غير نشط حاليا: % 1$ s."
+msgstr[3] "التالية الموصى بها للإضافات، غير نشط حاليا: % 1$ s."
+msgstr[4] "التالية الموصى بها للإضافات، غير نشط حاليا: % 1$ s."
+msgstr[5] "التالية الموصى بها للإضافات، غير نشط حاليا: % 1$ s."
+
+#: classes/requires.php:104 includes/tgmpa.php:208
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] "عذراً، ولكن ليس لديك الأذونات الصحيحة لتفعيل البرنامج المساعد % s. اتصل بالمسؤول لهذا الموقع للحصول على مساعدة في الحصول على البرنامج المساعد المنشط."
+msgstr[1] "عذراً، ولكن ليس لديك الأذونات الصحيحة لتفعيل البرنامج المساعد % s. اتصل بالمسؤول لهذا الموقع للحصول على مساعدة في الحصول على البرنامج المساعد المنشط."
+msgstr[2] "عذراً، ولكن ليس لديك الأذونات الصحيحة لتفعيل الإضافات % s. اتصل بالمسؤول لهذا الموقع للحصول على مساعدة في الحصول على الإضافات المنشط."
+msgstr[3] "عذراً، ولكن ليس لديك الأذونات الصحيحة لتفعيل الإضافات % s. اتصل بالمسؤول لهذا الموقع للحصول على مساعدة في الحصول على الإضافات المنشط."
+msgstr[4] "عذراً، ولكن ليس لديك الأذونات الصحيحة لتفعيل الإضافات % s. اتصل بالمسؤول لهذا الموقع للحصول على مساعدة في الحصول على الإضافات المنشط."
+msgstr[5] "عذراً، ولكن ليس لديك الأذونات الصحيحة لتفعيل الإضافات % s. اتصل بالمسؤول لهذا الموقع للحصول على مساعدة في الحصول على الإضافات المنشط."
+
+#: classes/requires.php:106
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this plugin: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this plugin: %1$s."
+msgstr[0] "البرنامج المساعد التالية تحتاج إلى تحديث للإصدار الأخير ضمان أقصى قدر من التوافق مع هذا البرنامج المساعد: % 1$ s."
+msgstr[1] "البرنامج المساعد التالية تحتاج إلى تحديث للإصدار الأخير ضمان أقصى قدر من التوافق مع هذا البرنامج المساعد: % 1$ s."
+msgstr[2] "الإضافات التالية تحتاج إلى تحديث لما أحدث إصدار ضمان أقصى قدر من التوافق مع هذا البرنامج المساعد: % 1$ s."
+msgstr[3] "الإضافات التالية تحتاج إلى تحديث لما أحدث إصدار ضمان أقصى قدر من التوافق مع هذا البرنامج المساعد: % 1$ s."
+msgstr[4] "الإضافات التالية تحتاج إلى تحديث لما أحدث إصدار ضمان أقصى قدر من التوافق مع هذا البرنامج المساعد: % 1$ s."
+msgstr[5] "الإضافات التالية تحتاج إلى تحديث لما أحدث إصدار ضمان أقصى قدر من التوافق مع هذا البرنامج المساعد: % 1$ s."
+
+#: classes/requires.php:108 includes/tgmpa.php:210
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins."
+" Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] "عذراً، ولكن ليس لديك الأذونات الصحيحة لتحديث البرنامج المساعد % s. اتصل بالمسؤول لهذا الموقع للحصول على تعليمات حول الحصول على تحديث البرنامج المساعد."
+msgstr[1] "عذراً، ولكن ليس لديك الأذونات الصحيحة لتحديث البرنامج المساعد % s. اتصل بالمسؤول لهذا الموقع للحصول على تعليمات حول الحصول على تحديث البرنامج المساعد."
+msgstr[2] "عذراً، ولكن ليس لديك الأذونات الصحيحة لتحديث الإضافات % s. اتصل بالمسؤول لهذا الموقع للحصول على تعليمات حول الحصول على تحديث الإضافات."
+msgstr[3] "عذراً، ولكن ليس لديك الأذونات الصحيحة لتحديث الإضافات % s. اتصل بالمسؤول لهذا الموقع للحصول على تعليمات حول الحصول على تحديث الإضافات."
+msgstr[4] "عذراً، ولكن ليس لديك الأذونات الصحيحة لتحديث الإضافات % s. اتصل بالمسؤول لهذا الموقع للحصول على تعليمات حول الحصول على تحديث الإضافات."
+msgstr[5] "عذراً، ولكن ليس لديك الأذونات الصحيحة لتحديث الإضافات % s. اتصل بالمسؤول لهذا الموقع للحصول على تعليمات حول الحصول على تحديث الإضافات."
+
+#: classes/requires.php:110
+msgid "Install Plugin"
+msgid_plural "Install Plugins"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] "تثبيت الإضافات"
+
+#: classes/requires.php:111
+msgid "Activate Plugin"
+msgid_plural "Activate Plugins"
+msgstr[0] "تنشيط البرنامج المساعد"
+msgstr[1] "تنشيط البرنامج المساعد"
+msgstr[2] "تفعيل الإضافات"
+msgstr[3] "تفعيل الإضافات"
+msgstr[4] "تفعيل الإضافات"
+msgstr[5] "تفعيل الإضافات"
+
+#: classes/requires.php:112 includes/tgmpa.php:213
+msgid "Return to Required Plugins Installer"
+msgstr "الرجوع إلى المثبت الإضافات المطلوبة"
+
+#: classes/requires.php:113 includes/tgmpa.php:215 includes/tgmpa.php:1970
+msgid "Plugin activated successfully."
+msgstr "البرنامج المساعد تنشيط بنجاح."
+
+#: classes/requires.php:114
+msgid "All plugins installed and activated successfully. %s"
+msgstr "جميع الإضافات المثبتة وتشغيلها بنجاح. % s"
+
+#: classes/resume/menu.php:44 classes/resume/menu.php:45
+msgid "Education Fields"
+msgstr "حقول التعليم"
+
+#: classes/resume/menu.php:54 classes/resume/menu.php:55
+msgid "Experience Fields"
+msgstr "ميادين الخبرة"
+
+#: classes/resume/menu.php:64 classes/resume/menu.php:65
+msgid "Links Fields"
+msgstr "يربط حقول"
+
+#: classes/shortcodes.php:46
+msgid "Meta Key was not specified!"
+msgstr "لم يتم تعيين \"مفتاح ميتا\"!"
+
+#: classes/shortcodes.php:50
+msgid "Unable to determine correct job/resume/post ID!"
+msgstr "غير قادر على تحديد الصحيح الوظيفة/استئناف/وظيفة معرف!"
+
+#: classes/translations.php:34
+msgid ""
+"If you continue receive this error, please submit a <a target=\"_blank\" "
+"href=\"%s\">support ticket</a>."
+msgstr "إذا كنت لا تزال تتلقى هذا الخطأ، الرجاء تقديم <a target=\"_blank\" href=\"%s\"> دعم التذاكر</a>."
+
+#: classes/translations.php:35
+msgid ""
+"If you want to edit this field, please click the <strong>Edit</strong> link "
+"from the list table."
+msgstr "إذا كنت ترغب في تحرير هذا الحقل، الرجاء انقر فوق الارتباط <strong>تحرير</strong> من قائمة الجدول."
+
+#: classes/translations.php:36
+msgid "A valid meta key is required!"
+msgstr "مطلوب مفتاح تعريف صحيح!"
+
+#: classes/translations.php:37
+msgid ""
+"Meta keys can NOT have spaces in them, use an underscore instead! As an "
+"example, job shift should be job_shift."
+msgstr "يمكن مفاتيح ميتا لا ممنوع في نفوسهم، استخدام بتسطير أسفل السطر بدلاً من ذلك! وكمثال على ذلك، ينبغي أن تحول الوظيفة job_shift."
+
+#: classes/translations.php:38
+msgid ""
+"If you change the meta key it will be saved as a new field!  You should NOT "
+"do this unless you know what your doing!"
+msgstr ""
+
+#: classes/translations.php:39
+msgid ""
+"The ONLY supported characters for meta keys are a-z (lowercase), 0-9 "
+"(numbers), and _ (underscores, in place of space) for meta keys!<br />Do "
+"<strong>NOT</strong> use any other characters or you will have issues!"
+msgstr ""
+
+#: classes/translations.php:40
+msgid "Spaces are not allowed in this field!"
+msgstr "لا يسمح بالفراغات في هذا المجال!"
+
+#: classes/translations.php:41
+msgid "A valid type is required!"
+msgstr "مطلوب نوع صحيح!"
+
+#: classes/translations.php:42
+msgid "This field is required!"
+msgstr "هذا الحقل مطلوب!"
+
+#: classes/translations.php:43
+msgid ""
+"Options are required for this field type!  Value IS required, label is "
+"optional.  If label is not provided the value will be used instead."
+msgstr "خيارات مطلوبة لنوع الحقل هذا!  القيمة المطلوبة، هو التسمية اختياري.  إذا لم ترد التسمية سيتم استخدام القيمة بدلاً من ذلك."
+
+#: classes/translations.php:44
+msgid ""
+"Option values can NOT contain the asterisk (*) or tilde (~) characters! "
+"Labels are allowed to have these characters, but values can not!"
+msgstr "لا يمكن أن تحتوي على قيم الخيار العلامة النجمية (*) أو حرف التلدة (~)! تسميات مسموح بها لهذه الأحرف، ولكن قيم لا يمكن!"
+
+#: classes/translations.php:45
+msgid "A valid priority is required! Priority must be a numerical value."
+msgstr "مطلوب أولوية صالحة! الأولوية يجب أن تكون قيمة رقمية."
+
+#: classes/translations.php:46
+msgid "Priority must be a numerical value! You CAN use decimals."
+msgstr "الأولوية يجب أن تكون قيمة رقمية! يمكنك استخدام الأرقام العشرية."
+
+#: classes/translations.php:47
+msgid "Add New Field"
+msgstr "إضافة حقل جديد"
+
+#: classes/translations.php:48
+msgid "Edit Field"
+msgstr "تحرير حقل"
+
+#: classes/translations.php:49
+msgid "View Field"
+msgstr "عرض الحقل"
+
+#: classes/translations.php:51
+msgid "Remove Field"
+msgstr "إزالة حقل"
+
+#: classes/translations.php:52
+msgid "Enable Field"
+msgstr "تمكين الحقل"
+
+#: classes/translations.php:53
+msgid "Disable Field"
+msgstr "تعطيل الحقل"
+
+#: classes/translations.php:54
+msgid "type"
+msgstr "نوع"
+
+#: classes/translations.php:55
+msgid "label"
+msgstr "التسمية"
+
+#: classes/translations.php:56
+msgid "description"
+msgstr "الوصف"
+
+#: classes/translations.php:57
+msgid "placeholder"
+msgstr "العنصر النائب"
+
+#: classes/translations.php:58
+msgid "priority"
+msgstr "أولوية"
+
+#: classes/translations.php:59
+msgid "required"
+msgstr "مطلوب"
+
+#: classes/translations.php:60
+msgid "remove"
+msgstr "إزالة"
+
+#: classes/translations.php:61
+msgid "disable"
+msgstr "تعطيل"
+
+#: classes/translations.php:66
+msgid "Close"
+msgstr "قم بإغلاق"
+
+#: classes/translations.php:69
+msgid "Error"
+msgstr "خطأ"
+
+#: classes/translations.php:70
+msgid "Uknown Error! Refresh the page and try again."
+msgstr "فاضل خطأ! قم بتحديث الصفحة وحاول مرة أخرى."
+
+#: classes/translations.php:71
+msgid "Success"
+msgstr "النجاح"
+
+#: classes/translations.php:72
+msgid "Are you sure you want to remove"
+msgstr "هل أنت متأكد من أنك تريد إزالة"
+
+#: classes/translations.php:73
+msgid "Are you sure you want to disable"
+msgstr "هل أنت متأكد من أنك تريد تعطيل"
+
+#: classes/translations.php:74
+msgid "Are you sure you want to enable"
+msgstr "هل أنت متأكد من أنك تريد تمكين"
+
+#: classes/translations.php:75
+msgid ""
+"Are you sure?  This will remove ALL of your custom and customized field "
+"data!"
+msgstr "هل أنت متأكد؟  سيؤدي هذا إلى إزالة كافة البيانات حقل مخصص والمخصصة الخاصة بك!"
+
+#: classes/translations.php:76
+msgid "Using the syntax "
+msgstr "باستخدام بناء الجملة "
+
+#: classes/translations.php:77
+msgid "Edit Field Options"
+msgstr "تحرير خيارات الحقل"
+
+#: classes/translations.php:79
+msgid ""
+"Allowed<br/><a href=\"%1$s\" target=\"_blank\">Mime Types</a><br/><small>NOT"
+" required</small>"
+msgstr "يسمح <br/> <a href=\"%1$s\" target=\"_blank\"> أنواع Mime</a> <br/> <small>غير مطلوب</small>"
+
+#: classes/translations.php:83
+msgid "image/jpeg"
+msgstr "image/jpeg"
+
+#: classes/translations.php:87
+msgid "jpg"
+msgstr "jpg"
+
+#: classes/translations.php:88
+msgid "value"
+msgstr "القيمة"
+
+#: classes/translations.php:95
+msgid "Extension"
+msgstr "ملحق"
+
+#: classes/widget.php:21
+msgid ""
+"Output a custom/default field value from WP Job Manager Field Editor on any "
+"listing that supports widgets."
+msgstr "إخراج قيمة حقل مخصص/افتراضي من الفسفور الأبيض بين وظيفة مدير الحقل المحرر في أي قائمة من أن يدعم الحاجيات."
+
+#: classes/widget.php:106
+msgid "Title:"
+msgstr "العنوان:"
+
+#: classes/widget.php:110
+msgid "Use Widget Style:"
+msgstr "استخدام نمط القطعة:"
+
+#: classes/widget.php:115
+msgid "Show Label:"
+msgstr "إظهار التسمية:"
+
+#: classes/widget.php:119
+msgid "Field Meta Key:"
+msgstr "حقل مفتاح ميتا:"
+
+#: classes/widget.php:142
+msgid "Extra Classes:"
+msgstr "دروس إضافية:"
+
+#: classes/widget.php:143
+msgid "my-class my-class2"
+msgstr "الفئة-بي بي-class2"
+
+#: classes/widget.php:146
+msgid "Output As:"
+msgstr "إخراج:"
+
+#: classes/widget.php:170
+msgid "Caption:"
+msgstr "التسمية التوضيحية:"
+
+#: classes/widget.php:171
+msgid "Click Here!"
+msgstr "انقر هنا!"
+
+#: classes/widget.php:172
+msgid ""
+"If you want to use a specific caption for the link enter it above. Leave "
+"blank to use the URL as the caption."
+msgstr "إذا كنت تريد استخدام تسمية توضيحية محددة لإدخالها في الارتباط أعلاه. اترك المساحة فارغة لاستخدام URL كتسمية توضيحية."
+
+#: classes/widget.php:175 classes/widget.php:180 classes/widget.php:191
+#: classes/widget.php:195 classes/widget.php:200
+msgid "Optional"
+msgstr "اختياري"
+
+#: classes/widget.php:186
+msgid "Allow Download:"
+msgstr "السماح بتحميل:"
+
+#: classes/widget.php:191
+msgid "Poster URL:"
+msgstr "ملصق URL:"
+
+#: classes/widget.php:206
+msgid "Checkbox True:"
+msgstr "خانة الاختيار True:"
+
+#: classes/widget.php:210
+msgid "Checkbox False:"
+msgstr "خانة الاختيار False:"
+
+#: classes/widget.php:212
+msgid "Custom caption to use if checkbox field type is not checked."
+msgstr "التسمية التوضيحية مخصص استخدام إذا لم يتم تحديد خانة الاختيار نوع الحقل."
+
+#: includes/compatibility.php:68
+msgid ""
+"Your server is using a <strong>VERY OLD</strong> and unsupported version of "
+"PHP, version 5.2 or older. <a href=\"%1$s\" target=\"_blank\">EOL (End of "
+"Life)</a> for PHP 5.2 was about <strong>%2$s ago</strong>!!<br /><br />It is"
+" <strong>strongly</strong> recommended that you upgrade to PHP 5.3 or "
+"newer...you can upgrade PHP or <a href=\"%3$s\">Hide this Notice "
+"Forever!</a><br/><br />Did you know im also the Founder and CEO of Host "
+"Tornado?<br/><a href=\"%4$s\" target=\"_blank\">Contact me</a> for an "
+"exclusive sMyles Plugins customer promo code discount for any shared "
+"<strong>SSD (Solid State Drive)</strong> hosting packages!  Data centers in "
+"Florida USA, Arizona USA, Montreal Canada, and France.  Your site will run "
+"faster than it ever has, or your money back!"
+msgstr "يتم استخدام الملقم الخاص بك <strong>قديمة جداً</strong> وإصدار غير معتمد من بي إتش بي، الإصدار 5.2 أو كبار السن. على وشك <a href=\"%1$s\" target=\"_blank\"> EOL (نهاية الحياة)</a> ل PHP 5.2% <strong>2$ s قبل</strong>!!<br/> <br/> <strong>بقوة</strong> أوصى الترقية إلى 5.3 بي إتش بي أو الأحدث.. يمكنك ترقية PHP أو <a href=\"%3$s\"> إخفاء هذا \"الإشعار إلى الأبد\"!</a> <br/><br/> هل تعلم الدردشة أيضا المؤسس والرئيس التنفيذي لشركة تورنادو المضيف؟ <br/><a href=\"%4$s\" target=\"_blank\"> الاتصال بي</a> للعروض عميل الإضافات سميلس حصري كود خصم لأي مشترك <strong>SSD (محرك أقراص في الحالة الصلبة)</strong> استضافة الحزم!  مراكز البيانات في الولايات المتحدة الأمريكية في ولاية فلوريدا وولاية أريزونا الولايات المتحدة الأمريكية وكندا مونتريال فرنسا.  سيتم تشغيل موقع الويب الخاص بك بشكل أسرع مما لديه من أي وقت مضى، أو المال الخاص بك!"
+
+#: includes/functions.php:393
+msgid ""
+"Sorry, your browser doesn't support embedded videos, you should upgrade to a"
+" modern browser."
+msgstr "آسف, المستعرض الخاص بك لا يدعم ملفات الفيديو جزءا لا يتجزأ، فيجب الترقية إلى مستعرض حديثة."
+
+#: includes/functions.php:394
+msgid "Or you can"
+msgstr "أو يمكنك"
+
+#: includes/functions.php:394
+msgid "Download The File"
+msgstr "قم بتحميل الملف"
+
+#: includes/functions.php:394
+msgid "(right click and select Save As)"
+msgstr "(انقر بالزر الأيمن واختر حفظ باسم)"
+
+#: includes/functions.php:415
+msgid "True"
+msgstr "صحيح"
+
+#: includes/functions.php:420
+msgid "False"
+msgstr "كاذبة"
+
+#: includes/smyles-bug-report/smyles-bug-report.php:112
+msgid "Debug logging has been disabled."
+msgstr "تصحيح تم تعطيل تسجيل الدخول."
+
+#: includes/smyles-bug-report/smyles-bug-report.php:120
+msgid "Debug logging has been enabled."
+msgstr "التصحيح قد تم تمكين التسجيل."
+
+#: includes/smyles-bug-report/smyles-bug-report.php:184
+msgid "Bug Report submitted succesfully!  Thank You!"
+msgstr "يقدم تقرير الشوائب بنجاح!  شكرا!"
+
+#: includes/smyles-bug-report/smyles-bug-report.php:185
+msgid "There was an error submitting your bug report, please try again later."
+msgstr "حدث خطأ أثناء تقديم التقرير الشوائب الخاص بك، الرجاء المحاولة مرة أخرى لاحقاً."
+
+#: includes/smyles-bug-report/smyles-bug-report.php:290
+msgid "Invalid Email"
+msgstr "بريد إلكتروني غير صالح"
+
+#: includes/smyles-bug-report/smyles-bug-report.php:374
+#: includes/smyles-bug-report/smyles-bug-report.php:377
+msgid "Report a Bug"
+msgstr "تقرير الشوائب"
+
+#: includes/smyles-bug-report/smyles-bug-report.php:383
+msgid "Email Address"
+msgstr "عنوان البريد الإلكتروني"
+
+#: includes/smyles-bug-report/smyles-bug-report.php:384
+msgid "Your Email"
+msgstr "البريد الإلكتروني الخاص بك"
+
+#: includes/smyles-bug-report/smyles-bug-report.php:387
+msgid "Bug Description"
+msgstr "وصف الخطأ"
+
+#: includes/smyles-bug-report/smyles-bug-report.php:388
+msgid "Short Bug Description ..."
+msgstr "وصف الخطأ قصيرة..."
+
+#: includes/smyles-bug-report/smyles-bug-report.php:391
+msgid "Bug Details"
+msgstr "تفاصيل الخطأ"
+
+#: includes/smyles-bug-report/smyles-bug-report.php:392
+msgid ""
+"Please describe the bug, how to replicate the bug, and any other details you"
+" can add.  Links to screenshots would be helpful as well."
+msgstr "يرجى وصف الخطأ، كيفية تكرار الخطأ، وأية تفاصيل أخرى يمكنك إضافة.  من المفيد كذلك ارتباطات إلى المزيد من الصور."
+
+#: includes/smyles-bug-report/smyles-bug-report.php:399
+msgid "Debug is <strong>ENABLED</strong>"
+msgstr "التصحيح هو <strong>تمكين</strong>"
+
+#: includes/smyles-bug-report/smyles-bug-report.php:413
+msgid "Disable Force Debug"
+msgstr "تعطيل التصحيح القوة"
+
+#: includes/smyles-bug-report/smyles-bug-report.php:416
+msgid "Enable Force Debug"
+msgstr "تمكين التصحيح القوة"
+
+#: includes/smyles-update/class-smyles-update.php:71
+msgid "Deactivate Licence"
+msgstr "إلغاء تنشيط الترخيص"
+
+#: includes/smyles-update/class-smyles-update.php:83
+msgid "Your licence for <strong>%s</strong> has been activated. Thanks!"
+msgstr "وقد تم تنشيط الترخيص الخاص بك ل <strong>% s</strong>. شكرا!"
+
+#: includes/smyles-update/class-smyles-update.php:349
+msgid ""
+"A licence key for %s could not be found. Maybe you forgot to enter a licence"
+" key when setting up %s."
+msgstr "تعذر العثور على مفتاح ترخيص ل % s. ربما كنت قد نسيت لإدخال مفتاح ترخيص عند إعداد % s."
+
+#: includes/smyles-update/class-smyles-update.php:353
+msgid "Invalid update request"
+msgstr "طلب التحديث غير صالح"
+
+#: includes/smyles-update/class-smyles-update.php:374
+msgid "Your licence for <strong>%s</strong> has been deactivated."
+msgstr "وقد تم إلغاء تنشيط الترخيص الخاص بك ل <strong>% s</strong>."
+
+#: includes/smyles-update/class-smyles-update.php:414
+msgid "Licence"
+msgstr "ترخيص"
+
+#: includes/smyles-update/class-smyles-update.php:417
+msgid ""
+"Enter your licence key and email and hit return. A valid key is required for"
+" automatic updates."
+msgstr "أدخل مفتاح الترخيص الخاص بك والبريد الإلكتروني وضرب العودة. مطلوب مفتاح صالح للتحديثات التلقائية."
+
+#: includes/smyles-update/class-smyles-update.php:438
+msgid "Hide notice"
+msgstr "إخفاء الإشعار"
+
+#: includes/smyles-update/class-smyles-update.php:439
+msgid ""
+"<a href=\"%s\">Please activate your licence key</a> to get updates for "
+"<strong>%s</strong>.  This ensures you have the latest features, bug fixes, "
+"and experience!"
+msgstr "<a href=\"%s\"> الرجاء تنشيط مفتاح الترخيص الخاص بك</a> للحصول على تحديثات ل <strong>% s</strong>.  وهذا يضمن أن لديك أحدث الميزات، إصلاح الأخطاء، وتجربة!"
+
+#: includes/smyles-update/class-smyles-update.php:440
+msgid "Lost your key? <a href=\"%s\">Retrieve it here</a>."
+msgstr "فقدت المفتاح الخاص بك؟ <a href=\"%s\"> استعادته هنا</a>."
+
+#: includes/tgmpa.php:202
+msgid "Something went wrong."
+msgstr "حدث خطأ ما."
+
+#: includes/tgmpa.php:203
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "هذا الموضوع يتطلب البرنامج المساعد التالية: % 1$ s."
+msgstr[1] "هذا الموضوع يتطلب البرنامج المساعد التالية: % 1$ s."
+msgstr[2] "ويتطلب هذا الموضوع الإضافات التالية: % 1$ s."
+msgstr[3] "ويتطلب هذا الموضوع الإضافات التالية: % 1$ s."
+msgstr[4] "ويتطلب هذا الموضوع الإضافات التالية: % 1$ s."
+msgstr[5] "ويتطلب هذا الموضوع الإضافات التالية: % 1$ s."
+
+#: includes/tgmpa.php:204
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "هذا الموضوع يوصي البرنامج المساعد التالية: % 1$ s."
+msgstr[1] "هذا الموضوع يوصي البرنامج المساعد التالية: % 1$ s."
+msgstr[2] "هذا الموضوع يوصي الإضافات التالية: % 1$ s."
+msgstr[3] "هذا الموضوع يوصي الإضافات التالية: % 1$ s."
+msgstr[4] "هذا الموضوع يوصي الإضافات التالية: % 1$ s."
+msgstr[5] "هذا الموضوع يوصي الإضافات التالية: % 1$ s."
+
+#: includes/tgmpa.php:209
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] "البرنامج المساعد التالية تحتاج إلى تحديث للإصدار الأخير ضمان أقصى قدر من التوافق مع هذا الموضوع: % 1$ s."
+msgstr[1] "البرنامج المساعد التالية تحتاج إلى تحديث للإصدار الأخير ضمان أقصى قدر من التوافق مع هذا الموضوع: % 1$ s."
+msgstr[2] "الإضافات التالية بحاجة إلى تحديث لما أحدث إصدار ضمان أقصى قدر من التوافق مع هذا الموضوع: % 1$ s."
+msgstr[3] "الإضافات التالية بحاجة إلى تحديث لما أحدث إصدار ضمان أقصى قدر من التوافق مع هذا الموضوع: % 1$ s."
+msgstr[4] "الإضافات التالية بحاجة إلى تحديث لما أحدث إصدار ضمان أقصى قدر من التوافق مع هذا الموضوع: % 1$ s."
+msgstr[5] "الإضافات التالية بحاجة إلى تحديث لما أحدث إصدار ضمان أقصى قدر من التوافق مع هذا الموضوع: % 1$ s."
+
+#: includes/tgmpa.php:211
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "بدء تثبيت البرنامج المساعد"
+msgstr[1] "بدء تثبيت البرنامج المساعد"
+msgstr[2] "بدء تثبيت الإضافات"
+msgstr[3] "بدء تثبيت الإضافات"
+msgstr[4] "بدء تثبيت الإضافات"
+msgstr[5] "بدء تثبيت الإضافات"
+
+#: includes/tgmpa.php:212
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "البدء في تفعيل البرنامج المساعد"
+msgstr[1] "البدء في تفعيل البرنامج المساعد"
+msgstr[2] "البدء في تفعيل الإضافات"
+msgstr[3] "البدء في تفعيل الإضافات"
+msgstr[4] "البدء في تفعيل الإضافات"
+msgstr[5] "البدء في تفعيل الإضافات"
+
+#: includes/tgmpa.php:214
+msgid "Return to the dashboard"
+msgstr "العودة إلى لوحة المعلومات"
+
+#: includes/tgmpa.php:216 includes/tgmpa.php:1655
+msgid "The following plugin was activated successfully:"
+msgstr "تم تنشيط البرنامج المساعد التالية بنجاح:"
+
+#: includes/tgmpa.php:217
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "جميع الإضافات المثبتة وتشغيلها بنجاح. % 1$ s"
+
+#: includes/tgmpa.php:218
+msgid "Dismiss this notice"
+msgstr "استبعاد هذا الإشعار"
+
+#: includes/tgmpa.php:559 includes/tgmpa.php:2187
+msgid "Return to the Dashboard"
+msgstr "العودة إلى لوحة المعلومات"
+
+#: includes/tgmpa.php:1189
+msgid "Private Repository"
+msgstr "المستودع الخاص"
+
+#: includes/tgmpa.php:1192
+msgid "Pre-Packaged"
+msgstr "قبل تعبئتها"
+
+#: includes/tgmpa.php:1197
+msgid "WordPress Repository"
+msgstr "وورد في المستودع"
+
+#: includes/tgmpa.php:1200
+msgid "Recommended"
+msgstr "وأوصى"
+
+#: includes/tgmpa.php:1203
+msgid "Not Installed"
+msgstr "لم يتم تثبيت"
+
+#: includes/tgmpa.php:1205
+msgid "Installed But Not Activated"
+msgstr "تثبيت ولكن غير مفعّلة"
+
+#: includes/tgmpa.php:1307 includes/tgmpa.php:1415
+msgid "Install"
+msgstr "تثبيت"
+
+#: includes/tgmpa.php:1329 includes/tgmpa.php:1416
+msgid "Activate"
+msgstr "تنشيط"
+
+#: includes/tgmpa.php:1378
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr "لا الإضافات تثبيت أو تنشيط. <a href=\"%1$s\" title=\"Return to the Dashboard\"> العودة إلى لوحة المعلومات</a>"
+
+#: includes/tgmpa.php:1394
+msgid "Plugin"
+msgstr "البرنامج المساعد"
+
+#: includes/tgmpa.php:1395
+msgid "Source"
+msgstr "المصدر"
+
+#: includes/tgmpa.php:1525
+msgid "No plugins are available to be installed at this time."
+msgstr "لا الإضافات متوفرة ليتم تثبيتها في هذا الوقت."
+
+#: includes/tgmpa.php:1633
+msgid "No plugins are available to be activated at this time."
+msgstr "الإضافات لا تتوفر لتفعيلها في هذا الوقت."
+
+#: includes/tgmpa.php:1953
+msgid "Install package not available."
+msgstr "قم بتثبيت الحزمة غير متوفرة."
+
+#: includes/tgmpa.php:1954
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr "تحميل تثبيت حزمة من <span class=\"code\"> % s</span> &#8230;"
+
+#: includes/tgmpa.php:1955
+msgid "Unpacking the package&#8230;"
+msgstr "تفريغ الحزمة &#8230;"
+
+#: includes/tgmpa.php:1956
+msgid "Installing the plugin&#8230;"
+msgstr "تثبيت البرنامج المساعد &#8230;"
+
+#: includes/tgmpa.php:1957
+msgid "Plugin install failed."
+msgstr "فشل في تثبيت البرنامج المساعد."
+
+#: includes/tgmpa.php:1958
+msgid "Plugin installed successfully."
+msgstr "البرنامج المساعد مثبت بنجاح."
+
+#: includes/tgmpa.php:1969
+msgid "Plugin activation failed."
+msgstr "فشل تنشيط البرنامج المساعد."
+
+#: includes/tgmpa.php:2083
+msgid ""
+"The installation and activation process is starting. This process may take a"
+" while on some hosts, so please be patient."
+msgstr "بدء تشغيل عملية التثبيت والتنشيط. قد تستغرق هذه العملية بعض الوقت على بعض المضيفين، حيث يرجى أن يكون المريض."
+
+#: includes/tgmpa.php:2084
+msgid "%1$s installed and activated successfully."
+msgstr "% 1$ s تثبيت وتنشيط بنجاح."
+
+#: includes/tgmpa.php:2084 includes/tgmpa.php:2093
+msgid "Show Details"
+msgstr "إظهار التفاصيل"
+
+#: includes/tgmpa.php:2084 includes/tgmpa.php:2093
+msgid "Hide Details"
+msgstr "إخفاء التفاصيل"
+
+#: includes/tgmpa.php:2085
+msgid "All installations and activations have been completed."
+msgstr "تم الانتهاء من جميع المنشآت والتنشيط."
+
+#: includes/tgmpa.php:2086
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "تثبيت وتفعيل البرنامج المساعد % 1$ s (% 2$d/%3$d)"
+
+#: includes/tgmpa.php:2090
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr "بدء تشغيل عملية التثبيت. قد تستغرق هذه العملية بعض الوقت على بعض المضيفين، حيث يرجى أن يكون المريض."
+
+#: includes/tgmpa.php:2091
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "حدث خطأ أثناء تثبيت % 1$ s: <strong>% 2$ s</strong>."
+
+#: includes/tgmpa.php:2092
+msgid "The installation of %1$s failed."
+msgstr "فشل التثبيت % 1$ s."
+
+#: includes/tgmpa.php:2093
+msgid "%1$s installed successfully."
+msgstr "% 1$ s مثبت بنجاح."
+
+#: includes/tgmpa.php:2094
+msgid "All installations have been completed."
+msgstr "وقد اكتملت جميع المنشآت."
+
+#: includes/tgmpa.php:2095
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "تثبيت البرنامج المساعد % 1$ s (% 2$d/%3$d)"
+
+#: templates/form-fields/radio-field.php:24
+msgid "Clear Selection"
+msgstr "مسح التحديد"
+
+#: wp-job-manager-field-editor.php:254
+msgid "Translations"
+msgstr "الترجمات"
+
+#. Plugin Name of the plugin/theme
+msgid "WP Job Manager Field Editor"
+msgstr "الفسفور الأبيض بين وظيفة مدير الميدان محرر"
+
+#. Plugin URI of the plugin/theme
+msgid "https://plugins.smyl.es/wp-job-manager-field-editor"
+msgstr "https://plugins.smyl.es/wp-job-manager-field-editor"
+
+#. Description of the plugin/theme
+msgid ""
+"Full ajax plugin to Disable, Create, or Modify all WP Job Manager Fields, as"
+" well as automagically output custom fields on listing pages."
+msgstr "كامل البرنامج المساعد أياكس إلى تعطيل، إنشاء، أو تعديل جميع حقول الفسفور الأبيض وظيفة مدير، فضلا عن automagically الإخراج الحقول المخصصة في قائمة الصفحات."
+
+#. Author of the plugin/theme
+msgid "Myles McNamara"
+msgstr "مكنمارا مايلز"
+
+#. Author URI of the plugin/theme
+msgid "http://plugins.smyl.es"
+msgstr "http://plugins.smyl.es"
+
+#: classes/admin/cpt.php:225
+msgctxt "Disabled Field Status"
+msgid "disabled"
+msgstr "تعطيل"
+
+#: classes/admin/cpt.php:234
+msgctxt "Enabled Field Status"
+msgid "enabled"
+msgstr "تمكين"
+
+#: classes/admin/list-table.php:640
+msgctxt "fields"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "جميع <span class=\"count\"> (% s)</span>"
+msgstr[1] "جميع <span class=\"count\"> (% s)</span>"
+msgstr[2] "جميع <span class=\"count\"> (% s)</span>"
+msgstr[3] "جميع <span class=\"count\"> (% s)</span>"
+msgstr[4] "جميع <span class=\"count\"> (% s)</span>"
+msgstr[5] "جميع <span class=\"count\"> (% s)</span>"

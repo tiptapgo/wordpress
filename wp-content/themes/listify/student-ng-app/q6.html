@@ -1,0 +1,34 @@
+<div class="meter blue nostripes">
+    <span style="width: 60%"></span>
+</div>
+<div class="col-xs-12 col-md-12 col-sm-12 col-lg-12 qs">
+    <label>Where would you like to take classes?</label>
+</div>
+<fieldset class="radfix">
+    <div class="field">
+        <div class="radio">
+            <label class="optn">
+               <input type="radio" ng-model="formData.q6" value="I need a home tutor">
+               <span>I need a home tutor</span>
+               <span class="ion-chevron-right"></span>
+            </label>
+        </div>
+        <div class="radio">
+            <label class="optn last">
+                <input type="radio" ng-model="formData.q6"value="I am willing to travel nearby (<3kms)">
+                <span>I am willing to travel nearby (<3kms)</span>
+                <span class="ion-chevron-right"></span>
+            </label>
+        </div>
+    </div>    
+</fieldset>
+
+<fieldset class="ng-ctrl">
+    <div class="col-xs-12 col-md-4 col-sm-4 col-lg-4"></div>
+    <div class="col-xs-12 col-md-4 col-sm-4 col-lg-4">
+        <a ui-sref="form.q5" class="prev pull-left ng-arrow"><span class="ion-android-arrow-back"></span></a>
+        <a ui-sref="form.q7" class="next pull-right ng-arrow"><span class="ion-android-arrow-forward"></span></a>
+    </div>
+    <div class="col-xs-12 col-md-4 col-sm-4 col-lg-4"></div>
+</fieldset>
+<a ui-sref="form.q5" style="margin:40px 0" class="button btn-o">Back</a>

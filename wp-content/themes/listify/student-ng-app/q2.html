@@ -1,0 +1,90 @@
+<div class="meter blue nostripes">
+	<span style="width: 20%"></span>
+</div>
+<div class="col-xs-12 col-md-12 col-sm-12 col-lg-12 qs">
+	<label>What do you want to learn?</label>    
+</div>
+
+<fieldset class="radfix">
+	<div class="control-group">
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			<select id="select-beast" ng-model="formData.q2cat" placeholder="Select a Category">
+				<option value="">Select a Category</option>
+				<option value="Class 1 - Class 5">Class 1 - Class 5</option>
+				<option value="All Subjects">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All Subjects</option>
+				<option value="Mathematics">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mathematics</option>
+				<option value="Science">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Science</option>
+				<option value="Social Studies">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Social Studies</option>
+				<option value="Class 11 - Class 12">Class 11 - Class 12</option>
+				<option value="Biology">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Biology</option>
+				<option value="Chemistry">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chemistry</option>
+				<option value="Electronics">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Electronics</option>
+				<option value="Mathematics">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mathematics</option>
+				<option value="Physics">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Physics</option>
+				<option value="Class 6 - Class 8">Class 6 - Class 8</option>
+				<option value="Class 9 - Class 10">Class 9 - Class 10</option>
+				<option value="Mathematics">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mathematics</option>
+				<option value="Cooking">Cooking</option>
+				<option value="Dance">Dance</option>
+				<option value="Bharatnatyam">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bharatnatyam</option>
+				<option value="Bollywood">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bollywood</option>
+				<option value="Engineering">Engineering</option>
+				<option value="Mechanical Engineering">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mechanical Engineering</option>
+				<option value="Environmental Science">Environmental Science</option>
+				<option value="Graduation Classes">Graduation Classes</option>
+				<option value="Computer Science">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Computer Science</option>
+				<option value="Hobby">Hobby</option>
+				<option value="Oil painting">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Oil painting</option>
+				<option value="Typing">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Typing</option>
+				<option value="Languages">Languages</option>
+				<option value="English">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;English</option>
+				<option value="French">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;French</option>
+				<option value="German">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;German</option>
+				<option value="Hindi">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hindi</option>
+				<option value="Japanese">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Japanese</option>
+				<option value="Kanada">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kanada</option>
+				<option value="Sanskrit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sanskrit</option>
+				<option value="Management">Management</option>
+				<option value="Accounting">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Accounting</option>
+				<option value="Business Studies">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Business Studies</option>
+				<option value="Economics">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Economics</option>
+				<option value="Statistics">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statistics</option>
+				<option value="Medical">Medical</option>
+				<option value="Bio Chemistry">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bio Chemistry</option>
+				<option value="Music">Music</option>
+				<option value="Programming">Programming</option>
+				<option value="C">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C</option>
+				<option value="C Plus Plus">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C Plus Plus</option>
+				<option value="Unix">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Unix</option>
+				<option value="Recreation">Recreation</option>
+				<option value="Chess">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chess</option>
+				<option value="Meditation">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Meditation</option>
+				<option value="Reiki">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reiki</option>
+				<option value="Sports">Sports</option>
+				<option value="Technology">Technology</option>
+				<option value="Computer Science">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Computer Science</option>
+				<option value="Java">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Java</option>
+				<option value="Test Prep">Test Prep</option>
+				<option value="IITJEE">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IITJEE</option>
+				<option value="Workshop">Workshop</option>
+				<option value="Puboptionc Speaking">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Puboptionc Speaking</option>
+			</select>
+		</div>    
+	</div>
+	<div class="control-group last">
+		<input type="text" class="text-input" id="q2inp" name="q2inp" ng-model="formData.q2inp" placeholder="Any specific topics or units">
+	</div>
+</fieldset>    
+<fieldset class="ng-ctrl">
+	<div class="col-xs-12 col-md-4 col-sm-4 col-lg-4"></div>
+	<div class="col-xs-12 col-md-4 col-sm-4 col-lg-4">
+		<a ui-sref="form.q1sub" class="prev pull-left ng-arrow"><span class="ion-android-arrow-back"></span></a>
+		<a ui-sref="form.q3" class="next pull-right ng-arrow"><span class="ion-android-arrow-forward"></span></a>
+	</div>
+	<div class="col-xs-12 col-md-4 col-sm-4 col-lg-4"></div>
+</fieldset>
+<a ui-sref="form.q3" class="button btn-blue">Next</a> 
+<a ui-sref="form.q1sub" class="button btn-o">Back</a> 
+<script type="text/javascript">
+	jQuery('#select-beast').selectize();
+</script>

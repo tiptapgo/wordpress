@@ -20,6 +20,11 @@ get_header(); ?>
 
 			<main id="main" class="site-main <?php if ( listify_job_listing_archive_has_sidebar() ) : ?>col-md-8 col-sm-12 <?php endif; ?>col-xs-12" role="main">
 				<?php do_action( 'listify_output_results' ); ?>
+				<div class="row">
+				    <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12 archivecta">
+					<?php get_template_part( 'content', 'cta' ); ?>
+				    </div>
+				</div>
 			</main>
 
 		</div>

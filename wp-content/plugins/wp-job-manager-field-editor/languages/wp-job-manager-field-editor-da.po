@@ -1,0 +1,1791 @@
+# Copyright (C) 2015 Myles McNamara
+# This file is distributed under the same license as the WP Job Manager Field Editor package.
+# Translators:
+# Myles McNamara <myles@smyl.es>, 2014-2015
+# Nicolai <transifex.com@netcure.dk>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Job Manager Field Editor\n"
+"Report-Msgid-Bugs-To: http://plugins.smyl.es\n"
+"POT-Creation-Date: 2015-04-16 05:59:11+00:00\n"
+"PO-Revision-Date: 2015-04-16 05:59+0000\n"
+"Last-Translator: Myles McNamara <myles@smyl.es>\n"
+"Language-Team: Danish (http://www.transifex.com/projects/p/wp-job-manager-field-editor/language/da/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: da\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: grunt-wp-i18n 0.4.8\n"
+
+#: classes/admin/ajax.php:74
+msgid ""
+"A field group is required in order to save/edit/update fields, please "
+"contact support."
+msgstr "Et feltgruppe er påkrævet for at save/Rediger/opdatering af felter, skal du kontakte support."
+
+#: classes/admin/ajax.php:91
+msgid ""
+"Sorry, the taxonomy <code>%1$s</code> does not exists, please verify you are"
+" using the correct taxonomy slug"
+msgstr "Ked, taksonomi <code>%1$ s</code> ikke findes, skal du kontrollere du bruger den korrekte taksonomi slug"
+
+#: classes/admin/ajax.php:107
+msgid ""
+"You <strong>must</strong> include the correct MIME <strong>type</strong>! As"
+" example, for jpeg extension you <strong>must</strong> include the type that"
+" is <code>image/jpeg</code>.  These values can be found for all supported "
+"extensions <a href=\"%2$s\" target=\"_blank\">here</a>."
+msgstr ""
+
+#: classes/admin/ajax.php:109
+msgid ""
+"Sorry, <code>%1$s</code> is not a valid WordPress MIME "
+"<strong>type</strong>! A list of the default ones can be found <a "
+"href=\"%2$s\" target=\"_blank\">here</a>.<br />"
+msgstr ""
+
+#: classes/admin/ajax.php:114
+msgid ""
+"Sorry, <code>%1$s</code> is not a valid WordPress MIME type "
+"<strong>extension</strong>! A list of the default ones can be found <a "
+"href=\"%2$s\" target=\"_blank\">here</a>.<br />You <strong>must</strong> "
+"include at least one of the MIME type extensions. As example, for jpeg you "
+"can use <code>jpg</code> or <code>jpg|jpeg|jpe</code>, but you "
+"<strong>must</strong> include at least one, or the entire string."
+msgstr ""
+
+#: classes/admin/ajax.php:139
+msgid ""
+"Sorry, that meta key already exists, please choose another or edit the "
+"existing one."
+msgstr "Beklager, at meta nøgle allerede findes, skal du vælge en anden eller redigere den eksisterende."
+
+#: classes/admin/ajax.php:148
+msgid "Sorry, there was an error adding this field.  Unable to add new field."
+msgstr "Der opstod en fejl ved tilføjelse af feltet.  Kan ikke tilføje nye felt."
+
+#: classes/admin/ajax.php:152
+msgid "Field added successfully!"
+msgstr "Felt tilføjet!"
+
+#: classes/admin/ajax.php:168
+msgid ""
+"This field can not be changed to optional as it is required for core "
+"functionality of WP Job Manager"
+msgstr "Dette felt kan ikke ændres til valgfri som det er nødvendigt for kernefunktionalitet af WP Job Manager"
+
+#: classes/admin/ajax.php:178
+msgid "Field edited successfully!"
+msgstr "Felt redigeres med succes!"
+
+#: classes/admin/ajax.php:187
+msgid ""
+"Sorry, there was an error updating this field.  Unable to create new field "
+"configuration."
+msgstr "Der opstod en fejl under opdatering af feltet.  Der kan ikke oprettes nye felt konfiguration."
+
+#: classes/admin/ajax.php:191
+msgid "Field configuration created, and updated successfully!"
+msgstr "Feltet konfiguration oprettet og opdateret!"
+
+#: classes/admin/ajax.php:206
+msgid "Succesfully enabled "
+msgstr "Held aktiveret "
+
+#: classes/admin/ajax.php:215
+msgid ""
+"Sorry, there was an error enabling this field.  Unable to create new field "
+"configuration."
+msgstr "Beklager, opstod der en fejl under aktivering af dette felt.  Der kan ikke oprettes nye felt konfiguration."
+
+#: classes/admin/ajax.php:219
+msgid "Field configuration created, and enabled successfully!"
+msgstr "Feltet konfiguration oprettet og aktiveret med succes!"
+
+#: classes/admin/ajax.php:231
+msgid ""
+"This field can not be disabled as it is required for core functionality of "
+"WP Job Manager"
+msgstr "Dette felt kan ikke deaktiveres, da det er nødvendigt for kernefunktionalitet af WP Job Manager"
+
+#: classes/admin/ajax.php:238
+msgid "Succesfully disabled "
+msgstr "Held deaktiveret "
+
+#: classes/admin/ajax.php:247
+msgid ""
+"Sorry, there was an error disabling this field.  Unable to create new field "
+"configuration."
+msgstr "Beklager, der opstod en fejl under deaktivering af dette felt.  Der kan ikke oprettes nye felt konfiguration."
+
+#: classes/admin/ajax.php:253
+msgid "Field configuration created, and disabled successfully!"
+msgstr "Feltet konfiguration oprettet og deaktiveret med succes!"
+
+#: classes/admin/ajax.php:267
+msgid "Field configuration removed succesfully!"
+msgstr "Feltet konfiguration fjernet med succes!"
+
+#: classes/admin/ajax.php:272
+msgid ""
+"Sorry, you can only remove a default field configuration, not the actual "
+"field itself, if you want to remove it from the form, please use disable."
+msgstr "Undskyld, du kan kun fjerne et felt standardkonfigurationen, ikke selve feltet i sig selv, hvis du ønsker at fjerne det fra formularen, kan du deaktivere."
+
+#: classes/admin/cpt.php:203
+msgid "WPJM Custom Fields"
+msgstr "WPJM brugerdefinerede felter"
+
+#: classes/admin/cpt.php:204
+msgid "WPJM Custom Field"
+msgstr "WPJM brugerdefineret felt"
+
+#: classes/admin/cpt.php:226
+msgid "Disabled (%s)"
+msgid_plural "Disabled (%s)"
+msgstr[0] "Handicappede (%s)"
+msgstr[1] "Handicappede (%s)"
+
+#: classes/admin/cpt.php:235
+msgid "Enabled (%s)"
+msgid_plural "Enabled (%s)"
+msgstr[0] "Aktiveret (%s)"
+msgstr[1] "Aktiveret (%s)"
+
+#: classes/admin/list-table.php:61
+msgid " Field"
+msgstr " Felt"
+
+#: classes/admin/list-table.php:196 classes/admin/settings.php:272
+msgid "Field Data"
+msgstr "Feltdata"
+
+#: classes/admin/list-table.php:205
+msgid "Fields"
+msgstr "Felter"
+
+#: classes/admin/list-table.php:211
+msgid "View"
+msgstr "Se"
+
+#: classes/admin/list-table.php:266
+msgid "Disabled Field"
+msgstr "Handicappede felt"
+
+#: classes/admin/list-table.php:267
+msgid "Default Field"
+msgstr "Standard felt"
+
+#: classes/admin/list-table.php:267 classes/widget.php:19
+msgid "Custom Field"
+msgstr "Brugerdefineret felt"
+
+#: classes/admin/list-table.php:267
+msgid "Custom Default Field"
+msgstr "Brugerdefinerede felter"
+
+#: classes/admin/list-table.php:268
+msgid "Required Field"
+msgstr "Obligatorisk felt"
+
+#: classes/admin/list-table.php:404
+msgid ""
+"Below you will find all of the fields that have been customized.  This "
+"includes newly created custom ones, as well as any default fields that have "
+"been customized."
+msgstr "Nedenfor finder du alle de felter, der er blevet tilpasset.  Dette omfatter nyoprettede brugerdefinerede dem, såvel som standardfelter, der er blevet tilpasset."
+
+#: classes/admin/list-table.php:413
+msgid ""
+"The default fields below WILL include any custom configuration you have made"
+" to them."
+msgstr "Felterne standard nedenfor vil omfatte enhver brugerdefineret konfiguration du har lavet dem."
+
+#: classes/admin/list-table.php:534 includes/tgmpa.php:1397
+msgid "Status"
+msgstr "Status"
+
+#: classes/admin/list-table.php:535 classes/admin/modal.php:68
+#: classes/admin/modal.php:343
+msgid "Meta Key"
+msgstr "Meta nøgle"
+
+#: classes/admin/list-table.php:536 classes/admin/modal.php:75
+#: classes/translations.php:91 includes/tgmpa.php:1396
+msgid "Type"
+msgstr "Type"
+
+#: classes/admin/list-table.php:537 classes/admin/modal.php:107
+#: classes/admin/modal.php:169 classes/translations.php:92
+msgid "Label"
+msgstr "Etiket"
+
+#: classes/admin/list-table.php:538 classes/admin/modal.php:114
+msgid "Description"
+msgstr "Beskrivelse"
+
+#: classes/admin/list-table.php:539 classes/admin/modal.php:121
+msgid "Placeholder"
+msgstr "Pladsholder"
+
+#: classes/admin/list-table.php:540 classes/admin/modal.php:128
+#: classes/admin/modal.php:297
+msgid "Priority"
+msgstr "Prioritet"
+
+#: classes/admin/list-table.php:541 classes/admin/modal.php:157
+#: classes/translations.php:64 classes/translations.php:80
+msgid "Options"
+msgstr "Indstillinger"
+
+#: classes/admin/list-table.php:542 classes/admin/modal.php:197
+#: classes/admin/modal.php:204
+msgid "Output"
+msgstr "Output"
+
+#: classes/admin/list-table.php:543 classes/admin/modal.php:211
+msgid "Output As"
+msgstr "Output som"
+
+#: classes/admin/list-table.php:544
+msgid "Output Show Label"
+msgstr "Output Vis etiket"
+
+#: classes/admin/list-table.php:545
+msgid "Origin"
+msgstr "Oprindelse"
+
+#: classes/admin/list-table.php:546
+msgid "Post ID"
+msgstr "Stillingen ID"
+
+#: classes/admin/list-table.php:615
+msgid "Delete"
+msgstr "Slet"
+
+#: classes/admin/list-table.php:616 classes/translations.php:68
+msgid "Disable"
+msgstr "Deaktiver"
+
+#: classes/admin/list-table.php:617 classes/admin/settings.php:111
+#: classes/admin/settings.php:126 classes/admin/settings.php:141
+#: classes/admin/settings.php:162 classes/admin/settings.php:177
+#: classes/admin/settings.php:192 classes/admin/settings.php:246
+#: classes/translations.php:67
+msgid "Enable"
+msgstr "Aktiverer"
+
+#: classes/admin/list-table.php:643
+msgid "Default <span class=\"count\">(%s)</span>"
+msgid_plural "Default <span class=\"count\">(%s)</span>"
+msgstr[0] "Standard <span class=\"count\"> (% s)</span>"
+msgstr[1] "Standard <span class=\"count\"> (% s)</span>"
+
+#: classes/admin/list-table.php:646
+msgid "Custom <span class=\"count\">(%s)</span>"
+msgid_plural "Custom <span class=\"count\">(%s)</span>"
+msgstr[0] "Brugerdefineret <span class=\"count\"> (% s)</span>"
+msgstr[1] "Brugerdefineret <span class=\"count\"> (% s)</span>"
+
+#: classes/admin/list-table.php:649
+msgid "Enabled <span class=\"count\">(%s)</span>"
+msgid_plural "Enabled <span class=\"count\">(%s)</span>"
+msgstr[0] "Aktiveret <span class=\"count\"> (% s)</span>"
+msgstr[1] "Aktiveret <span class=\"count\"> (% s)</span>"
+
+#: classes/admin/list-table.php:652
+msgid "Disabled <span class=\"count\">(%s)</span>"
+msgid_plural "Disabled <span class=\"count\">(%s)</span>"
+msgstr[0] "Handicappede <span class=\"count\"> (% s)</span>"
+msgstr[1] "Handicappede <span class=\"count\"> (% s)</span>"
+
+#: classes/admin/list-table.php:774
+msgid "Select All"
+msgstr "Vælg alle"
+
+#: classes/admin/modal.php:60
+msgid "Configuration"
+msgstr "Konfiguration"
+
+#: classes/admin/modal.php:65
+msgid "Config"
+msgstr "Config"
+
+#: classes/admin/modal.php:69
+msgid "Should be something unique and lowercase, like <code>job_pay</code>"
+msgstr "Skal være noget unikt og små bogstaver, som <code>job_pay</code>"
+
+#: classes/admin/modal.php:76
+msgid "Textbox, WP-Editor, Dropdown, Upload, etc."
+msgstr "Lærebog, WP-redaktør, Dropdown, Upload, osv."
+
+#: classes/admin/modal.php:82
+msgid "Multiple"
+msgstr "Flere"
+
+#: classes/admin/modal.php:83
+msgid "Allow multiple files to be selected in select file window."
+msgstr "Tillad at flere filer vises i \"vælg filer vinduet\""
+
+#: classes/admin/modal.php:89 classes/admin/modal.php:336
+msgid "Default"
+msgstr "Standard"
+
+#: classes/admin/modal.php:90
+msgid "Default item(s) to select, not required."
+msgstr "Standard element(er) at vælge, ikke påkrævet."
+
+#: classes/admin/modal.php:96
+msgid "Taxonomy"
+msgstr "Taksonomi"
+
+#: classes/admin/modal.php:97
+msgid ""
+"<a target=\"_blank\" "
+"href=\"http://codex.wordpress.org/Taxonomies\">WordPress Taxonomy</a>"
+msgstr ""
+
+#: classes/admin/modal.php:111
+msgid "This will be the label next to or above your field."
+msgstr "Dette vil være etiketten ud for eller over dit felt."
+
+#: classes/admin/modal.php:118
+msgid "This should be the help text below the field."
+msgstr "Dette bør være hjælp-tekst under feltet."
+
+#: classes/admin/modal.php:125
+msgid "This text you are reading."
+msgstr "Denne tekst, du læser."
+
+#: classes/admin/modal.php:129
+msgid ""
+"Highest number will be the last field on the form, can include decimal."
+msgstr "Højeste antal vil være det sidste felt på formularen, kan omfatte decimal."
+
+#: classes/admin/modal.php:135
+msgid "Max Length"
+msgstr "Maksimal længde"
+
+#: classes/admin/modal.php:136
+msgid "Max characters allowed in field (including spaces)"
+msgstr ""
+
+#: classes/admin/modal.php:143
+msgid "Visibility"
+msgstr "Synlighed"
+
+#: classes/admin/modal.php:144
+msgid "If enabled this field will not show on frontend."
+msgstr ""
+
+#: classes/admin/modal.php:149 includes/tgmpa.php:1200
+msgid "Required"
+msgstr "Kræves"
+
+#: classes/admin/modal.php:161 classes/translations.php:96
+msgid "Value"
+msgstr "Værdi"
+
+#: classes/admin/modal.php:177
+msgid "Default Selection"
+msgstr "Standardvalget"
+
+#: classes/admin/modal.php:186
+msgid "Disabled Option"
+msgstr "Handicappede mulighed"
+
+#: classes/admin/modal.php:205
+msgid "Automatically output on the Job/Resume listing."
+msgstr "Automatisk output på Job/CV notering."
+
+#: classes/admin/modal.php:207
+msgid "Do not automatically output the value"
+msgstr "Ikke automatisk output værdien"
+
+#: classes/admin/modal.php:212 classes/admin/modal.php:282
+msgid "Choose what you want the value to be output as."
+msgstr "Vælg hvad du vil værdien at være output som."
+
+#: classes/admin/modal.php:218 classes/widget.php:180
+msgid "oEmbed Width"
+msgstr "oEmbed bredde"
+
+#: classes/admin/modal.php:219 classes/widget.php:178 classes/widget.php:183
+msgid ""
+"Set a specific width for oEmbed (in pixels), use only numbers do not include"
+" px."
+msgstr "Angive en bestemt bredde for oEmbed (i pixel), brug kun tal ikke omfatter px."
+
+#: classes/admin/modal.php:219 classes/admin/modal.php:227
+#: classes/admin/modal.php:242 classes/admin/modal.php:250
+#: classes/admin/modal.php:258
+msgid "<strong>(optional)</strong>"
+msgstr "<strong>(valgfrit)</strong>"
+
+#: classes/admin/modal.php:226 classes/widget.php:175
+msgid "oEmbed Height"
+msgstr "oEmbed højde"
+
+#: classes/admin/modal.php:227
+msgid ""
+"Set a specific height for oEmbed (in pixels), use only numbers do not "
+"include px."
+msgstr "Angive en bestemt højde for oEmbed (i pixel), brug kun tal ikke omfatter px."
+
+#: classes/admin/modal.php:234
+msgid "Allow Download"
+msgstr "Giver mulighed for Download"
+
+#: classes/admin/modal.php:235 classes/widget.php:189
+msgid ""
+"Will display a download link for browsers incompatible with HTML5 video."
+msgstr "Vil vise et downloadlink til browsere uforenelig med HTML5 video."
+
+#: classes/admin/modal.php:241
+msgid "Poster URL"
+msgstr "Plakat URL"
+
+#: classes/admin/modal.php:242 classes/widget.php:193
+msgid ""
+"A URL for an image to show until the user plays or seeks. If not specified, "
+"the first frame of video will be used when it becomes available."
+msgstr "En URL til et billede at vise indtil brugeren spiller eller søger. Hvis ikke er angivet, bruges det første billede af video, når det bliver tilgængeligt."
+
+#: classes/admin/modal.php:249 classes/widget.php:195
+msgid "Video Height"
+msgstr "Video højde"
+
+#: classes/admin/modal.php:250 classes/widget.php:198
+msgid ""
+"Set a specific height for video (in pixels), use only numbers do not include"
+" px."
+msgstr "Angive en bestemt højde for video (i pixel), brug kun tal ikke omfatter px."
+
+#: classes/admin/modal.php:257 classes/widget.php:200
+msgid "Video Width"
+msgstr "Video bredde"
+
+#: classes/admin/modal.php:258 classes/widget.php:203
+msgid ""
+"Set a specific width for video (in pixels), use only numbers do not include "
+"px."
+msgstr "Angive en bestemt bredde til video (i pixel), brug kun tal ikke omfatter px."
+
+#: classes/admin/modal.php:265
+msgid "Checkbox True"
+msgstr "Afkrydsningsfeltet sand"
+
+#: classes/admin/modal.php:266 classes/widget.php:208
+msgid "Custom caption to use if checkbox field type is checked."
+msgstr "Custom billedtekst til brug, hvis afkrydsningsfeltet felttypen er markeret."
+
+#: classes/admin/modal.php:268 classes/translations.php:62
+#: classes/widget.php:207
+msgid "Yes"
+msgstr "Ja"
+
+#: classes/admin/modal.php:273
+msgid "Checkbox False"
+msgstr "Afkrydsningsfeltet falsk"
+
+#: classes/admin/modal.php:274
+msgid "Custom caption to use if checkbox field type is not checked"
+msgstr "Custom billedtekst til brug, hvis afkrydsningsfeltet felttypen ikke er tjekket"
+
+#: classes/admin/modal.php:276 classes/translations.php:63
+#: classes/widget.php:211
+msgid "No"
+msgstr "Nej"
+
+#: classes/admin/modal.php:281 classes/translations.php:84
+msgid "Caption"
+msgstr "Billedtekst"
+
+#: classes/admin/modal.php:284
+msgid "My Link"
+msgstr "Mit Link"
+
+#: classes/admin/modal.php:289
+msgid "Classes"
+msgstr "Klasser"
+
+#: classes/admin/modal.php:290
+msgid "Add any additional classes separated by spaces"
+msgstr "Tilføj eventuelle yderligere klasser adskilt af mellemrum"
+
+#: classes/admin/modal.php:292
+msgid "my-class my-custom-class my-other-class"
+msgstr "My-klasse my-custom-klasse my-andre-klasse"
+
+#: classes/admin/modal.php:298
+msgid "<strong>optional</strong>"
+msgstr "<strong>valgfri</strong>"
+
+#: classes/admin/modal.php:300
+msgid "1.5"
+msgstr "1.5"
+
+#: classes/admin/modal.php:305
+msgid "Show Label"
+msgstr "Vis etiket"
+
+#: classes/admin/modal.php:314
+msgid "Populate"
+msgstr "Udfylde"
+
+#: classes/admin/modal.php:320
+msgid ""
+"You can view, edit, or add user meta using my free open source <strong><a "
+"target=\"_blank\" href=\"https://wordpress.org/plugins/user-meta-"
+"display/\">User Meta Display</a></strong> plugin."
+msgstr "Du kan se, redigere eller tilføje brugeren meta bruger min omkostningsfrit lukke op kilde <strong><a target=\"_blank\" href=\"https://wordpress.org/plugins/user-meta-display/\"> Bruger Meta Display</a></strong> plugin."
+
+#: classes/admin/modal.php:324
+msgid "Auto Populate"
+msgstr "Automatisk udfylde"
+
+#: classes/admin/modal.php:325
+msgid "This box must be checked to enable auto populate."
+msgstr "Denne boks kontrolleres for at aktivere automatisk udfylde."
+
+#: classes/admin/modal.php:330
+msgid "Auto Save"
+msgstr "Auto gem"
+
+#: classes/admin/modal.php:331
+msgid "Automatically save value to user's meta."
+msgstr "Automatisk gemme værdien i brugerens meta."
+
+#: classes/admin/modal.php:337
+msgid "Default value for logged in users."
+msgstr ""
+
+#: classes/admin/modal.php:344
+msgid ""
+"Specify the <strong>USER</strong> meta key to auto populate this field from "
+"if it exists (and user is logged in).  If meta key is set and meta exists "
+"for user, it will take priority over default value.<br /><br />If using a "
+"meta key from WPJM or WPRM you <strong>must</strong> prepend it with an "
+"underscore.  <i>As example, company_website would be "
+"<code>_company_website</code></i>"
+msgstr ""
+
+#: classes/admin/modal.php:346
+msgid "_company_facebook"
+msgstr "_company_facebook"
+
+#: classes/admin/modal.php:368 classes/admin/modal.php:381
+msgid "Packages"
+msgstr "Pakker"
+
+#: classes/admin/modal.php:375
+msgid "Require"
+msgstr "Kræver"
+
+#: classes/admin/modal.php:376
+msgid "Require specific packages to display this field"
+msgstr "Særlig annoncepakke nødvendig for at vise dette felt"
+
+#: classes/admin/modal.php:382
+msgid ""
+"Select packages you want this field to show for.  Require must be enabled "
+"for this to work."
+msgstr ""
+
+#: classes/admin/modal.php:467
+msgid "Add Another"
+msgstr "Tilføje en anden"
+
+#: classes/admin/modal.php:497
+msgid "Remove"
+msgstr "Fjern"
+
+#: classes/admin/modal.php:529
+msgid "WP Job Manager"
+msgstr "WP Job Manager"
+
+#: classes/admin/modal.php:530
+msgid "Field Editor"
+msgstr "Feltet Editor"
+
+#: classes/admin/modal.php:597 classes/translations.php:65
+msgid "Cancel"
+msgstr "Annuller"
+
+#: classes/admin/modal.php:598 classes/translations.php:50
+msgid "Save Field"
+msgstr "Gem felt"
+
+#: classes/admin/settings-fields.php:131
+msgid ""
+"No fields to remove!  A button will appear here when there is field data you"
+" can remove."
+msgstr "Ingen felter til at fjerne!  En knap vises her, når der er feltdata du kan fjerne."
+
+#: classes/admin/settings-handlers.php:34
+msgid "All custom posts removed!"
+msgstr "Alle brugerdefinerede indlæg fjernet!"
+
+#: classes/admin/settings-handlers.php:42
+msgid "There are not any fields that need options purged."
+msgstr "Der er ikke nogen felter, der har brug for indstillinger udrenset."
+
+#: classes/admin/settings-handlers.php:49
+msgid "Options were purged from"
+msgstr "Muligheder er blevet slettet fra"
+
+#: classes/admin/settings-handlers.php:49
+msgid "fields:"
+msgstr "felter:"
+
+#: classes/admin/settings.php:44 classes/admin.php:86 classes/admin.php:87
+msgid "Field Editor Settings"
+msgstr "Feltet Editor-indstillinger"
+
+#: classes/admin/settings.php:110 classes/admin/settings.php:161
+msgid "Custom Required Label"
+msgstr "Brugerdefineret kræves etiket"
+
+#: classes/admin/settings.php:112 classes/admin/settings.php:163
+msgid "Use a custom label for required fields instead of optional fields."
+msgstr "Bruge en brugerdefineret etiket for obligatoriske felter i stedet for valgfri felter."
+
+#: classes/admin/settings.php:118 classes/admin/settings.php:169
+msgid "Required Field Label"
+msgstr "Kræves feltetiket"
+
+#: classes/admin/settings.php:120 classes/admin/settings.php:171
+msgid "<small>(required)</small>"
+msgstr "<small>(påkrævet)</small>"
+
+#: classes/admin/settings.php:125 classes/admin/settings.php:176
+msgid "Custom Optional Label"
+msgstr "Brugerdefineret valgfri etiket"
+
+#: classes/admin/settings.php:127 classes/admin/settings.php:178
+msgid ""
+"Use a custom label for optional fields instead of required fields. (default "
+"is optional)"
+msgstr "Bruge en brugerdefineret etiket for valgfrie felter i stedet for obligatoriske felter. (standard er valgfri)"
+
+#: classes/admin/settings.php:133 classes/admin/settings.php:184
+msgid "Optional Field Label"
+msgstr "Valgfri feltetiket"
+
+#: classes/admin/settings.php:135 classes/admin/settings.php:186
+msgid "<small>(optional)</small>"
+msgstr "<small>(valgfrit)</small>"
+
+#: classes/admin/settings.php:140 classes/admin/settings.php:191
+msgid "Custom Submit Button"
+msgstr "Brugerdefineret Send-knap"
+
+#: classes/admin/settings.php:142 classes/admin/settings.php:193
+msgid "Use a custom value for the submit button (on initial submit page)"
+msgstr "Bruge en brugerdefineret værdi for sendeknappen (i indledende Send side)"
+
+#: classes/admin/settings.php:148 classes/admin/settings.php:199
+msgid "Submit Button Caption"
+msgstr "Indsend knappen billedtekst"
+
+#: classes/admin/settings.php:150 classes/admin/settings.php:201
+msgid "Preview &rarr;"
+msgstr "Preview &rarr;"
+
+#: classes/admin/settings.php:151 classes/admin/settings.php:202
+msgid ""
+"The default button is <code>Preview &rarr;</code>, use "
+"<code>&amp;rarr;</code> for the arrow"
+msgstr "Standardknappen er <code>Preview &rarr;</code>, brug for pilen <code>&amp; rarr;</code>"
+
+#: classes/admin/settings.php:156
+msgid "Resume"
+msgstr "CV"
+
+#: classes/admin/settings.php:207
+msgid "Support"
+msgstr "Support"
+
+#: classes/admin/settings.php:217
+msgid "Backup"
+msgstr "Backup"
+
+#: classes/admin/settings.php:221
+msgid "Create Backup!"
+msgstr "Opret sikkerhedskopi!"
+
+#: classes/admin/settings.php:224
+msgid "Generate Backup"
+msgstr "Generere sikkerhedskopien"
+
+#: classes/admin/settings.php:225
+msgid "Generate and download a backup of all fields."
+msgstr "Generere og downloade en sikkerhedskopi af alle felter."
+
+#: classes/admin/settings.php:230
+msgid "Import Backup!"
+msgstr "Importere Backup!"
+
+#: classes/admin/settings.php:233
+msgid "Import Backup"
+msgstr "Import Backup"
+
+#: classes/admin/settings.php:234
+msgid ""
+"Import a previously generated backup for custom fields.  This uses the "
+"default WordPress import feature, if you do not see a file upload after "
+"clicking this button, make sure to import using WordPress importer."
+msgstr "Importere en tidligere oprettede sikkerhedskopi for brugerdefinerede felter.  Dette bruger standard WordPress import funktion, hvis du ikke kan se en fil upload efter at klikke på denne knap, Sørg for at importere ved hjælp af WordPress importør."
+
+#: classes/admin/settings.php:240
+msgid "Debug"
+msgstr "Debug"
+
+#: classes/admin/settings.php:245
+msgid "Enable Bug Reporter"
+msgstr "Aktivere Bug Reporter"
+
+#: classes/admin/settings.php:247
+msgid ""
+"Enable the bug report icon in the top right corner to submit bug reports"
+msgstr "Aktivere rapport insektikonet i øverste højre hjørne til at indsende fejlrapporter"
+
+#: classes/admin/settings.php:253
+msgid "I understand, remove all data!"
+msgstr "Jeg forstår, fjerne alle data!"
+
+#: classes/admin/settings.php:256
+msgid "Remove All"
+msgstr "Fjern alle"
+
+#: classes/admin/settings.php:257
+msgid "This will remove all custom and customized field data!"
+msgstr "Dette vil fjerne alle brugerdefinerede og brugerdefinerede feltdata!"
+
+#: classes/admin/settings.php:262
+msgid "Purge Options!"
+msgstr "Rense muligheder!"
+
+#: classes/admin/settings.php:265
+msgid "Purge Options"
+msgstr "Rense indstillinger"
+
+#: classes/admin/settings.php:266
+msgid ""
+"Older versions of this plugin saved option values for fields that do not "
+"require them. You can purge those values by clicking this button."
+msgstr "Ældre versioner af dette plugin gemt indstillingsværdierne for felter, der ikke kræver dem. Du kan rense disse værdier ved at klikke på denne knap."
+
+#: classes/admin/settings.php:278
+msgid "About"
+msgstr "Om"
+
+#: classes/admin.php:147
+msgid "Fields Per Page"
+msgstr "Felter pr. side"
+
+#: classes/admin.php:156
+msgid "%1$s Field"
+msgstr "%1$ s felt"
+
+#: classes/admin.php:221 classes/resume/menu.php:34 classes/resume/menu.php:35
+msgid "Resume Fields"
+msgstr "Genoptage felter"
+
+#: classes/admin.php:246
+msgid "%1$s Fields"
+msgstr "%1$ s felter"
+
+#: classes/admin.php:247
+msgid "Company Fields"
+msgstr "Virksomheden felter"
+
+#: classes/assets.php:62
+msgid "Done"
+msgstr ""
+
+#: classes/assets.php:63
+msgid "Today"
+msgstr ""
+
+#: classes/auto-output.php:170
+msgid "Standard Value Output (Regular text)"
+msgstr "Standard værdien Output (almindelig tekst)"
+
+#: classes/auto-output.php:171
+msgid "Link"
+msgstr "Link"
+
+#: classes/auto-output.php:172
+msgid "Image"
+msgstr "Billede"
+
+#: classes/auto-output.php:173
+msgid "oEmbed (YouTube/Vimeo/SoundCloud etc)"
+msgstr "oEmbed (YouTube/Vimeo/SoundCloud osv)"
+
+#: classes/auto-output.php:174
+msgid "HTML5 Video"
+msgstr "HTML5 Video"
+
+#: classes/auto-output.php:175
+msgid "Checkbox Output Options"
+msgstr "Afkrydsningsfeltet outputindstillinger"
+
+#: classes/auto-output.php:176
+msgid "Checkbox (Only show label if checked)"
+msgstr "Afkrydsningsfeltet (kun Vis etiketten hvis markeret)"
+
+#: classes/auto-output.php:177
+msgid "Checkbox (Custom True/False Labels)"
+msgstr "Afkrydsningsfeltet (True/False etiketter)"
+
+#: classes/auto-output.php:294
+msgid "Jobera Theme"
+msgstr ""
+
+#: classes/auto-output.php:295
+msgid "Single Job Listing Above Logo"
+msgstr ""
+
+#: classes/auto-output.php:296
+msgid "Single Job Listing Below Social Links"
+msgstr ""
+
+#: classes/auto-output.php:297
+msgid "Single Job Listing Below Location Map"
+msgstr ""
+
+#: classes/auto-output.php:336 classes/auto-output.php:346
+msgid "Jobify Theme"
+msgstr "Jobify tema"
+
+#: classes/auto-output.php:337
+msgid "Single Job Listing Before"
+msgstr "Enkelt Job notering før"
+
+#: classes/auto-output.php:338
+msgid "Single Job Listing After"
+msgstr "Enkelt Job notering efter"
+
+#: classes/auto-output.php:339
+msgid "Single Job Listing Start"
+msgstr "Enkelt Job notering Start"
+
+#: classes/auto-output.php:340
+msgid "Single Job Listing End"
+msgstr "Enkelt Job notering ende"
+
+#: classes/auto-output.php:347
+msgid "Single Resume Listing Before"
+msgstr "Enkelt CV notering før"
+
+#: classes/auto-output.php:348
+msgid "Single Resume Listing After"
+msgstr "Enkelt CV notering efter"
+
+#: classes/auto-output.php:349
+msgid "Single Resume Listing Start"
+msgstr "Enkelt CV notering Start"
+
+#: classes/auto-output.php:350
+msgid "Single Resume Listing End"
+msgstr "Enkelt CV notering ende"
+
+#: classes/auto-output.php:380
+msgid "Single Job Page"
+msgstr "Enkelt Job side"
+
+#: classes/auto-output.php:381
+msgid "Top of Job Listing"
+msgstr "Toppen af Job notering"
+
+#: classes/auto-output.php:382
+msgid "Before Job Meta"
+msgstr "Før Job Meta"
+
+#: classes/auto-output.php:383
+msgid "Job Meta Start (before Job Type)"
+msgstr "Job Meta Start (før jobtype)"
+
+#: classes/auto-output.php:384
+msgid "Job Meta End (after Date Posted)"
+msgstr "Job Meta afslutning (efter dato sendt)"
+
+#: classes/auto-output.php:385
+msgid "After Job Meta"
+msgstr "Efter Job Meta"
+
+#: classes/auto-output.php:386
+msgid "Before Company Meta"
+msgstr "Før virksomheden Meta"
+
+#: classes/auto-output.php:387
+msgid "After Company Meta"
+msgstr "Efter selskabet Meta"
+
+#: classes/auto-output.php:388
+msgid "Bottom of Job Description"
+msgstr "Bunden af jobbeskrivelse"
+
+#: classes/auto-output.php:389
+msgid "Bottom of Job Listing"
+msgstr "Bunden af Job notering"
+
+#: classes/auto-output.php:392
+msgid "Jobs List Page"
+msgstr "Job listeside"
+
+#: classes/auto-output.php:393
+msgid "Jobs List Meta Start"
+msgstr "Job liste Meta Start"
+
+#: classes/auto-output.php:394
+msgid "Jobs List Meta End"
+msgstr "Job liste Meta ende"
+
+#: classes/auto-output.php:424
+msgid "---Single Resume Page"
+msgstr "---Enkelt genoptage side"
+
+#: classes/auto-output.php:425
+msgid "Meta Start (before Category)"
+msgstr "Meta Start (før kategori)"
+
+#: classes/auto-output.php:426
+msgid "Meta End (after Date Posted)"
+msgstr "Meta afslutning (efter dato sendt)"
+
+#: classes/auto-output.php:429
+msgid "Top of Resume Listing"
+msgstr "Toppen af CV notering"
+
+#: classes/auto-output.php:430
+msgid "Bottom of Resume Listing"
+msgstr "Bunden af CV notering"
+
+#: classes/field-types.php:181
+msgid "None"
+msgstr "Ingen"
+
+#: classes/field-types.php:275
+msgid "No Value Field Types"
+msgstr ""
+
+#: classes/field-types.php:338
+msgid "Checkbox"
+msgstr "Afkrydsningsfeltet"
+
+#: classes/field-types.php:341
+msgid "Multi-Select"
+msgstr "Valg af flere"
+
+#: classes/field-types.php:342 classes/field-types.php:375
+msgid "Taxonomy Field Types"
+msgstr "Taksonomi felttyper"
+
+#: classes/field-types.php:343 classes/field-types.php:376
+msgid "Taxonomy Checklist"
+msgstr "Taksonomi tjekliste"
+
+#: classes/field-types.php:344 classes/field-types.php:377
+msgid "Taxonomy Dropdown"
+msgstr "Taksonomi Dropdown"
+
+#: classes/field-types.php:345 classes/field-types.php:378
+msgid "Taxonomy Multi-Select Dropdown"
+msgstr "Taksonomi multi-Vælg Dropdown"
+
+#: classes/fields.php:685
+msgid "No field data found!"
+msgstr "Ingen feltdata fundet!"
+
+#: classes/job/fields.php:307 classes/resume/fields.php:258
+msgid "(optional)"
+msgstr "(valgfrit)"
+
+#: classes/job/writepanels.php:26 wp-job-manager-field-editor.php:350
+#: wp-job-manager-field-editor.php:352
+msgid "Job"
+msgstr "Job"
+
+#: classes/requires.php:89 includes/tgmpa.php:199
+msgid "Install Required Plugins"
+msgstr "Installer nødvendige Plugins"
+
+#: classes/requires.php:90 includes/tgmpa.php:200
+msgid "Install Plugins"
+msgstr "Installere Plugins"
+
+#: classes/requires.php:91 includes/tgmpa.php:201
+msgid "Installing Plugin: %s"
+msgstr "Installere Plugin: %s"
+
+#: classes/requires.php:93
+msgid "Something went wrong with the plugin API."
+msgstr "Noget gik galt med plugin API."
+
+#: classes/requires.php:94
+msgid "This plugin requires the following plugin: %1$s."
+msgid_plural "This plugin requires the following plugins: %1$s."
+msgstr[0] "Dette plugin kræver følgende plugin: %1$ s."
+msgstr[1] "Dette plugin kræver følgende plugins: %1$ s."
+
+#: classes/requires.php:96
+msgid "This plugin recommends the following plugin: %1$s."
+msgid_plural "This plugin recommends the following plugins: %1$s."
+msgstr[0] "Dette plugin anbefaler følgende plugin: %1$ s."
+msgstr[1] "Dette plugin anbefaler følgende plugins: %1$ s."
+
+#: classes/requires.php:98 includes/tgmpa.php:205
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin."
+" Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] "Undskyld, men du har ikke de rette tilladelser til at installere %s plugin. Kontakt administratoren af webstedet for hjælp til at få plugin installeret."
+msgstr[1] "Undskyld, men du har ikke de rette tilladelser til at installere %s plugins. Kontakt administratoren af webstedet for hjælp til at få plugins installeret."
+
+#: classes/requires.php:100 includes/tgmpa.php:206
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "Følgende kræves plugin er i øjeblikket inaktiv: %1$ s."
+msgstr[1] "Følgende nødvendige plugins er aktuelt inaktiv: %1$ s."
+
+#: classes/requires.php:102 includes/tgmpa.php:207
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "Følgende anbefalede plugin er i øjeblikket inaktiv: %1$ s."
+msgstr[1] "Følgende anbefalede plugins er aktuelt inaktiv: %1$ s."
+
+#: classes/requires.php:104 includes/tgmpa.php:208
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] "Undskyld, men du har ikke de rette tilladelser til at aktivere %s plugin. Kontakt administratoren af webstedet for hjælp til at få plugin aktiveret."
+msgstr[1] "Undskyld, men du har ikke de rette tilladelser til at aktivere %s plugins. Kontakt administratoren af webstedet for hjælp til at få plugins aktiveret."
+
+#: classes/requires.php:106
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this plugin: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this plugin: %1$s."
+msgstr[0] "Følgende plugin skal opdateres til den nyeste version for at sikre maksimal kompatibilitet med dette plugin: %1$ s."
+msgstr[1] "De følgende plugins skal være opdateret til deres nyeste version for at sikre maksimal kompatibilitet med dette plugin: %1$ s."
+
+#: classes/requires.php:108 includes/tgmpa.php:210
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins."
+" Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] "Undskyld, men du har ikke de rette tilladelser til at opdatere %s plugin. Kontakt administratoren af webstedet for hjælp til at få plugin opdateret."
+msgstr[1] "Undskyld, men du har ikke de rette tilladelser til at opdatere %s plugins. Kontakt administratoren af webstedet for hjælp til at få plugins opdateret."
+
+#: classes/requires.php:110
+msgid "Install Plugin"
+msgid_plural "Install Plugins"
+msgstr[0] "Installere Plugin"
+msgstr[1] "Installere Plugins"
+
+#: classes/requires.php:111
+msgid "Activate Plugin"
+msgid_plural "Activate Plugins"
+msgstr[0] "Aktivere Plugin"
+msgstr[1] "Aktivere Plugins"
+
+#: classes/requires.php:112 includes/tgmpa.php:213
+msgid "Return to Required Plugins Installer"
+msgstr "Vende tilbage til nødvendige Plugins installeret"
+
+#: classes/requires.php:113 includes/tgmpa.php:215 includes/tgmpa.php:1970
+msgid "Plugin activated successfully."
+msgstr "Plugin aktiveret med held."
+
+#: classes/requires.php:114
+msgid "All plugins installed and activated successfully. %s"
+msgstr "Alle plugins installeret og aktiveret med held. %s"
+
+#: classes/resume/menu.php:44 classes/resume/menu.php:45
+msgid "Education Fields"
+msgstr "Uddannelse felter"
+
+#: classes/resume/menu.php:54 classes/resume/menu.php:55
+msgid "Experience Fields"
+msgstr "Opleve felter"
+
+#: classes/resume/menu.php:64 classes/resume/menu.php:65
+msgid "Links Fields"
+msgstr "Links felter"
+
+#: classes/shortcodes.php:46
+msgid "Meta Key was not specified!"
+msgstr "Meta nøglen blev ikke angivet!"
+
+#: classes/shortcodes.php:50
+msgid "Unable to determine correct job/resume/post ID!"
+msgstr "Afskåret fra afgøre korrekte job/CV/post ID!"
+
+#: classes/translations.php:34
+msgid ""
+"If you continue receive this error, please submit a <a target=\"_blank\" "
+"href=\"%s\">support ticket</a>."
+msgstr "Hvis du fortsat modtager denne fejl, skal du indsende en <a target=\"_blank\" href=\"%s\"> support ticket</a>."
+
+#: classes/translations.php:35
+msgid ""
+"If you want to edit this field, please click the <strong>Edit</strong> link "
+"from the list table."
+msgstr "Hvis du vil redigere dette felt, skal du klikke på linket <strong>Rediger</strong> fra tabellen."
+
+#: classes/translations.php:36
+msgid "A valid meta key is required!"
+msgstr "En gyldig meta nøgle er påkrævet!"
+
+#: classes/translations.php:37
+msgid ""
+"Meta keys can NOT have spaces in them, use an underscore instead! As an "
+"example, job shift should be job_shift."
+msgstr "Meta nøgler kan ikke har mellemrum i dem, bruge et understregningstegn i stedet! Som et eksempel bør job Skift job_shift."
+
+#: classes/translations.php:38
+msgid ""
+"If you change the meta key it will be saved as a new field!  You should NOT "
+"do this unless you know what your doing!"
+msgstr ""
+
+#: classes/translations.php:39
+msgid ""
+"The ONLY supported characters for meta keys are a-z (lowercase), 0-9 "
+"(numbers), and _ (underscores, in place of space) for meta keys!<br />Do "
+"<strong>NOT</strong> use any other characters or you will have issues!"
+msgstr ""
+
+#: classes/translations.php:40
+msgid "Spaces are not allowed in this field!"
+msgstr "Mellemrum er ikke tilladt i dette felt!"
+
+#: classes/translations.php:41
+msgid "A valid type is required!"
+msgstr "Der kræves en gyldig type!"
+
+#: classes/translations.php:42
+msgid "This field is required!"
+msgstr "Dette felt er påkrævet!"
+
+#: classes/translations.php:43
+msgid ""
+"Options are required for this field type!  Value IS required, label is "
+"optional.  If label is not provided the value will be used instead."
+msgstr "Indstillinger er påkrævet for denne felttype!  Værdi er påkrævet, etiketten er valgfri.  Hvis etiketten ikke angives værdien vil blive brugt i stedet."
+
+#: classes/translations.php:44
+msgid ""
+"Option values can NOT contain the asterisk (*) or tilde (~) characters! "
+"Labels are allowed to have these characters, but values can not!"
+msgstr "Værdier kan ikke indeholde en stjerne (*) eller tilde (~) tegn! Etiketter er tilladt at have disse tegn, men værdier kan ikke!"
+
+#: classes/translations.php:45
+msgid "A valid priority is required! Priority must be a numerical value."
+msgstr "Der kræves en gyldig prioritet! Prioritet skal være en numerisk værdi."
+
+#: classes/translations.php:46
+msgid "Priority must be a numerical value! You CAN use decimals."
+msgstr "Prioritet skal være en numerisk værdi! Du kan bruge decimaler."
+
+#: classes/translations.php:47
+msgid "Add New Field"
+msgstr "Tilføj nyt felt"
+
+#: classes/translations.php:48
+msgid "Edit Field"
+msgstr "Rediger feltet"
+
+#: classes/translations.php:49
+msgid "View Field"
+msgstr "Se felt"
+
+#: classes/translations.php:51
+msgid "Remove Field"
+msgstr "Fjern felt"
+
+#: classes/translations.php:52
+msgid "Enable Field"
+msgstr "Aktivere felt"
+
+#: classes/translations.php:53
+msgid "Disable Field"
+msgstr "Deaktivere felt"
+
+#: classes/translations.php:54
+msgid "type"
+msgstr "type"
+
+#: classes/translations.php:55
+msgid "label"
+msgstr "etiket"
+
+#: classes/translations.php:56
+msgid "description"
+msgstr "Beskrivelse"
+
+#: classes/translations.php:57
+msgid "placeholder"
+msgstr "pladsholder"
+
+#: classes/translations.php:58
+msgid "priority"
+msgstr "prioritet"
+
+#: classes/translations.php:59
+msgid "required"
+msgstr "kræves"
+
+#: classes/translations.php:60
+msgid "remove"
+msgstr "Fjern"
+
+#: classes/translations.php:61
+msgid "disable"
+msgstr "Deaktiver"
+
+#: classes/translations.php:66
+msgid "Close"
+msgstr "Luk"
+
+#: classes/translations.php:69
+msgid "Error"
+msgstr "Fejl"
+
+#: classes/translations.php:70
+msgid "Uknown Error! Refresh the page and try again."
+msgstr "Servertilstand fejl! Opdatere siden og prøv igen."
+
+#: classes/translations.php:71
+msgid "Success"
+msgstr "Succes"
+
+#: classes/translations.php:72
+msgid "Are you sure you want to remove"
+msgstr "Er du sikker pσ du vil fjerne"
+
+#: classes/translations.php:73
+msgid "Are you sure you want to disable"
+msgstr "Er du sikker på du vil deaktivere"
+
+#: classes/translations.php:74
+msgid "Are you sure you want to enable"
+msgstr "Er du sikker på, du vil aktivere"
+
+#: classes/translations.php:75
+msgid ""
+"Are you sure?  This will remove ALL of your custom and customized field "
+"data!"
+msgstr "Er du sikker?  Dette vil fjerne alle dine brugerdefinerede og brugerdefinerede feltdata!"
+
+#: classes/translations.php:76
+msgid "Using the syntax "
+msgstr "Ved hjælp af syntaksen "
+
+#: classes/translations.php:77
+msgid "Edit Field Options"
+msgstr "Redigere indstillinger for feltet"
+
+#: classes/translations.php:79
+msgid ""
+"Allowed<br/><a href=\"%1$s\" target=\"_blank\">Mime Types</a><br/><small>NOT"
+" required</small>"
+msgstr "Tilladt <br/> <a href=\"%1$s\" target=\"_blank\"> Mime typer</a> <br/> <small>ikke påkrævet</small>"
+
+#: classes/translations.php:83
+msgid "image/jpeg"
+msgstr ""
+
+#: classes/translations.php:87
+msgid "jpg"
+msgstr "jpg"
+
+#: classes/translations.php:88
+msgid "value"
+msgstr "værdi"
+
+#: classes/translations.php:95
+msgid "Extension"
+msgstr "Udvidelse"
+
+#: classes/widget.php:21
+msgid ""
+"Output a custom/default field value from WP Job Manager Field Editor on any "
+"listing that supports widgets."
+msgstr "Output en brugerdefineret/standard feltværdi fra WP Job Manager felt Editor på nogen notering, der understøtter widgets."
+
+#: classes/widget.php:106
+msgid "Title:"
+msgstr "Titel:"
+
+#: classes/widget.php:110
+msgid "Use Widget Style:"
+msgstr "Brug Widget stil:"
+
+#: classes/widget.php:115
+msgid "Show Label:"
+msgstr "Vis etiket:"
+
+#: classes/widget.php:119
+msgid "Field Meta Key:"
+msgstr "Feltet Meta nøglen:"
+
+#: classes/widget.php:142
+msgid "Extra Classes:"
+msgstr "Ekstra klasser:"
+
+#: classes/widget.php:143
+msgid "my-class my-class2"
+msgstr "min klasse my-Klasse2"
+
+#: classes/widget.php:146
+msgid "Output As:"
+msgstr "Output som:"
+
+#: classes/widget.php:170
+msgid "Caption:"
+msgstr "Billedtekst:"
+
+#: classes/widget.php:171
+msgid "Click Here!"
+msgstr "Klik her!"
+
+#: classes/widget.php:172
+msgid ""
+"If you want to use a specific caption for the link enter it above. Leave "
+"blank to use the URL as the caption."
+msgstr "Hvis du vil bruge en bestemt billedtekst for linket Angiv det ovenstående. Lad stå tomt for at bruge URL-adressen som billedteksten."
+
+#: classes/widget.php:175 classes/widget.php:180 classes/widget.php:191
+#: classes/widget.php:195 classes/widget.php:200
+msgid "Optional"
+msgstr "Valgfri"
+
+#: classes/widget.php:186
+msgid "Allow Download:"
+msgstr "Tillade Download:"
+
+#: classes/widget.php:191
+msgid "Poster URL:"
+msgstr "Plakat URL:"
+
+#: classes/widget.php:206
+msgid "Checkbox True:"
+msgstr "Afkrydsningsfeltet sand:"
+
+#: classes/widget.php:210
+msgid "Checkbox False:"
+msgstr "Afkrydsningsfeltet falsk:"
+
+#: classes/widget.php:212
+msgid "Custom caption to use if checkbox field type is not checked."
+msgstr "Custom billedtekst til brug, hvis afkrydsningsfeltet felttypen ikke er tjekket."
+
+#: includes/compatibility.php:68
+msgid ""
+"Your server is using a <strong>VERY OLD</strong> and unsupported version of "
+"PHP, version 5.2 or older. <a href=\"%1$s\" target=\"_blank\">EOL (End of "
+"Life)</a> for PHP 5.2 was about <strong>%2$s ago</strong>!!<br /><br />It is"
+" <strong>strongly</strong> recommended that you upgrade to PHP 5.3 or "
+"newer...you can upgrade PHP or <a href=\"%3$s\">Hide this Notice "
+"Forever!</a><br/><br />Did you know im also the Founder and CEO of Host "
+"Tornado?<br/><a href=\"%4$s\" target=\"_blank\">Contact me</a> for an "
+"exclusive sMyles Plugins customer promo code discount for any shared "
+"<strong>SSD (Solid State Drive)</strong> hosting packages!  Data centers in "
+"Florida USA, Arizona USA, Montreal Canada, and France.  Your site will run "
+"faster than it ever has, or your money back!"
+msgstr "Serveren bruger en <strong>Meget gammel</strong> og ikke-understøttet version af PHP, version 5.2 eller ældre. <a href=\"%1$s\" target=\"_blank\"> EOL (End of Life)</a> for PHP 5.2 var omkring <strong>%2$ s siden</strong>!!<br /> <br /> det er <strong>stærkt</strong> anbefales, at du opgraderer til PHP 5.3 eller nyere... kan du opgradere PHP eller <a href=\"%3$s\"> skjule denne meddelelse Forever!</a> <br/><br /> vidste du im også grundlægger og CEO af vært Tornado? <br/><a href=\"%4$s\" target=\"_blank\"> kontakt mig</a> for en eksklusiv sMyles Plugins kunde promo kode rabat til enhver delt <strong>SSD (gedigen påstå Drive)</strong> hosting pakker!  Datacentre i Florida USA, Arizona USA, Montreal Canada og Frankrig.  Dit websted vil køre hurtigere, end det nogensinde har, eller dine penge tilbage!"
+
+#: includes/functions.php:393
+msgid ""
+"Sorry, your browser doesn't support embedded videos, you should upgrade to a"
+" modern browser."
+msgstr "Beklager, din browser understøtter ikke integrerede videoer, bør du opgradere til en moderne browser."
+
+#: includes/functions.php:394
+msgid "Or you can"
+msgstr "Eller du kan"
+
+#: includes/functions.php:394
+msgid "Download The File"
+msgstr "Hent filen"
+
+#: includes/functions.php:394
+msgid "(right click and select Save As)"
+msgstr "(højreklik og vælg Gem som)"
+
+#: includes/functions.php:415
+msgid "True"
+msgstr "Sandt"
+
+#: includes/functions.php:420
+msgid "False"
+msgstr "Falsk"
+
+#: includes/smyles-bug-report/smyles-bug-report.php:112
+msgid "Debug logging has been disabled."
+msgstr "Debug logføring er deaktiveret."
+
+#: includes/smyles-bug-report/smyles-bug-report.php:120
+msgid "Debug logging has been enabled."
+msgstr "Debug logføring er aktiveret."
+
+#: includes/smyles-bug-report/smyles-bug-report.php:184
+msgid "Bug Report submitted succesfully!  Thank You!"
+msgstr "Fejlrapport indsendt held!  Tak!"
+
+#: includes/smyles-bug-report/smyles-bug-report.php:185
+msgid "There was an error submitting your bug report, please try again later."
+msgstr "Der opstod en fejl under indsender din fejlrapport, prøv igen senere."
+
+#: includes/smyles-bug-report/smyles-bug-report.php:290
+msgid "Invalid Email"
+msgstr "Ugyldig E-mail"
+
+#: includes/smyles-bug-report/smyles-bug-report.php:374
+#: includes/smyles-bug-report/smyles-bug-report.php:377
+msgid "Report a Bug"
+msgstr "Rapport en fejl"
+
+#: includes/smyles-bug-report/smyles-bug-report.php:383
+msgid "Email Address"
+msgstr "E-mail-adresse"
+
+#: includes/smyles-bug-report/smyles-bug-report.php:384
+msgid "Your Email"
+msgstr "Din E-mail"
+
+#: includes/smyles-bug-report/smyles-bug-report.php:387
+msgid "Bug Description"
+msgstr "Fejl beskrivelse"
+
+#: includes/smyles-bug-report/smyles-bug-report.php:388
+msgid "Short Bug Description ..."
+msgstr "Kort fejl beskrivelse..."
+
+#: includes/smyles-bug-report/smyles-bug-report.php:391
+msgid "Bug Details"
+msgstr "Bug detaljer"
+
+#: includes/smyles-bug-report/smyles-bug-report.php:392
+msgid ""
+"Please describe the bug, how to replicate the bug, and any other details you"
+" can add.  Links to screenshots would be helpful as well."
+msgstr "Beskriv fejlen, hvordan du overfører bug, og andre detaljer, du kan tilføje.  Links til screenshots ville være nyttigt som godt."
+
+#: includes/smyles-bug-report/smyles-bug-report.php:399
+msgid "Debug is <strong>ENABLED</strong>"
+msgstr "Fejlfinding er <strong>aktiveret</strong>"
+
+#: includes/smyles-bug-report/smyles-bug-report.php:413
+msgid "Disable Force Debug"
+msgstr "Deaktiver Force Debug"
+
+#: includes/smyles-bug-report/smyles-bug-report.php:416
+msgid "Enable Force Debug"
+msgstr "Kraft af fejlfinding"
+
+#: includes/smyles-update/class-smyles-update.php:71
+msgid "Deactivate Licence"
+msgstr "Deaktivere licens"
+
+#: includes/smyles-update/class-smyles-update.php:83
+msgid "Your licence for <strong>%s</strong> has been activated. Thanks!"
+msgstr "Din licens for <strong>%s</strong> er blevet aktiveret. Tak!"
+
+#: includes/smyles-update/class-smyles-update.php:349
+msgid ""
+"A licence key for %s could not be found. Maybe you forgot to enter a licence"
+" key when setting up %s."
+msgstr "En licensnøglen nemlig %s kunne ikke findes. Måske du har glemt at indtaste en licensnøgle ved opsætning af %s."
+
+#: includes/smyles-update/class-smyles-update.php:353
+msgid "Invalid update request"
+msgstr "Ugyldig opdateringsanmodning"
+
+#: includes/smyles-update/class-smyles-update.php:374
+msgid "Your licence for <strong>%s</strong> has been deactivated."
+msgstr "Din licens for <strong>%s</strong> er blevet deaktiveret."
+
+#: includes/smyles-update/class-smyles-update.php:414
+msgid "Licence"
+msgstr "Licens"
+
+#: includes/smyles-update/class-smyles-update.php:417
+msgid ""
+"Enter your licence key and email and hit return. A valid key is required for"
+" automatic updates."
+msgstr "Indtast din licensnøglen og email og tryk return. Der kræves en gyldig nøgle for automatiske opdateringer."
+
+#: includes/smyles-update/class-smyles-update.php:438
+msgid "Hide notice"
+msgstr "Skjule varsel"
+
+#: includes/smyles-update/class-smyles-update.php:439
+msgid ""
+"<a href=\"%s\">Please activate your licence key</a> to get updates for "
+"<strong>%s</strong>.  This ensures you have the latest features, bug fixes, "
+"and experience!"
+msgstr "<a href=\"%s\"> venligst Aktivér din licensnøgle</a> til at hente opdateringer til <strong>%s</strong>.  Dette sikrer, at du har de nyeste funktioner, fejlrettelser, og erfaring!"
+
+#: includes/smyles-update/class-smyles-update.php:440
+msgid "Lost your key? <a href=\"%s\">Retrieve it here</a>."
+msgstr "Mistet din nøgle? <a href=\"%s\"> hente det her</a>."
+
+#: includes/tgmpa.php:202
+msgid "Something went wrong."
+msgstr "Noget gik galt."
+
+#: includes/tgmpa.php:203
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Dette tema kræver følgende plugin: %1$ s."
+msgstr[1] "Dette tema kræver følgende plugins: %1$ s."
+
+#: includes/tgmpa.php:204
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Dette tema anbefaler følgende plugin: %1$ s."
+msgstr[1] "Dette tema anbefaler følgende plugins: %1$ s."
+
+#: includes/tgmpa.php:209
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] "Følgende plugin skal opdateres til den nyeste version for at sikre maksimal kompatibilitet med dette tema: %1$ s."
+msgstr[1] "De følgende plugins skal være opdateret til deres nyeste version for at sikre maksimal kompatibilitet med dette tema: %1$ s."
+
+#: includes/tgmpa.php:211
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Begynde at installere plugin"
+msgstr[1] "Begynde at installere plugins"
+
+#: includes/tgmpa.php:212
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Begynde at aktivere plugin"
+msgstr[1] "Begynd aktivering plugins"
+
+#: includes/tgmpa.php:214
+msgid "Return to the dashboard"
+msgstr "Vende tilbage til instrumentbrættet"
+
+#: includes/tgmpa.php:216 includes/tgmpa.php:1655
+msgid "The following plugin was activated successfully:"
+msgstr "Følgende plugin blev aktiveret med succes:"
+
+#: includes/tgmpa.php:217
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Alle plugins installeret og aktiveret med held. %1$ s"
+
+#: includes/tgmpa.php:218
+msgid "Dismiss this notice"
+msgstr "Afvise denne meddelelse"
+
+#: includes/tgmpa.php:559 includes/tgmpa.php:2187
+msgid "Return to the Dashboard"
+msgstr "Vende tilbage til instrumentbrættet"
+
+#: includes/tgmpa.php:1189
+msgid "Private Repository"
+msgstr "Private Repository"
+
+#: includes/tgmpa.php:1192
+msgid "Pre-Packaged"
+msgstr "Færdigpakkede"
+
+#: includes/tgmpa.php:1197
+msgid "WordPress Repository"
+msgstr "WordPress Repository"
+
+#: includes/tgmpa.php:1200
+msgid "Recommended"
+msgstr "Anbefalet"
+
+#: includes/tgmpa.php:1203
+msgid "Not Installed"
+msgstr "Ikke installeret"
+
+#: includes/tgmpa.php:1205
+msgid "Installed But Not Activated"
+msgstr "Installeret, men ikke aktiveret"
+
+#: includes/tgmpa.php:1307 includes/tgmpa.php:1415
+msgid "Install"
+msgstr "Installere"
+
+#: includes/tgmpa.php:1329 includes/tgmpa.php:1416
+msgid "Activate"
+msgstr "Aktivere"
+
+#: includes/tgmpa.php:1378
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr "Ingen plugins til at installere eller aktivere. <a href=\"%1$s\" title=\"Return to the Dashboard\"> vende tilbage til instrumentbrættet</a>"
+
+#: includes/tgmpa.php:1394
+msgid "Plugin"
+msgstr "Plugin"
+
+#: includes/tgmpa.php:1395
+msgid "Source"
+msgstr "Kilde"
+
+#: includes/tgmpa.php:1525
+msgid "No plugins are available to be installed at this time."
+msgstr "Ingen plugins er tilgængelige for installation på dette tidspunkt."
+
+#: includes/tgmpa.php:1633
+msgid "No plugins are available to be activated at this time."
+msgstr "Ingen plugins er tilgængelige til at blive aktiveret på dette tidspunkt."
+
+#: includes/tgmpa.php:1953
+msgid "Install package not available."
+msgstr "Installere pakken ikke tilgængelig."
+
+#: includes/tgmpa.php:1954
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr "Downloadet installere pakken fra <span class=\"code\"> %s</span> &#8230;"
+
+#: includes/tgmpa.php:1955
+msgid "Unpacking the package&#8230;"
+msgstr "Udpakning pakken &#8230;"
+
+#: includes/tgmpa.php:1956
+msgid "Installing the plugin&#8230;"
+msgstr "Installere plugin &#8230;"
+
+#: includes/tgmpa.php:1957
+msgid "Plugin install failed."
+msgstr "Plugin installation mislykkedes."
+
+#: includes/tgmpa.php:1958
+msgid "Plugin installed successfully."
+msgstr "Plugin installeret."
+
+#: includes/tgmpa.php:1969
+msgid "Plugin activation failed."
+msgstr "Plugin Aktivering mislykkedes."
+
+#: includes/tgmpa.php:2083
+msgid ""
+"The installation and activation process is starting. This process may take a"
+" while on some hosts, so please be patient."
+msgstr "Installation og aktivering proces startes. Denne proces kan tage et stykke tid på nogle værter, så vær tålmodig."
+
+#: includes/tgmpa.php:2084
+msgid "%1$s installed and activated successfully."
+msgstr "%1$ s installeret og aktiveret med held."
+
+#: includes/tgmpa.php:2084 includes/tgmpa.php:2093
+msgid "Show Details"
+msgstr "Vis detaljer"
+
+#: includes/tgmpa.php:2084 includes/tgmpa.php:2093
+msgid "Hide Details"
+msgstr "Skjule detaljer"
+
+#: includes/tgmpa.php:2085
+msgid "All installations and activations have been completed."
+msgstr "Alle installationer og aktiveringer er afsluttet."
+
+#: includes/tgmpa.php:2086
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Installation og aktivering Plugin %1$ s (% 2$d/%3$d)"
+
+#: includes/tgmpa.php:2090
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr "Installationsprocessen begynder. Denne proces kan tage et stykke tid på nogle værter, så vær tålmodig."
+
+#: includes/tgmpa.php:2091
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Der opstod en fejl under installation af %1$ s: <strong>%2$ s</strong>."
+
+#: includes/tgmpa.php:2092
+msgid "The installation of %1$s failed."
+msgstr "Installationen af %1$ s mislykkedes."
+
+#: includes/tgmpa.php:2093
+msgid "%1$s installed successfully."
+msgstr "%1$ s installeret."
+
+#: includes/tgmpa.php:2094
+msgid "All installations have been completed."
+msgstr "Alle installationer er afsluttet."
+
+#: includes/tgmpa.php:2095
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Installere Plugin %1$ s (% 2$d/%3$d)"
+
+#: templates/form-fields/radio-field.php:24
+msgid "Clear Selection"
+msgstr "Klart valg"
+
+#: wp-job-manager-field-editor.php:254
+msgid "Translations"
+msgstr "Oversættelser"
+
+#. Plugin Name of the plugin/theme
+msgid "WP Job Manager Field Editor"
+msgstr "WP Job Manager felt Editor"
+
+#. Plugin URI of the plugin/theme
+msgid "https://plugins.smyl.es/wp-job-manager-field-editor"
+msgstr "https://plugins.smyl.es/WP-job-Manager-Field-editor"
+
+#. Description of the plugin/theme
+msgid ""
+"Full ajax plugin to Disable, Create, or Modify all WP Job Manager Fields, as"
+" well as automagically output custom fields on listing pages."
+msgstr "Fuld ajax plugin til at deaktivere, Opret, eller ændre alle WP Job Manager felter samt automagisk output brugerdefinerede felter på notering sider."
+
+#. Author of the plugin/theme
+msgid "Myles McNamara"
+msgstr "Myles McNamara"
+
+#. Author URI of the plugin/theme
+msgid "http://plugins.smyl.es"
+msgstr "http://plugins.smyl.es"
+
+#: classes/admin/cpt.php:225
+msgctxt "Disabled Field Status"
+msgid "disabled"
+msgstr "deaktiveret"
+
+#: classes/admin/cpt.php:234
+msgctxt "Enabled Field Status"
+msgid "enabled"
+msgstr "aktiveret"
+
+#: classes/admin/list-table.php:640
+msgctxt "fields"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Alle <span class=\"count\"> (% s)</span>"
+msgstr[1] "Alle <span class=\"count\"> (% s)</span>"

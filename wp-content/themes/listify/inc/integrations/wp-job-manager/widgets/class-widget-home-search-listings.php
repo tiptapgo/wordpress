@@ -65,7 +65,7 @@ class Listify_Widget_Search_Listings extends Listify_Widget {
 
 		echo $before_widget;
 
-		if ( $title ) echo $before_title . $title . $after_title;
+		if ( $title ) echo $before_title . "Find Tutors for <span id='dynamic'></span>" . $after_title;
 
 		if ( listify_has_integration( 'facetwp' ) ) {
 			global $listify_facetwp;

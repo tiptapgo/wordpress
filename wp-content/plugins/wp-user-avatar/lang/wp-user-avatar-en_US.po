@@ -71,7 +71,7 @@ msgstr ""
 
 #: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar-admin.php:267
 #: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar.php:176
-msgid "Choose Image"
+msgid "New Avatar"
 msgstr ""
 
 #: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar-admin.php:267
@@ -172,7 +172,7 @@ msgid "Profile updated."
 msgstr ""
 
 #: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar-shortcode.php:236
-msgid "Update Profile"
+msgid "Apply"
 msgstr ""
 
 #: /applications/xampp/xamppfiles/htdocs/demos/wp-content/plugins/wp-user-avatar/includes/class-wp-user-avatar-subscriber.php:99

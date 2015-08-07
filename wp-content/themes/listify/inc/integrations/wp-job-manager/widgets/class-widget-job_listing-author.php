@@ -56,28 +56,16 @@ class Listify_Widget_Listing_Author extends Listify_Widget {
 
 		<div class="job_listing-author">
 			<div class="job_listing-author-avatar">
-				<?php echo get_avatar( get_the_author_meta( 'ID' ), 210 ); ?>
+				<a href="http://tiptapgo.co/profile/?nick=<?php echo get_userdata(get_the_author_meta( 'ID' ))->user_login; ?>"><?php echo get_avatar( get_the_author_meta( 'ID' ), 210 ); ?></a>
 			</div>
 
 			<div class="job_listing-author-info">
-				<?php the_author(); ?>
-
-				<small class="job_listing-author-descriptor"><?php echo $descriptor; ?></small>
-
-				<?php if ( 'preview' != $post->post_status ) : ?>
-				<div class="job_listing-author-info-more">
-					<a href="#job_listing-author-apply" data-mfp-src=".job_application" class="popup-trigger"><span class="ion-email"></span></a>
-
-					<?php if ( ! is_position_filled() && $post->post_status !== 'preview' ) get_job_manager_template( 'job-application.php' ); ?>
-
-					<a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>"><span class="ion-information-circled"></span></a>
-				</div>
-				<?php endif; ?>
+				<a href="http://tiptapgo.co/profile/?nick=<?php echo get_userdata(get_the_author_meta( 'ID' ))->user_login; ?>"><?php the_author(); ?></a>
 			</div>
-
+			<br>
 			<?php if ( $biography && $bio = get_the_author_meta( 'description', get_the_author_meta( 'ID' ) ) ) : ?>
 				<div class="job_listing-author-biography">
-					<?php echo $bio; ?>
+					<?php echo nl2br($bio); ?>
 				</div>
 			<?php endif; ?>
 

@@ -18,23 +18,23 @@ class Listify_Widget_Listing_Map extends Listify_Widget {
 				'type'  => 'checkbox',
 				'std'   => 1,
 				'label' => __( 'Display map', 'listify' )
-			),
+				),
 			'address' => array(
 				'type'  => 'checkbox',
 				'std'   => 1,
 				'label' => __( 'Display address', 'listify' )
-			),
+				),
 			'phone' => array(
 				'type'  => 'checkbox',
 				'std'   => 1,
 				'label' => __( 'Display phone number', 'listify' )
-			),
+				),
 			'web' => array(
 				'type'  => 'checkbox',
 				'std'   => 1,
 				'label' => __( 'Display website', 'listify' )
-			)
-		);
+				)
+			);
 
 		parent::__construct();
 	}
@@ -82,29 +82,40 @@ class Listify_Widget_Listing_Map extends Listify_Widget {
 			<?php endif; ?>
 
 			<?php if ( $phone || $web || $address ) : ?>
-			<div class="col-md-<?php echo $map ? 6 : 12; ?> col-sm-12">
-				<div class="listing-contact-overview">
-					<div class="listing-contact-overview-inner">
-					<?php
-                        do_action( 'listify_widget_job_listing_map_before' );
+				<div class="col-md-<?php echo $map ? 6 : 12; ?> col-sm-12">
+					<div class="listing-contact-overview">
+						<div class="listing-contact-overview-inner">
+							<?php
+							do_action( 'listify_widget_job_listing_map_before' );
 
-						if ( $address ) :
-							$listify_job_manager->template->the_location_formatted();
-						endif;
+							if ( $address ) {?>
+							<div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
+								<?php $listify_job_manager->template->the_location_formatted(); ?>
+							</div>
+							<?php } ?>
+							<div id="maplink" class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
+								<a target="_blank" style="padding:30px 20px; color: #3396d1 !important; display: block;" href="<?php echo $listify_job_manager->template->google_maps_url(); ?>" class="listing-contact-map-clickbox">Open in Google Maps<span style="padding:0 20px" class="fa fa-sign-out"></span></a>
+							</div>
+							<?php if(is_page( 'My Account' )): ?>
+								<br><br><br><div class="pull-right">
+									<a class="ghost button" href="http://tiptapgo.co/edit-profile/#address">Edit Location</a>
+								</div>	
+							<?php endif; ?>
+							<?php
 
-						if ( $phone ) :
+						/*if ( $phone ) :
 							$listify_job_manager->template->the_phone();
 						endif;
 
 						if ( $web ) :
 							$listify_job_manager->template->the_url();
-						endif;
+							endif;*/
 
-                        do_action( 'listify_widget_job_listing_map_after' );
-					?>
+							do_action( 'listify_widget_job_listing_map_after' );
+							?>
+						</div>
 					</div>
 				</div>
-			</div>
 			<?php endif; ?>
 		</div>
 

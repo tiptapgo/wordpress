@@ -1,9 +1,9 @@
 === Ninja Forms ===
-Contributors: wpninjasllc, kstover, jameslaws, wpnzach, daveshine, mordauk, bftrick, helgatheviking
+Contributors: wpninjasllc, kstover, jameslaws, wpnzach, kbjohnson90, daveshine, mordauk, bftrick, helgatheviking
 Tags: form, forms, contact form, custom form, form builder, form creator, form manager, form creation, contact forms, custom forms, forms builder, forms creator, forms manager, forms creation, form administration,
-Requires at least: 3.8
-Tested up to: 4.2
-Stable tag: 2.9.11
+Requires at least: 3.9
+Tested up to: 4.2.2
+Stable tag: 2.9.21
 License: GPLv2 or later
 
 Forms created with a simple drag and drop interface. Contact forms, Email collection forms, or any other form you want on your WordPress site.
@@ -74,21 +74,114 @@ For help and video tutorials, please visit our website: [Ninja Forms Documentati
 
 == Upgrade Notice ==
 
-= 2.9.11 (20 April 2015) =
+= 2.9.21 (14 July 2015) =
 
-*Security:*
+*Features:*
 
-* Fixed a security vulnerability that could allow users to inject scripts if they were logged in as administrators.
+* Added built-in support for Google reCAPTCHA.
+
+*Changes:*
+
+* Added South Sudan to the country list.
 
 *Bugs:*
 
-* The "Download All" button should now work properly for submissions.
+* Fixed a bug that could cause multiple forms on a page to add an empty DIV when one was successfully completed.
+* Ampersands (&) should now encode properly when using them in the redirect action.
+* The "Today's Date" option should now use the WordPress time rather than GMT.
 
 == Requested Features ==
 
 If you have any feature requests, please feel free to visit [ninjaforms.com](http://ninjaforms.com) and let us know about it.
 
 == Changelog ==
+
+= 2.9.21 (14 July 2015) =
+
+*Features:*
+
+* Added built-in support for Google reCAPTCHA.
+
+*Changes:*
+
+* Added South Sudan to the country list.
+
+*Bugs:*
+
+* Fixed a bug that could cause multiple forms on a page to add an empty DIV when one was successfully completed.
+* Ampersands (&) should now encode properly when using them in the redirect action.
+* The "Today's Date" option should now use the WordPress time rather than GMT.
+
+= 2.9.19 (24 June 2015) =
+
+*Security:*
+
+* Fixed a possible cross-site scripting issue. We recommend updating as soon as possible to this version.
+
+*Changes:*
+
+* Added RTL support for radio and checkbox wraps with left or right labels
+
+= 2.9.18 (2 June 2015) =
+
+*Changes:*
+
+* Removed usage of PHP session variables in favour of an implementation of WP Session Manager.
+
+*Bugs:*
+
+* The use of WP Session manager should fix any bugs related to session_start() or headers already sent messages related to Ninja Forms.
+* Fixed a bug that could cause form caching to prevent new form settings from appearing.
+
+= 2.9.17 (29 May 2015) =
+
+*Security:*
+
+* Hardened form display to protect against certain cross-site scripting methods.
+
+*Bugs:*
+
+* Fixed a bug that could prevent licenses from being activated properly.
+* Submission #'s should now be properly assigned.
+
+= 2.9.16 (21 May 2015) =
+
+*Bugs:*
+
+* Fixed a bug with major calculations that could cause them to fail in some situations.
+
+= 2.9.15 (21 May 2015) =
+
+*Bugs:*
+
+* Fixed a bug with form caching that could cause fatal errors.
+
+= 2.9.14 (20 May 2015) =
+
+*Bugs:*
+
+* Fixed a bug that could cause issues using Ninja Forms with a multi-site installation.
+
+= 2.9.13 (20 May 2015) =
+
+*Bugs:*
+
+* Fixed a bug that could cause the "download all submissions" button to fail.
+
+= 2.9.12 (20 May 2015) =
+
+*Bugs:*
+
+* Fixed a bug that could prevent licenses from being deactivated properly.
+* Fixed some styling issues with the password field.
+* Fixed several PHP notices.
+
+*Changes:*
+
+* Added a new upgrade handler to make upgrading a smoother, more stable process.
+* Added support for European thousands separators in currency masks and calculations.
+* Added form caching to speed up installations with large numbers of forms.
+* Added support for using multi-select or checkbox lists as the recipient of email actions.
 
 = 2.9.11 (20 April 2015) =
 

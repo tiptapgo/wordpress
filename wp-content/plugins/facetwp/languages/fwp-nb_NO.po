@@ -1,0 +1,479 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: FacetWP\n"
+"POT-Creation-Date: 2015-02-05 21:45-0500\n"
+"PO-Revision-Date: 2015-02-11 10:41+0100\n"
+"Last-Translator: \n"
+"Language-Team: Matt Gibbs <hello@facetwp.com>\n"
+"Language: nb_NO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/class-ajax.php:107
+msgid "Settings saved"
+msgstr "Lagret innstillinger"
+
+#: includes/class-ajax.php:242
+msgid "Nothing to import"
+msgstr "Ingenting å importere"
+
+#: includes/class-ajax.php:278
+msgid "Imported"
+msgstr "Importert"
+
+#: includes/class-ajax.php:281
+msgid "Skipped"
+msgstr "Hoppet over"
+
+#: includes/class-ajax.php:312
+msgid "Unable to connect to activation server"
+msgstr "Kunne ikke koble til aktiveringstjener"
+
+#: includes/class-facet.php:335 includes/class-facet.php:537
+msgid "of"
+msgstr "av"
+
+#: includes/class-facet.php:452 includes/facets/checkboxes.php:318
+#: includes/facets/dropdown.php:189 includes/facets/hierarchy.php:247
+msgid "Sort by"
+msgstr "Sorter etter"
+
+#: includes/class-facet.php:456
+msgid "Title (A-Z)"
+msgstr "Tittel (A–Å)"
+
+#: includes/class-facet.php:463
+msgid "Title (Z-A)"
+msgstr "Tittel (Å–A)"
+
+#: includes/class-facet.php:470
+msgid "Date (Newest)"
+msgstr "Dato (nyeste)"
+
+#: includes/class-facet.php:477
+msgid "Date (Oldest)"
+msgstr "Dato (eldste)"
+
+#: includes/class-facet.php:536
+msgid "Page"
+msgstr "Side"
+
+#: includes/facets/autocomplete.php:7
+msgid "Autocomplete"
+msgstr "Autofullfør"
+
+#: includes/facets/checkboxes.php:7
+msgid "Checkboxes"
+msgstr "Avhukningsbokser"
+
+#: includes/facets/checkboxes.php:303 includes/facets/dropdown.php:174
+msgid "Parent term"
+msgstr "Overordnet term"
+
+#: includes/facets/checkboxes.php:321 includes/facets/dropdown.php:192
+#: includes/facets/hierarchy.php:250
+msgid "Facet Count"
+msgstr "Fasettantall"
+
+#: includes/facets/checkboxes.php:322 includes/facets/dropdown.php:193
+#: includes/facets/hierarchy.php:251
+msgid "Display Value"
+msgstr "Visningsverdi"
+
+#: includes/facets/checkboxes.php:323 includes/facets/dropdown.php:194
+#: includes/facets/hierarchy.php:252
+msgid "Raw Value"
+msgstr "Råverdi"
+
+#: includes/facets/checkboxes.php:329
+msgid "Behavior"
+msgstr "Oppførsel"
+
+#: includes/facets/checkboxes.php:332
+msgid "How should multiple selections affect the results?"
+msgstr "Hvordan skal flervalg påvirke resultatene?"
+
+#: includes/facets/checkboxes.php:337
+msgid "Narrow the result set"
+msgstr "Smalne inn resultatsettet"
+
+#: includes/facets/checkboxes.php:338
+msgid "Widen the result set"
+msgstr "Utvid resultatsettet"
+
+#: includes/facets/checkboxes.php:344
+msgid "Hierarchical"
+msgstr "Hierarkisk"
+
+#: includes/facets/checkboxes.php:347
+msgid "Is this a hierarchical taxonomy?"
+msgstr "Er dette en hierarkisk taksonomi?"
+
+#: includes/facets/checkboxes.php:352 includes/facets/checkboxes.php:367
+#: includes/facets/checkboxes.php:382
+msgid "No"
+msgstr "Nei"
+
+#: includes/facets/checkboxes.php:353 includes/facets/checkboxes.php:368
+#: includes/facets/checkboxes.php:383
+msgid "Yes"
+msgstr "Ja"
+
+#: includes/facets/checkboxes.php:359
+msgid "Show ghosts"
+msgstr "Vis spøkelser"
+
+#: includes/facets/checkboxes.php:362
+msgid "Show choices that would return zero results?"
+msgstr "Vis valg som returnerer null resultater?"
+
+#: includes/facets/checkboxes.php:374
+msgid "Preserve ghost order"
+msgstr "Bevar rekkefølge på spøkelser"
+
+#: includes/facets/checkboxes.php:377
+msgid "Keep ghost choices in the same order?"
+msgstr "Behold spøkelser i samme rekkefølge?"
+
+#: includes/facets/checkboxes.php:389 includes/facets/dropdown.php:200
+#: includes/facets/hierarchy.php:258
+msgid "Count"
+msgstr "Antall"
+
+#: includes/facets/checkboxes.php:392 includes/facets/dropdown.php:203
+#: includes/facets/hierarchy.php:261
+msgid "The maximum number of facet choices to show"
+msgstr "Maksimalt antall fasettvalg som vises"
+
+#: includes/facets/date_range.php:7
+msgid "Date Range"
+msgstr "Datoområde"
+
+#: includes/facets/date_range.php:22 includes/facets/date_range.php:123
+msgid "Start Date"
+msgstr "Startdato"
+
+#: includes/facets/date_range.php:26 includes/facets/date_range.php:124
+msgid "End Date"
+msgstr "Sluttdato"
+
+#: includes/facets/date_range.php:119
+msgid "Fields to show"
+msgstr "Vis felter"
+
+#: includes/facets/date_range.php:122
+msgid "Both"
+msgstr "Begge"
+
+#: includes/facets/dropdown.php:7
+msgid "Dropdown"
+msgstr "Nedtrekksmeny"
+
+#: includes/facets/dropdown.php:57 includes/facets/dropdown.php:169
+#: includes/facets/hierarchy.php:74
+msgid "Any"
+msgstr "hvilke som helst"
+
+#: includes/facets/dropdown.php:57
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: includes/facets/dropdown.php:160
+msgid "Default label"
+msgstr "Standardetikett"
+
+#: includes/facets/hierarchy.php:7
+msgid "Hierarchy"
+msgstr "Hierarki"
+
+#: includes/facets/hierarchy.php:125
+msgid "More"
+msgstr "Mer"
+
+#: includes/facets/hierarchy.php:126
+msgid "Less"
+msgstr "Mindre"
+
+#: includes/facets/hierarchy.php:230 templates/page-settings.php:271
+msgid "Data source"
+msgstr "Datakilde"
+
+#: includes/facets/hierarchy.php:233
+msgid "The data used to populate this facet"
+msgstr "Date brukt til å fylle denne fasetten"
+
+#: includes/facets/number_range.php:7
+msgid "Number Range"
+msgstr "Tallområde"
+
+#: includes/facets/number_range.php:19
+msgid "Min"
+msgstr "Min"
+
+#: includes/facets/number_range.php:21
+msgid "Max"
+msgstr "Maks"
+
+#: includes/facets/search.php:7
+msgid "Search"
+msgstr "Søk"
+
+#: includes/facets/search.php:19
+msgid "Enter keywords"
+msgstr "Legg inn nøkkelord"
+
+#: includes/facets/search.php:143
+msgid "Search engine"
+msgstr "Søkemotor"
+
+#: includes/facets/search.php:146
+msgid "WP Default"
+msgstr "WP-standard"
+
+#: includes/facets/search.php:148
+msgid "Default"
+msgstr "Standard"
+
+#: includes/facets/search.php:155
+msgid "Placeholder text"
+msgstr "Plassholdertekst"
+
+#: includes/facets/slider.php:7
+msgid "Slider"
+msgstr "Glidebryter"
+
+#: includes/facets/slider.php:22
+msgid "Reset"
+msgstr "Nullstill"
+
+#: includes/facets/slider.php:238
+msgid "Prefix"
+msgstr "Prefiks"
+
+#: includes/facets/slider.php:241
+msgid "Text that appears before each slider value"
+msgstr "Test som vises før hver glidebryterverdi"
+
+#: includes/facets/slider.php:248
+msgid "Suffix"
+msgstr "Endelse"
+
+#: includes/facets/slider.php:251
+msgid "Text that appears after each slider value"
+msgstr "Tekst som vises før hver glidebryterverdi"
+
+#: includes/facets/slider.php:258
+msgid "Format"
+msgstr "Format"
+
+#: includes/facets/slider.php:261
+msgid "The number format"
+msgstr "Tallformatet"
+
+#: includes/facets/slider.php:282
+msgid "Step"
+msgstr "Steg"
+
+#: includes/facets/slider.php:285
+msgid "The amount of increase between intervals"
+msgstr "Økning mellom intervaller"
+
+#: index.php:168
+msgid "Activate license"
+msgstr "Aktiver lisens"
+
+#: index.php:177
+msgid "days left"
+msgstr "dager igjen"
+
+#: index.php:180
+msgid "expired"
+msgstr "utløpt"
+
+#: index.php:182
+msgid "Renew license"
+msgstr "Forny lisens"
+
+#: templates/page-settings.php:21
+msgid "Not yet activated"
+msgstr "Ikke aktivert ennå"
+
+#: templates/page-settings.php:26
+msgid "License active"
+msgstr "Aktiv lisens"
+
+#: templates/page-settings.php:27
+msgid "expires"
+msgstr "utløper"
+
+#: templates/page-settings.php:60
+msgid "Welcome"
+msgstr "Velkommen"
+
+#: templates/page-settings.php:61
+msgid "Facets"
+msgstr "Fasetter"
+
+#: templates/page-settings.php:62
+msgid "Templates"
+msgstr "Maler"
+
+#: templates/page-settings.php:63
+msgid "Settings"
+msgstr "Innstillinger"
+
+#: templates/page-settings.php:64
+msgid "Support"
+msgstr "Brukerstøtte"
+
+#: templates/page-settings.php:98
+msgid "Re-index"
+msgstr "Reindekser"
+
+#: templates/page-settings.php:99 templates/page-settings.php:117
+#: templates/page-settings.php:135
+msgid "Save Changes"
+msgstr "Lagre endringer"
+
+#: templates/page-settings.php:101
+msgid "Add Facet"
+msgstr "Legg til fasett"
+
+#: templates/page-settings.php:119
+msgid "Add Template"
+msgstr "Legg til mal"
+
+#: templates/page-settings.php:143
+msgid "License Key"
+msgstr "Lisensnøkkel"
+
+#: templates/page-settings.php:146
+msgid "Activate"
+msgstr "Aktiver"
+
+#: templates/page-settings.php:157
+msgid "Permalink Type"
+msgstr "Type permalenke"
+
+#: templates/page-settings.php:160
+msgid "How should permalinks be constructed?"
+msgstr "Hvordan skal permalenker konstrueres?"
+
+#: templates/page-settings.php:165
+msgid "URL Hash"
+msgstr "URL-hash"
+
+#: templates/page-settings.php:166
+msgid "GET variables"
+msgstr "GET-variabler"
+
+#: templates/page-settings.php:168
+msgid "GET variables are recommended."
+msgstr "GET-variabler er anbefalt"
+
+#: templates/page-settings.php:173
+msgid "Term URLs"
+msgstr "Term-URLer"
+
+#: templates/page-settings.php:176
+msgid "What should appear in the URL for taxonomy terms?"
+msgstr "Hva skal vises i URLen for taksonomitermer?"
+
+#: templates/page-settings.php:181
+msgid "Term ID"
+msgstr "Term-ID"
+
+#: templates/page-settings.php:182
+msgid "Slug"
+msgstr "Permalenke"
+
+#: templates/page-settings.php:184
+msgid "Please re-index after changing this value."
+msgstr "Vennligst reindekser etter å ha endret denne verdien."
+
+#: templates/page-settings.php:189
+msgid "Thousands Separator"
+msgstr "Tusenskille"
+
+#: templates/page-settings.php:197
+msgid "Decimal Separator"
+msgstr "Desimalskille"
+
+#: templates/page-settings.php:210 templates/page-settings.php:218
+msgid "Export"
+msgstr "Eksporter"
+
+#: templates/page-settings.php:229 templates/page-settings.php:234
+msgid "Import"
+msgstr "Importer"
+
+#: templates/page-settings.php:232
+msgid "Paste the import code here"
+msgstr "Lim inn importkoden her"
+
+#: templates/page-settings.php:233
+msgid "Overwrite existing items?"
+msgstr "Overskriv eksisterende oppføringer?"
+
+#: templates/page-settings.php:253 templates/page-settings.php:309
+msgid "Label"
+msgstr "Etikett"
+
+#: templates/page-settings.php:260
+msgid "Facet type"
+msgstr "Fasettype"
+
+#: templates/page-settings.php:275
+msgid "Posts"
+msgstr "Innlegg"
+
+#: templates/page-settings.php:276
+msgid "Post Type"
+msgstr "Innleggstype"
+
+#: templates/page-settings.php:277
+msgid "Post Date"
+msgstr "Innleggsdato"
+
+#: templates/page-settings.php:278
+msgid "Post Modified"
+msgstr "Innegg endret"
+
+#: templates/page-settings.php:279
+msgid "Post Title"
+msgstr "Innleggstittel"
+
+#: templates/page-settings.php:280
+msgid "Post Author"
+msgstr "Innleggsforfatter"
+
+#: templates/page-settings.php:282
+msgid "Taxonomies"
+msgstr "Taksonomier"
+
+#: templates/page-settings.php:287
+msgid "Custom Fields"
+msgstr "Egendefinerte felt"
+
+#: templates/page-settings.php:301
+msgid "Delete Facet"
+msgstr "Slett fasett"
+
+#: templates/page-settings.php:320
+msgid "Query Arguments"
+msgstr "Spørringsargumenter"
+
+#: templates/page-settings.php:330
+msgid "Display Code"
+msgstr "Visningskode"
+
+#: templates/page-settings.php:338
+msgid "Delete Template"
+msgstr "Slett mal"

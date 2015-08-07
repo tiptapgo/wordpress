@@ -71,7 +71,7 @@ class WC_Shortcode_My_Account {
 
 			} elseif ( isset( $wp->query_vars['add-payment-method'] ) ) {
 
-				self::add_payment_method( $wp->query_vars['add-payment-method'] );
+				self::add_payment_method();
 
 			} else {
 
@@ -288,7 +288,7 @@ class WC_Shortcode_My_Account {
 		WC()->mailer(); // load email classes
 		do_action( 'woocommerce_reset_password_notification', $user_login, $key );
 
-		wc_add_notice( __( 'Check your e-mail for the confirmation link.', 'woocommerce' ) );
+		wc_add_notice( __( '<div class="text-center"><h6 style="margin:0">Check your e-mail for the confirmation link.</h6><div>Password reset e-mails are sent immediately, so if you do not receive our e-mail within 30 minutes, please let us know at <a href="mailto:help@tiptapgo.co?subject=TipTapGo! Password Reset Mail Not Received">help@tiptapgo.co</a></div></div>', 'woocommerce' ) );
 		return true;
 	}
 

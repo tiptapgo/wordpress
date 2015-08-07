@@ -32,7 +32,7 @@ get_header(); ?>
 							array(
 								'before_widget' => '<div class="listify_widget_search_listings">',
 								'after_widget'  => '</div>',
-								'before_title'  => '<hgroup class="home-widget-section-title"><h1 class="home-widget-title">',
+								'before_title'  => '<hgroup class="home-widget-section-title"><h1 class="dynamic-title home-widget-title">',
 								'after_title'   => '</h1></hgroup>',
 								'widget_id'     => 'search-12391'
 							)
@@ -82,7 +82,7 @@ get_header(); ?>
 					$defaults = array(
 						'before_widget' => '<aside class="home-widget">',
 						'after_widget'  => '</aside>',
-						'before_title'  => '<hgroup class="home-widget-section-title"><h1 class="home-widget-title">',
+						'before_title'  => '<hgroup class="home-widget-section-title"><h1 class="dynamic-title home-widget-title">',
 						'after_title'   => '</h1></hgroup>',
 						'widget_id'     => ''
 					);
