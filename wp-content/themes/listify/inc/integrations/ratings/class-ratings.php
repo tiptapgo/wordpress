@@ -107,8 +107,27 @@ class Listify_Ratings extends listify_Integration {
 			'object_id' => get_post()->ID
 		) );
 	?>
+	<?php
+		$args=array(
+			'meta_query' => array(
+				array(
+					'key' => 'review_id',
+					'value' => get_post()->ID,
+					'compare' => 'LIKE'
+					)
+				),
+			'post_type' => 'reviews',
+			'post_status' => 'publish',
+			'posts_per_page' => -1,
+			'caller_get_posts'=> 1
+		);
+
+		$my_query = null;
+		$my_query = new WP_Query($args);
+		$totalReviews = $my_query->post_count;	
+	?>
 		<div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating" class="rating-<?php echo floor(
-		$rating->output() ); ?> job_listing-rating-wrapper" title="<?php printf( '%d Reviews', $rating->count() ); ?>">
+		$rating->output() ); ?> job_listing-rating-wrapper" title="<?php printf( '%d Reviews', $totalReviews ); ?>">
 			<span class="job_listing-rating-stars">
 				<?php echo $rating->stars(); ?>
 			</span>
@@ -117,7 +136,7 @@ class Listify_Ratings extends listify_Integration {
 				<span itemprop="ratingValue"><?php echo $rating->output(); ?></span>
 			</span>
 			<span class="job_listing-rating-count">
-				<?php printf( _n( '<span itemprop="reviewCount">%d</span> Review', '<span itemprop="reviewCount">%d</span> Reviews', $rating->count(), 'listify' ), $rating->count() ); ?>
+				<?php printf( _n( '<span itemprop="reviewCount">%d</span> Review', '<span itemprop="reviewCount">%d</span> Reviews', $totalReviews, 'listify' ), $totalReviews ); ?>
 			</span>
 		</div>
 	<?php

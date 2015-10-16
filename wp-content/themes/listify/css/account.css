@@ -1,0 +1,107 @@
+.right{
+	text-align: right;
+}
+button.bankform {
+    width: 237.125px;
+    height: 46px;
+    box-shadow: none;
+    border-radius: 5px;
+}
+fieldset {
+	border: 0;
+	padding: 0;
+}
+
+p{
+	margin-bottom: 10px !important;
+}
+input{
+	background: #fff;
+}
+.bankinput{
+	width: 237.125px !important;
+	height: 46px;
+	background: #fff !important;
+	position: relative;
+	z-index: 10;
+	border: 1px solid #777 !important;
+	border-radius: 5px;
+}
+i {
+	margin: 0 10px 0 -8px;
+	font-size: 18px !important;
+}
+.widget{
+	min-height: 600px;
+}
+#submitbank,#submit{
+	width: 237.125px;
+	height: 46px;
+	box-shadow: none;
+	border-radius: 5px;
+}
+#job_verification_doc{
+	font-size: 0 !important;
+	position: relative !important;
+	height: 0 !important;
+}
+#job_verification_doc::before{
+	content: attr(data-content);
+	width: 237.125px;
+	height: 46px;
+	border: 1px solid #777;
+	color: #717a8f;
+	line-height: 1;
+	position: relative;
+	font-size: 13px;
+	padding: 16px 15px 15px;
+	display: inline-block;
+	white-space: nowrap;
+	-ms-user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+	cursor: pointer;
+	border-radius: 5px;	
+}
+body .chosen-container-single .chosen-single div:before {
+	color: #777;
+	font-weight: bold;
+	margin-left: -15px;
+}
+.job-manager-category-dropdown-wrapper:after{
+	display: none;
+}
+.select{
+	width: 237.125px;
+	height: 46px;
+}
+.select:after{
+	display: none;
+}
+select,a.chosen-single {
+	width: 237.125px;
+	height: 46px;		
+	background: #fff !important;
+	position: relative;
+	z-index: 10;
+	border: 1px solid #777 !important;
+	border-radius: 5px;
+}
+.error::before{
+	border: 2px solid #f00 !important;
+	color: #f00 !important;
+}	
+#preview{
+	position: absolute;
+}
+.verdoc > a {
+	pointer-events: none;
+}
+.verdoc > a > img{
+	pointer-events: none;
+	padding: 30px 0;
+}
+.deletebtn{
+	background: #ce4844 !important;
+}

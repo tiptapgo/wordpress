@@ -535,7 +535,7 @@ class Listify_WP_Job_Manager_Template extends listify_Integration {
 
 		$location = get_the_job_location();
 
-		$address = apply_filters( 'listify_formatted_address', array(
+		/*$address = apply_filters( 'listify_formatted_address', array(
 			'first_name'    => '',
 			'last_name'     => '',
 			'company'       => '',
@@ -550,11 +550,17 @@ class Listify_WP_Job_Manager_Template extends listify_Integration {
 			'full_country'  => $post->geolocation_country_long
 		), $location, $post );
 
+		*/
+
+		$address = get_post_meta($post->ID, '_job_location',true).', '.get_post_meta($post->ID, '_company_website',true);
+
 		$output[ 'start' ] = '<div class="job_listing-location job_listing-location-formatted" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">';
 
 		$output[ 'map-link-start' ] = sprintf( '<a class="google_map_link" href="%s" target="_blank">', $this->google_maps_url() );
 
-		$output[ 'address' ] = WC()->countries->get_formatted_address( $address );
+		//$output[ 'address' ] = WC()->countries->get_formatted_address( $address );
+
+		$output[ 'address'] = $address;
 
 		$output[ 'map-link-end' ] = '</a>';
 		$output[ 'end' ] = '</div>';

@@ -24,5 +24,3 @@ if ( ! defined( 'ABSPATH' ) ) {
 			<?php _e( 'Click here to reset your password', 'woocommerce' ); ?></a>
 </p>
 <p></p>
-
-<?php do_action( 'woocommerce_email_footer' ); ?>

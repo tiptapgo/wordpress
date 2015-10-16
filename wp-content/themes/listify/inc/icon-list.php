@@ -2553,7 +2553,7 @@ $iconlist = '[
     },
     {
       "code": "0xf231",
-      "name": "social-facebook"
+      "name": "social-facebook2"
     },
     {
       "code": "0xf230",
@@ -2697,7 +2697,7 @@ $iconlist = '[
     },
     {
       "code": "0xf241",
-      "name": "social-tumblr"
+      "name": "social-tumblr2"
     },
     {
       "code": "0xf240",
@@ -2717,7 +2717,7 @@ $iconlist = '[
     },
     {
       "code": "0xf243",
-      "name": "social-twitter"
+      "name": "social-twitter2"
     },
     {
       "code": "0xf242",

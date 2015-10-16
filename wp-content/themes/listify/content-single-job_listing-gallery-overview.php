@@ -43,6 +43,11 @@ $attachments = new WP_Query( array(
 		<?php endforeach; ?>
 	<?php endif; ?>
 </ul>
+<div>
+	<?php if ( $listify_job_manager->gallery->can_upload_to_listing() && $attachments->have_posts() ) : ?>
+		<a href="#add-photo" class="popup-trigger"><?php _e( 'Add More Images', 'listify' ); ?></a>
+	<?php endif; ?>	
+</div>	
 
 <style>
 .gallery-preview-image {

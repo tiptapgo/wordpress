@@ -19,7 +19,7 @@ get_header(); ?>
 	<div id="primary" class="container">
 		<div class="row content-area">
 
-			<main id="main" class="site-main col-md-8 col-sm-7 col-xs-12" role="main">
+			<main id="main" class="site-main col-md-12 col-sm-12 col-xs-12" role="main">
 
 				<?php if ( have_posts() ) : ?>
 
@@ -39,9 +39,6 @@ get_header(); ?>
 
 			</main>
 
-			<?php get_sidebar(); ?>
-
 		</div>
 	</div>
-
 <?php get_footer(); ?>

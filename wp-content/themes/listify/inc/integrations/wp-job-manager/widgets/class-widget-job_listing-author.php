@@ -18,13 +18,13 @@ class Listify_Widget_Listing_Author extends Listify_Widget {
 				'type'  => 'text',
 				'std'   => 'Listing Owner',
 				'label' => __( 'Descriptor:', 'listify' )
-			),
+				),
 			'biography' => array(
 				'type'  => 'checkbox',
 				'std'   => 1,
 				'label' => __( 'Show biography', 'listify' )
-			),
-		);
+				),
+			);
 
 		parent::__construct();
 	}
@@ -53,36 +53,80 @@ class Listify_Widget_Listing_Author extends Listify_Widget {
 
 		echo $before_widget;
 		?>
-
+		<style type="text/css">
+			.viewprofile, .bookreq{				
+				width: 100%;
+				margin: 20px 0 10px;
+			}
+			.viewprofile{
+				padding: 7px 5px !important;
+				border: 1px solid #3396d1 !important;
+				background: #fff !important;
+				color: #3396d1 !important;
+				box-shadow: none !important;
+				text-align: center;	
+			}
+			.bookreq{
+				padding: 10px 5px !important;
+				border: 1px solid #77c04b !important;	
+			}
+			.bookreq.active{
+				background: #fff !important;
+				color: #77c04b !important;
+				box-shadow: none;
+				-webkit-transition: all 0.3s ease-out;
+          			transition: all 0.3s ease-out;
+			}
+			.bookinfo{
+				background: #eee;
+				color: #3396d1;
+				padding: 20px 10px;
+				margin: 20px 0;
+				text-align: center;
+				-webkit-transition: all 1s linear;
+          			transition: all 1s linear;
+			}
+		</style>
+		<h1 class="widget-title widget-title-job_listing ion-ios-person-outline">Tutor Details</h1>
 		<div class="job_listing-author">
 			<div class="job_listing-author-avatar">
-				<?php echo get_avatar( get_the_author_meta( 'ID' ), 210 ); ?>
+				<a href="<?php echo get_site_url()."/profile/?nick=".get_userdata(get_the_author_meta( 'ID' ))->user_login; ?>"><?php echo get_avatar( get_the_author_meta( 'ID' ), 210 ); ?></a>
 			</div>
 
 			<div class="job_listing-author-info">
-				<?php the_author(); ?>
-
-				<small class="job_listing-author-descriptor"><?php echo $descriptor; ?></small>
-
-				<?php if ( 'preview' != $post->post_status ) : ?>
-				<div class="job_listing-author-info-more">
-					<a href="#job_listing-author-apply" data-mfp-src=".job_application" class="popup-trigger"><span class="ion-email"></span></a>
-
-					<?php if ( ! is_position_filled() && $post->post_status !== 'preview' ) get_job_manager_template( 'job-application.php' ); ?>
-
-					<a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>"><span class="ion-information-circled"></span></a>
-				</div>
-				<?php endif; ?>
+				<a href="<?php echo get_site_url()."/profile/?nick=".get_userdata(get_the_author_meta( 'ID' ))->user_login; ?>"><?php the_author(); ?></a>
 			</div>
-
+			<br>
 			<?php if ( $biography && $bio = get_the_author_meta( 'description', get_the_author_meta( 'ID' ) ) ) : ?>
 				<div class="job_listing-author-biography">
-					<?php echo $bio; ?>
+					<?php echo nl2br($bio); ?>
 				</div>
 			<?php endif; ?>
-
-            <?php do_action( 'listify_widget_job_listing_author_after' ); ?>
+			<div class="row">
+				<div class="col-xs-12 col-md-12 col-sm-12 col-lg-12">
+					<a href="<?php echo get_site_url()."/profile/?nick=".get_userdata(get_the_author_meta( 'ID' ))->user_login; ?>" class="button viewprofile">View Profile</a>
+				</div>
+				<div class="col-xs-12 col-md-12 col-sm-12 col-lg-12">	
+					<button class="bookreq">Request to Book</button>		
+				</div>	
+			</div>
+			<!--<div class="row">
+				<div class="col-xs-12 hide bookinfo"><div>To book this Class, SMS or WhatsApp</div><div><?php echo get_the_ID(); ?> to 0 9901 079 974</div></div>
+			</div>-->	
+			<?php do_action( 'listify_widget_job_listing_author_after' ); ?>
 		</div>
+		<script type="text/javascript">
+			jQuery(".viewprofile").click(function(){
+				mixpanel.track("class_view_profile");
+			})
+			var mixpanelflag = 0;
+			jQuery(".bookreq").click(function(){
+				if(mixpanelflag == 0){
+					mixpanel.track("class_rtb");
+					mixpanelflag = 1;
+				}
+			})
+		</script>
 
 		<?php
 		echo $after_widget;

@@ -73,7 +73,7 @@ class Listify_Widget_Listing_Gallery extends Listify_Widget {
 
 		echo $before_widget;
 
-		if ( $title ) echo $before_title . sprintf( '<a href="%s" class="image-gallery-link">%s</a>', Listify_WP_Job_Manager_Gallery::url(), $title ) . $after_title;
+		if ( $title ) echo $before_title . sprintf( '%s', $title ) . $after_title;
 
         do_action( 'listify_widget_job_listing_gallery_before' );
 

@@ -102,7 +102,7 @@ class Listify_WP_Job_Manager_Map_Template extends listify_Integration {
 		}
 
 		$data[ 'title' ] = the_title_attribute( array( 'post' => $post, 'echo' => false ) );
-		$data[ 'address' ] = get_the_job_location( $post->ID );
+		$data[ 'address' ] = get_post_meta( $post->ID ,'_job_location' , true);
 
 		/** Longitude */
 		$long = esc_attr( $post->geolocation_long );
@@ -193,6 +193,7 @@ class Listify_WP_Job_Manager_Map_Template extends listify_Integration {
 	 * This is based on output, widgets, if the scripts are needed, etc.
 	 */
 	public function page_needs_map( $force = false ) {
+		return true;
 		if ( $force ) {
 			return $force;
 		}
@@ -200,6 +201,10 @@ class Listify_WP_Job_Manager_Map_Template extends listify_Integration {
 		$needs = false;
 
 		if ( listify_is_job_manager_archive() ) {
+			$needs = true;
+		}
+
+		if ( is_page( 'My Account' ) ) {
 			$needs = true;
 		}
 
@@ -314,7 +319,7 @@ class Listify_WP_Job_Manager_Map_Template extends listify_Integration {
 	 * Display the map
 	 */
 	public function output_map() {
-		if ( ! $this->page_needs_map() ) {
+		if ( ! $this->page_needs_map() && ! is_page('My Account') && ! is_page('Profile') ) {
 			return;
 		}
 
